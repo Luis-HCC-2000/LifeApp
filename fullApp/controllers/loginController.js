@@ -1,38 +1,49 @@
-const userModel= require("../models/userLoginModel")
-const asyncHandler= require('express-async-handler')
-const router = require("../routes/login")
-const { body, validationResult } = require("express-validator")
+const userModel = require("../models/userLoginModel");
+const asyncHandler = require("express-async-handler");
+const router = require("../routes/login");
+const { body, validationResult } = require("express-validator");
 
-exports.login_get =(req,res,next)=>{
-    res.render('login')
-}
+exports.login_get = (req, res, next) => {
+  res.render("login");
+};
 
-exports.login_post=[
-    body('email').trim().escape(),
-    body('password').escape(),
-    asyncHandler(async (req,res,next)=>{
-        const {email, password}= req.body
-        try {
-            const user = await Info.findOne({ email:email });
-            if (!user) {
-                return res.render('login', {
-                    errors:'User not found'
-                })
-            }
+exports.login_post = [
+  body("birthdate").notEmpty().escape(),
+  body("firstName").notEmpty().escape(),
+  body("lastName").notEmpty().escape(),
+  body("email")
+    .notEmpty()
+    .escape()
+    .isEmail()
+    .custom(async function (email) {
+      let user = await userModel.findOne({ email: email });
+      if (user) {
+        return false
+      }
+      return true;
+    }).withMessage('Email already in use'),
+  body("password").notEmpty().escape(),
+  body("confirmPassword")
+    .notEmpty()
+    .escape()
+    .custom(function (confirmPassword, { req }) {
+      return confirmPassword === req.body.password;
+    }).withMessage("Passwords doesnt match"),
+    (req,res)=>{
+        const result=validationResult(req)
+        if (result.isEmpty()){
+            const newUser= new userModel({
+                birthDate:req.body.birthDate,
+                firstName: req.body.firstName,
+                lastName: req.body.lastName,
+                email:req.body.email,
+                password:req.body.password
+            })
+            
+        }else{
+            res.render("signup" {errors: result.array()})
+        }
         
-            if (user.password !== password) {
-                return res.render('login', {
-                    errors:'Invalid password'
-                })
-            }
         
-            // At this point, the email and password match
-            let session= req.session
-            session.userid= user._id
-            res.redirect('/home')
-          } catch (error) {
-            console.error('Login error:', error);
-            res.status(500).json({ error: 'Server error' });
-          }
-    })
-]
+    }
+];
