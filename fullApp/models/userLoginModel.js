@@ -1,4 +1,5 @@
-// Require Mongoose
+const lifeTrapsAssessmentSchema= require('./lifeTrapsAssessmentSchema')
+const userTextSchema = require("./userTextSchema")
 const mongoose = require("mongoose");
 
 // Define a schema
@@ -27,12 +28,15 @@ const userSchema = new Schema({
     password: {
       type: String,
       required: true
-    }
+    },
+    lifeTrapsAssessments:[lifeTrapsAssessmentSchema],
+    userTexts:[userTextSchema]
   });
 
 
 
   // Create and export the User model
-  const User = mongoose.model('User', userSchema);
+  userSchema.add(lifeTrapsAssessmentSchema)
+  const User = mongoose.model('BetterLifeUser', userSchema);
   
   module.exports = User;
