@@ -1,0 +1,29 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/stylesheets/register/signup.css')
+  title Document
+.signup-container
+  h2 Sign Up
+  form.signup-form(action='#' method='post')
+    .form-group
+      label(for='birthdate') Birthdate:
+      input#birthdate(type='date' name='birthdate' required='')
+    .form-group
+      label(for='firstName') First Name:
+      input#firstName(type='text' name='firstName' placeholder='Enter your first name' required='')
+    .form-group
+      label(for='lastName') Last Name:
+      input#lastName(type='text' name='lastName' placeholder='Enter your last name' required='')
+    .form-group
+      label(for='email') Email:
+      input#email(type='email' name='email' placeholder='Enter your email' required='')
+    .form-group
+      label(for='password') Password:
+      input#password(type='password' name='password' placeholder='Enter your password' required='')
+    .form-group
+      label(for='confirmPassword') Confirm Password:
+      input#confirmPassword(type='password' name='confirmPassword' placeholder='Confirm your password' required='')
+    .form-group
+      input(type='submit' value='Sign Up')

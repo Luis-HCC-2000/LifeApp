@@ -7,7 +7,6 @@ const sessions=require('express-session')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-const loginRouter=require('./routes/login')
 
 var app = express();
 
@@ -40,7 +39,6 @@ app.use(sessions({
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/register', loginRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

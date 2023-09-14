@@ -36,7 +36,6 @@ const userSchema = new Schema({
 
 
   // Create and export the User model
-  userSchema.add(lifeTrapsAssessmentSchema)
   const User = mongoose.model('BetterLifeUser', userSchema);
   
   module.exports = User;

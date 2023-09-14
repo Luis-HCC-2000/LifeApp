@@ -1,10 +1,9 @@
 const userModel = require("../models/userLoginModel");
 const asyncHandler = require("express-async-handler");
-const router = require("../routes/login");
 const { body, validationResult } = require("express-validator");
 
 exports.signup_get = (req, res, next) => {
-  res.render("login");
+  res.render("signUp");
 };
 
 exports.signup_post = [
@@ -35,7 +34,7 @@ exports.signup_post = [
     const result = validationResult(req);
     if (result.isEmpty()) {
       const newUser = new userModel({
-        birthDate: req.body.birthDate,
+        birthDate: req.body.birthdate,
         firstName: req.body.firstName,
         lastName: req.body.lastName,
         email: req.body.email,
@@ -44,6 +43,7 @@ exports.signup_post = [
       await newUser.save();
       let session = req.session;
       session.userid = req.body.email;
+      res.redirect('/home')
     } else {
       let errorMessage = "";
       for (let error in result.array()) {
@@ -55,7 +55,7 @@ exports.signup_post = [
 ];
 
 exports.login_get = (req, res, next) => {
-  res.render("register/login");
+  res.render("login");
 };
 
 exports.login_post = [
