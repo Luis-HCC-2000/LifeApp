@@ -1,6 +1,12 @@
 let therapist= {
-    name:"",
-    cost: 0,
+    info:{
+        name:"",
+        cost: 0,
+        experience:{},
+        mail:"",
+        phone:"",
+        professionalID:""
+    },
     workingSchedule:{
         Monday:[{
             start:120,
@@ -13,6 +19,10 @@ let therapist= {
         Friday:[],
         Saturday:[],
         Sunday:[],
+
+    },
+
+    taskIsValid: function(){
 
     },
     addtask:function(day,start, end, nameOfTask, ){
@@ -160,4 +170,12 @@ let therapist= {
       }       
 }
 
+class task{
+    constructor (nameOfTask, start, end, day){
+        this.nameOfTask=nameOfTask,
+        this.start = start,
+        this.end=end
+        this.day=day
+    }
+}
 
