@@ -151,3 +151,5 @@ const ApprovalSeekingTrap = {
     ],
   },
 };
+
+module.exports = ApprovalSeekingTrap

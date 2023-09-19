@@ -140,3 +140,4 @@ const AbandonmentTrap = {
 
   
 };
+module.exports = AbandonmentTrap

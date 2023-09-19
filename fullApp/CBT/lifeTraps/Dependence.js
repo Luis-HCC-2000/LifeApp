@@ -149,3 +149,5 @@ const DependenceTrap = {
     "Learn to differentiate between healthy reliance on others and unhealthy dependence, seeking a balance that promotes independence and self-sufficiency.",
   ],
 };
+
+module.exports = DependenceTrap

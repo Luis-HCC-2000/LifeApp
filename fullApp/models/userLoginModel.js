@@ -1,5 +1,6 @@
 const lifeTrapsAssessmentSchema= require('./lifeTrapsAssessmentSchema')
 const userTextSchema = require("./userTextSchema")
+const trapSchema= require('./userTraps/trapSchema')
 const mongoose = require("mongoose");
 
 // Define a schema
@@ -30,7 +31,8 @@ const userSchema = new Schema({
       required: true
     },
     lifeTrapsAssessments:[lifeTrapsAssessmentSchema],
-    userTexts:[userTextSchema]
+    userTexts:[userTextSchema],
+    trapSchemas:[trapSchema]
   });
 
 

@@ -150,3 +150,5 @@ const DefectivenessTrap = {
     "Learn to differentiate between healthy self-improvement and the constant need to prove worthiness through therapy or self-help resources.",
   ],
 };
+
+module.exports = DefectivenessTrap

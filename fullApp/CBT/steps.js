@@ -171,15 +171,45 @@ let asessment={
     questionary:[]
 }
 
-
+// No estas mal. si tienes una de estas trampas no significa que eres tonto, o que la tienes que dejar de hacer,
+// Tu puedes hacer lo que quieras, nosotros no tenemos una respuesta de si esta bien o esta mal lo que haces, por eso
+// Hacemos que te lo cuestiones, tu vas a dar las respuestas, nosotros te vamos a ayudar a entenderte con los estudios de psicologia
+// Pero tu tienes una razon para todo lo que haces, y la razon por la que estas usando esta app es porque quieres ser mas feliz, o estar menos triste
+// O estar menos ansioso, o sentirte mas pleno, el momento en el que adquiriste uno de estos esquemas fue porque te ayudo a sobrevivir y a estar feliz
+// o menos triste en su debido momento, nosotros solo hacemos que tu observes esto y te des cuenta de por que haces lo que haces, por que sientes lo que sientes
+// y tu te vas a preguntar si quieres seguir haciendolo o sintiendolo, y cuando lo quieras cambiar aqui estamos como guia, te damos las herramientas, recordatorios,
+// Apoyo profesional, diario, resumenes y conocimiento que mejor podemos hacer, pero al final de cuentas todo es porque tu vas a saber que es lo que te hace feliz,
+// Entre mas aprendes sobre ti y sobre por que eres como eres, y sobre que es lo que tu quieres realmente en tu vida, podras ir dandote cuenta de que cosas quieres cambiar,
+// En que cosas te quieres enfocar mas, que quieres mejorar, que quieres sentir o dejar de sentir, por eso la idea de esta app es que te puedas amar y entender a ti mismo y como eres
+// No importa si eres muy inteligente o muy tonto, si eres guapo o feo, rico o pobre, es entender por que eres como eres y como vivir una vida lo mas plena posible con todo lo que puedes
+// descubrir de ti
+// Solo vas a trabajar y a hacer lo que a ti te gusta y te genera sentimientos buenos, por eso queremos que tu mismo identifiques los sentimientos que te genera
+// Creemos que solo asi vas a trabajar y a hacer lo que tu consideres necesario para sentirte mejor
 
 // Identify Thought Patterns, 
 //  Get Each characteristic, 
-// Then Emotional Impact, 
+//  Show the description of each characteristic,
+//  Grade each characteristic with the option of grading the ways to recognize and tick it if you think you would like to change it
+// Then Emotional Impact
+//  Show each possible emotion
+//  Grade each emotion
+//  Tick the emotions that you think you would like to change or the most important for you to change
 // then behavioral patterns (specific behaviors and coping mechanisms), 
+//  Grade each behaviour
+//  Tick the behaviours that you think you would like to change or the most important for you to change
 // how much does it affect in interpersonal relationships, 
-// how the schema affects their personal life and professional life, 
-// determine if it impact functional impairment, 
+//  Write how does it affects you with
+//   Love Relationship
+//   Friend relationships
+//   family relationships
+//   Professional relationships
+//  If the user doesnt feel like that trap affects him on certain type of relationship then he can untick it
+// User text 
+//  Show all the info
+//  user writes a summary on what he thinks about their thinking patterns
+// how the schema affects their personal life and professional life,
+//  Read the current answered information and then identify how does that description affects the user in his personal and professional life
+// determine if it impacts functional impairment, 
 // asess the severity and duration, 
 // feedback from the individual
 // professional assessment
