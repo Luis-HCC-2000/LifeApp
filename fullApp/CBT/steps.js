@@ -170,3 +170,16 @@ let titles=lifeTraps.getTitles()
 let asessment={
     questionary:[]
 }
+
+
+
+// Identify Thought Patterns, 
+//  Get Each characteristic, 
+// Then Emotional Impact, 
+// then behavioral patterns (specific behaviors and coping mechanisms), 
+// how much does it affect in interpersonal relationships, 
+// how the schema affects their personal life and professional life, 
+// determine if it impact functional impairment, 
+// asess the severity and duration, 
+// feedback from the individual
+// professional assessment

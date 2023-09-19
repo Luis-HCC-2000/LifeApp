@@ -1,6 +1,71 @@
 const ApprovalSeekingTrap = {
   description:
     "The approval-seeking trap involves a pervasive pattern of seeking validation and approval from others to feel worthy and acceptable. Individuals with this schema may have a deep fear of rejection and go to great lengths to gain the approval of others.",
+  EmotionalImpact: {
+    fearAndAnxiety: "Intense fear and anxiety about being rejected or disliked by others.",
+    lowSelfEsteem: "Low self-esteem, as self-worth is tied to external validation and approval.",
+    constantStress: "Constant stress and anxiety due to worries about others' judgments and opinions.",
+    innerConflict: "Inner conflict when personal values and beliefs are compromised for approval.",
+    emotionalExhaustion: "Emotional exhaustion from excessive people-pleasing and self-neglect.",
+  },
+
+  SchemaBehaviors: {
+    FearOfRejection: {
+      description:
+        "People with this schema often have a strong fear of rejection or disapproval from others and may do whatever it takes to avoid it.",
+      howToAddress: [
+        "Acknowledge the fear of rejection and its impact on your choices and behavior.",
+        "Seek therapy or counseling to explore the underlying fears and anxieties related to rejection.",
+        "Practice self-compassion and remind yourself that your worth is not solely determined by others' opinions.",
+        "Challenge the belief that constant approval-seeking is necessary for self-worth.",
+        "Learn to prioritize your own values and authenticity over gaining approval from others.",
+      ],
+    },
+    ExcessivePeoplePleasing: {
+      description:
+        "Individuals may engage in people-pleasing behaviors, such as saying 'yes' to others' requests, to gain their approval.",
+      howToAddress: [
+        "Acknowledge the pattern of people-pleasing and the impact on your time and well-being.",
+        "Seek therapy or counseling to explore the underlying need for constant approval.",
+        "Practice setting boundaries and assertiveness to say 'no' when necessary.",
+        "Learn to distinguish between healthy kindness and excessive people-pleasing.",
+        "Recognize that authentic relationships are built on mutual respect, not constant agreement.",
+      ],
+    },
+    NeglectOfPersonalValues: {
+      description:
+        "Individuals may neglect their own values and beliefs to align with others' expectations and gain their approval.",
+      howToAddress: [
+        "Acknowledge the pattern of neglecting personal values and the inner conflict it creates.",
+        "Seek therapy or counseling to explore the reasons for abandoning your values for approval.",
+        "Work on identifying and embracing your own values and beliefs.",
+        "Practice assertiveness in expressing your beliefs while respecting others' perspectives.",
+        "Recognize that genuine connections are formed when you stay true to your values and authenticity.",
+      ],
+    },
+    LowSelfEsteem: {
+      description:
+        "The approval-seeking trap can lead to low self-esteem, as individuals may base their self-worth on external validation and approval from others.",
+      howToAddress: [
+        "Acknowledge the negative self-image and self-esteem issues related to approval-seeking.",
+        "Seek therapy or counseling to address underlying self-esteem issues and develop a healthier self-concept.",
+        "Work on building self-esteem and self-worth that is independent of others' opinions.",
+        "Practice self-compassion and remind yourself of your inherent worth.",
+        "Recognize that seeking approval from within is key to building genuine self-esteem.",
+      ],
+    },
+    AnxietyAboutJudgments: {
+      description:
+        "Individuals may constantly worry about the judgments and opinions of others, leading to anxiety and stress.",
+      howToAddress: [
+        "Acknowledge the anxiety related to judgments and its impact on your mental well-being.",
+        "Seek therapy or counseling to explore and manage anxiety related to others' opinions.",
+        "Practice mindfulness and stress-reduction techniques to manage anxiety.",
+        "Challenge the belief that constant approval-seeking can prevent judgments.",
+        "Recognize that true self-acceptance reduces the impact of external judgments.",
+      ],
+    },
+  },
   characteristics: {
     "Fear of Rejection": {
       description:

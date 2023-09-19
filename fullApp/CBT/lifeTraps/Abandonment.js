@@ -1,5 +1,49 @@
 const AbandonmentTrap = {
   description: "The abandonment trap involves a pervasive fear of being abandoned or rejected by others, leading to behaviors and thought patterns that seek to prevent abandonment at all costs. This fear can be rooted in past experiences of abandonment or neglect.",
+  EmotionalImpact: {
+    fearAndAnxiety: "Intense fear and anxiety about being abandoned or rejected.",
+    insecurity: "Deep feelings of insecurity about self-worth and the stability of relationships.",
+    lowSelfEsteem: "Low self-esteem and negative self-image, often feeling unlovable or flawed.",
+    depression: "Feelings of sadness and hopelessness, sometimes leading to clinical depression.",
+    angerAndJealousy: "Intense anger and jealousy in response to perceived abandonment threats.",
+    loneliness: "Persistent feelings of loneliness, even when surrounded by others.",
+    emotionalReactivity: "Heightened emotional reactivity, with strong responses to relationship setbacks.",
+    avoidance: "Tendency to avoid close relationships or emotional intimacy as a protective measure.",
+    selfBlame: "Self-blame and belief that they are at fault for past abandonment or rejection.",
+    desperation: "Desperation to prevent abandonment, resulting in clingy or demanding behavior.",
+    moodSwings: "Fluctuating moods, including rapid shifts between happiness, anger, sadness, and anxiety.",
+    shame: "Feelings of shame related to perceived unlovability or unworthiness of affection."
+  },
+  SchemaBehaviors: {
+    ClingingBehavior: {
+      description: "Individuals with abandonment schemas may become overly dependent on their partners or loved ones, seeking constant reassurance and proximity to prevent abandonment.",
+    },
+    AvoidanceOfRelationships: {
+      description: "Some individuals may avoid close relationships altogether, fearing vulnerability and rejection, which can hinder the formation of deep connections.",
+    },
+    TestingRelationships: {
+      description: "People with abandonment schemas may engage in behaviors to test the commitment and loyalty of others, such as creating conflicts or seeking excessive reassurance.",
+    },
+    EmotionalReactivity: {
+      description: "Intense emotional reactions, such as jealousy, anger, or anxiety, are common when they perceive threats of abandonment or distancing in relationships.",
+    },
+    DifficultyLettingGo: {
+      description: "Even in unhealthy relationships, individuals may struggle to end them due to the fear of being alone or abandoned, leading to prolonged suffering.",
+    },
+    SelfSabotage: {
+      description: "To prevent abandonment, some individuals may engage in self-sabotaging behaviors within relationships, pushing others away or sabotaging their own happiness.",
+    },
+    ExcessiveReassuranceSeeking: {
+      description: "They may constantly seek reassurance and affirmation from others to alleviate fears of abandonment, which can be emotionally exhausting for all parties involved.",
+    },
+    Overcompensation: {
+      description: "In response to their abandonment fears, some individuals become extremely self-reliant, neglecting their emotional needs and avoiding support from others.",
+    },
+    LowSelfEsteem: {
+      description: "The fear of abandonment can lead to low self-esteem and a negative self-image. They often blame themselves for relationship difficulties, resulting in self-criticism and self-doubt.",
+    },
+  },
+  
   characteristics: {
     "Fear of Abandonment": {
       description: "Individuals with this schema often have an intense and pervasive fear of being abandoned or rejected by significant others, such as romantic partners, friends, or family members. This fear is all-encompassing and can severely impact their relationships.",
@@ -93,4 +137,6 @@ const AbandonmentTrap = {
     "Work on building healthy relationships based on trust, boundaries, and effective communication.",
     "Challenge and reframe negative beliefs and thought patterns associated with the fear of abandonment through therapy or self-help resources.",
   ],
+
+  
 };
