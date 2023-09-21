@@ -1,89 +1,134 @@
-const SelfSacrificeTrap = {
+const SelfSacrificeSchema = {
+  name: "Self-Sacrifice",
   description:
-    "The self-sacrifice trap involves a pervasive pattern of prioritizing the needs and desires of others over one's own, often to the detriment of one's own well-being. Individuals with this schema may feel a strong sense of duty to meet the needs of others while neglecting their own needs and desires.",
-  characteristics: {
-    "Excessive Care for Others": {
-      description:
-        "People with this schema tend to excessively care for and prioritize the needs and wants of others while disregarding their own.",
-      waysToRecognize: [
-        "Consistently putting others' needs and desires above your own",
-        "Feeling guilty or anxious when considering asserting your own needs or boundaries",
-      ],
-      howToAddress: [
-        "Acknowledge the pattern of excessive care for others and its impact on your own well-being.",
-        "Seek therapy or counseling to explore the underlying reasons for this behavior and develop self-assertion skills.",
-        "Practice setting clear boundaries and asserting your own needs in low-stakes situations.",
-        "Learn to differentiate between healthy caregiving and self-sacrifice.",
-        "Work on building self-esteem and self-worth independent of others' approval.",
-      ],
-    },
-    "Neglect of Personal Needs": {
-      description:
-        "Individuals may neglect their own needs and desires, often feeling that their personal wants are less important than the needs of others.",
-      waysToRecognize: [
-        "Frequently ignoring or neglecting your own needs and desires",
-        "Feeling unfulfilled or disconnected from your own wants and aspirations",
-      ],
-      howToAddress: [
-        "Acknowledge the pattern of neglecting personal needs and the impact on your own happiness and fulfillment.",
-        "Seek therapy or counseling to explore the underlying beliefs and fears related to personal desires.",
-        "Work on identifying and nurturing your own desires and goals.",
-        "Practice asserting and pursuing your personal needs in a healthy and balanced way.",
-        "Recognize that honoring your own needs is essential for personal growth and well-being.",
-      ],
-    },
-    "Difficulty in Saying 'No'": {
-      description:
-        "Individuals in the self-sacrifice trap often have difficulty saying 'no' to requests or demands from others, even when it goes against their own well-being.",
-      waysToRecognize: [
-        "Frequently agreeing to requests or favors out of obligation or fear of disappointing others",
-        "Feeling overwhelmed by commitments and obligations to others",
-      ],
-      howToAddress: [
-        "Acknowledge the difficulty in saying 'no' and the impact on your own time and energy.",
-        "Seek therapy or counseling to explore the underlying fears and anxieties related to asserting boundaries.",
-        "Practice assertiveness and boundary-setting techniques to comfortably say 'no' when necessary.",
-        "Learn to prioritize your own needs and well-being alongside helping others.",
-        "Recognize that setting boundaries is a healthy and necessary aspect of maintaining your own mental and emotional health.",
-      ],
-    },
-    "Low Self-Esteem": {
-      description:
-        "The self-sacrifice trap can lead to low self-esteem and a negative self-image, as individuals may blame themselves for not doing 'enough' for others.",
-      waysToRecognize: [
-        "Persistent negative self-talk and self-criticism related to not meeting others' needs",
-        "Feeling inadequate or unworthy when not constantly helping others",
-      ],
-      howToAddress: [
-        "Acknowledge the negative self-talk and self-esteem issues related to self-sacrifice.",
-        "Seek therapy or counseling to explore and challenge negative self-perceptions and beliefs.",
-        "Work on building self-esteem and self-worth based on your own values and accomplishments.",
-        "Practice self-compassion and recognize that taking care of yourself is not selfish.",
-        "Learn to strike a balance between caregiving and self-care for a healthier well-being.",
-      ],
-    },
-    "Fear of Disapproval": {
-      description:
-        "Individuals in the self-sacrifice trap may have a strong fear of disapproval or rejection from others if they prioritize their own needs.",
-      waysToRecognize: [
-        "Avoiding decisions that might lead to disapproval or disappointment from others",
-        "Feeling anxious or distressed when considering actions that prioritize self-care",
-      ],
-      howToAddress: [
-        "Acknowledge the fear of disapproval and its impact on your decision-making.",
-        "Seek therapy or counseling to explore the underlying fears and anxieties related to disapproval.",
-        "Practice making decisions that align with your own well-being, even when it may not please everyone.",
-        "Challenge the belief that constant caregiving is the only way to gain approval or love.",
-        "Recognize that prioritizing your needs is necessary for your own happiness and health.",
-      ],
-    },
-    howToAddress: [
-      "Recognize and acknowledge the presence of the self-sacrifice trap schema in your life and its impact on your autonomy and well-being.",
-      "Seek professional help, such as therapy or counseling, to explore the underlying causes of self-sacrifice and develop strategies for self-assertion and balanced caregiving.",
-      "Practice setting clear boundaries and asserting your own needs in various areas of your life.",
-      "Learn to differentiate between healthy caregiving and self-sacrifice by considering the impact on your own well-being.",
-      "Work on building self-esteem and self-worth that is not solely dependent on others' approval or needs.",
-      "Recognize that self-care and self-assertion are essential for your overall happiness and fulfillment.",
-    ],
+    "The Self-Sacrifice schema involves a core belief that one's own needs and desires should be subordinated to the needs of others. Individuals with this schema often put others' well-being and happiness above their own, leading to neglect of their own needs and potential resentment. This can result in feelings of burnout, low self-worth, and difficulty in asserting boundaries.",
+  emotionalImpact: {
+    burnout:
+      "Individuals with the Self-Sacrifice schema often experience burnout from constantly prioritizing others' needs over their own.",
+    lowSelfWorth:
+      "Low self-worth and a sense of unimportance can develop due to neglecting one's own needs and desires.",
+    resentment:
+      "Resentment towards others may emerge as a result of feeling unappreciated or taken for granted.",
+    guilt:
+      "Feelings of guilt may arise when attempting to prioritize one's own needs, as it conflicts with the belief in self-sacrifice.",
+    exhaustion:
+      "Physical and emotional exhaustion can occur from overextending oneself for the sake of others.",
+    difficultyInAssertingBoundaries:
+      "Struggling to assert boundaries and advocate for one's own needs and desires in relationships.",
+    'lackOfSelf-Care':
+      "Neglecting self-care and personal well-being in favor of tending to others.",
+    frustration:
+      "Frustration with the imbalance in giving and receiving in relationships and life.",
+    fearOfRejection:
+      "A fear of rejection or abandonment if one were to prioritize their own needs or assert boundaries.",
   },
+  schemaBehaviors: {
+    neglectingSelf: {
+      description:
+        "Neglecting one's own needs and desires, often prioritizing others' well-being.",
+    },
+    difficultyInSayingNo: {
+      description:
+        "Finding it challenging to say no or set boundaries in order to avoid disappointing or upsetting others.",
+    },
+    overextendingOnBehalfOfOthers: {
+      description:
+        "Overextending oneself physically and emotionally to meet the needs of others, often to the point of exhaustion.",
+    },
+    constantNeedForApproval: {
+      description:
+        "Seeking constant approval and validation from others as a way to reinforce the belief in self-sacrifice.",
+    },
+    guiltForPrioritizingSelf: {
+      description:
+        "Feeling guilty when attempting to prioritize one's own needs or engage in self-care activities.",
+    },
+    minimizingOwnNeeds: {
+      description:
+        "Minimizing one's own needs and downplaying their importance in comparison to the needs of others.",
+    },
+    neglectingOwnHappiness: {
+      description:
+        "Neglecting one's own happiness and well-being in pursuit of making others happy.",
+    },
+    difficultyInAdvocatingForSelf: {
+      description:
+        "Struggling to advocate for one's own needs and desires in relationships and life.",
+    },
+    fearOfRejection: {
+      description:
+        "Experiencing a fear of rejection or abandonment if one were to prioritize their own needs or assert boundaries.",
+    },
+  },
+  characteristics: {
+    neglectingSelf: {
+      description:
+        "Neglecting one's own needs and desires, often prioritizing others' well-being, is a common characteristic of the Self-Sacrifice schema.",
+      waysToRecognize: [
+        "Frequently putting others' needs before your own",
+        "Neglecting self-care and personal well-being",
+      ],
+      howToAddress: [
+        "Recognize and acknowledge the presence of the Self-Sacrifice schema in your life and its impact on your well-being and relationships.",
+        "Seek professional help, such as therapy or counseling, to explore the underlying causes of self-sacrifice and develop strategies for self-care and boundary setting.",
+        "Practice self-compassion and self-care as essential components of overall well-being.",
+        "Learn to differentiate between healthy caregiving and self-sacrifice through therapy or self-help resources.",
+        "Work on building assertiveness skills to advocate for your own needs and establish healthy boundaries in relationships.",
+      ],
+    },
+    difficultyInSayingNo: {
+      description:
+        "Finding it challenging to say no or set boundaries in order to avoid disappointing or upsetting others is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Frequent difficulty in refusing requests or demands from others",
+        "A strong desire to please others, even at your own expense",
+      ],
+      howToAddress: [
+        "Acknowledge the difficulty in saying no and its impact on your well-being and autonomy.",
+        "Seek therapy or counseling to explore the underlying causes of this difficulty and develop assertiveness skills.",
+        "Practice setting and communicating clear boundaries in a respectful manner.",
+        "Learn to differentiate between healthy accommodation and self-sacrifice through therapy or self-help resources.",
+        "Work on building self-worth and self-validation to reduce the need for constant approval.",
+      ],
+    },
+    overextendingOnBehalfOfOthers: {
+      description:
+        "Overextending oneself physically and emotionally to meet the needs of others, often to the point of exhaustion, is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Frequent feelings of exhaustion or burnout",
+        "A pattern of going to great lengths to assist or help others, often at your own expense",
+      ],
+      howToAddress: [
+        "Acknowledge the pattern of overextending yourself and its impact on your physical and emotional well-being.",
+        "Seek therapy or counseling to explore the underlying causes of overextension and develop strategies for self-care and balance.",
+        "Practice setting limits and recognizing your own boundaries in caregiving situations.",
+        "Learn to differentiate between genuine support and self-sacrificing behaviors through therapy or self-help resources.",
+        "Work on building resilience and stress management skills to avoid burnout.",
+      ],
+    },
+    constantNeedForApproval: {
+      description:
+        "Seeking constant approval and validation from others as a way to reinforce the belief in self-sacrifice is a common characteristic of this schema.",
+      waysToRecognize: [
+        "A strong desire for affirmation and validation from others",
+        "Feeling distressed or anxious when others express dissatisfaction or disappointment",
+      ],
+      howToAddress: [
+        "Acknowledge the constant need for approval and its impact on your self-worth and autonomy.",
+        "Seek therapy or counseling to explore the underlying causes of this need and develop self-validation strategies.",
+        "Practice self-affirmation and self-compassion to reduce reliance on external validation.",
+        "Learn to differentiate between healthy interpersonal validation and dependency on approval through therapy or self-help resources.",
+        "Work on building self-esteem and self-reliance to reduce the need for constant approval.",
+      ],
+    },
+  },
+  howToAddress: [
+    "Recognize and acknowledge the presence of the Self-Sacrifice schema in your life and its impact on your well-being and relationships.",
+    "Seek professional help, such as therapy or counseling, to explore the underlying causes of self-sacrifice and develop strategies for self-care and boundary setting.",
+    "Practice self-compassion and self-care as essential components of overall well-being.",
+    "Learn to differentiate between healthy caregiving and self-sacrifice through therapy or self-help resources.",
+    "Work on building assertiveness skills to advocate for your own needs and establish healthy boundaries in relationships.",
+  ],
 };
+
+module.exports=SelfSacrificeSchema

@@ -1,73 +1,137 @@
-const InsufficientSelfControlTrap = {
+const InsufficientSelfControlSchema = {
   description:
-    "The insufficient self-control trap involves a pattern of impulsive and self-indulgent behavior, often characterized by difficulty in resisting temptations and making choices that prioritize long-term well-being. Individuals in this schema may struggle with impulsivity and have a limited ability to delay gratification.",
-  characteristics: {
+    "The insufficient self-control schema involves a core belief that one cannot control their impulses, desires, or emotions effectively. This can lead to impulsive behavior, difficulty in delaying gratification, and struggles with managing emotional reactions.",
+  EmotionalImpact: {
+    frustration:
+      "Individuals with the Insufficient Self-Control Schema often experience frustration and disappointment with themselves for their perceived lack of control.",
+    guiltAndShame:
+      "Impulsive actions and poor self-control can lead to feelings of guilt and shame, especially when one's actions have negative consequences.",
+    anxiety:
+      "Anxiety may arise from the fear of making impulsive decisions or the anticipation of losing control over one's emotions.",
+    regret:
+      "Regret is common when individuals with this schema reflect on impulsive decisions that have led to negative outcomes.",
+    'self-criticism':
+      "Persistent self-criticism and negative self-talk may result from perceived failures in self-control.",
+    insecurity:
+      "Feelings of insecurity may stem from the belief that one cannot trust oneself to make responsible choices.",
+    emotionalTurbulence:
+      "The lack of self-control can lead to emotional turbulence, including mood swings and heightened emotional reactions.",
+    difficultiesInSettingGoals:
+      "Setting and achieving long-term goals can be challenging due to the tendency to prioritize short-term gratification.",
+    stress:
+      "Chronic stress may result from the struggles associated with insufficient self-control.",
+    fearOfLossOfControl:
+      "A pervasive fear of losing control over one's impulses or emotions can contribute to anxiety and self-doubt.",
+  },
+  SchemaBehaviors: {
     Impulsivity: {
       description:
-        "People with this schema often act impulsively without considering the consequences of their actions.",
-      waysToRecognize: [
-        "Frequent engagement in impulsive behaviors, such as overspending, overeating, or risky activities",
-        "Difficulty in stopping or controlling impulsive actions once started",
-      ],
-      howToAddress: [
-        "Develop awareness of impulsive tendencies and triggers.",
-        "Practice mindfulness techniques to pause and reflect before acting on impulses.",
-        "Create strategies and coping mechanisms to manage impulsivity, such as setting clear goals and priorities.",
-        "Seek therapy or counseling to address underlying emotional and psychological factors contributing to impulsivity.",
-        "Implement practical steps to reduce exposure to situations that trigger impulsivity.",
-      ],
+        "Frequent impulsive behavior, characterized by acting on immediate desires or urges without considering the consequences.",
     },
-    "Difficulty Delaying Gratification": {
+    DifficultyDelayingGratification: {
       description:
-        "Individuals in this trap may find it challenging to delay immediate gratification for the sake of long-term goals or well-being.",
-      waysToRecognize: [
-        "Struggles with long-term planning and goal setting",
-        "Tendency to prioritize short-term pleasure over long-term benefits",
-      ],
-      howToAddress: [
-        "Identify and clarify long-term goals and the benefits of delayed gratification.",
-        "Practice setting realistic goals and creating action plans to achieve them.",
-        "Develop impulse control strategies, such as self-reward systems for delaying gratification.",
-        "Seek support from therapists, coaches, or support groups to build self-control skills.",
-        "Practice mindfulness and self-awareness to recognize and manage impulsive urges.",
-      ],
+        "Struggling to delay gratification and prioritize long-term goals over immediate rewards.",
     },
-    "Self-Indulgence": {
+    EmotionalReactivity: {
       description:
-        "The insufficient self-control schema often leads to self-indulgent behaviors, where individuals prioritize immediate pleasure or comfort over their overall well-being.",
-      waysToRecognize: [
-        "Frequent self-indulgent behaviors, such as overeating, overspending, or excessive consumption of indulgent pleasures",
-        "Difficulty in moderating self-indulgent behaviors once initiated",
-      ],
-      howToAddress: [
-        "Develop a sense of self-awareness regarding self-indulgent tendencies.",
-        "Implement strategies to regulate self-indulgent behaviors, such as setting boundaries and limits.",
-        "Practice self-discipline techniques and build a support network to reinforce self-control.",
-        "Seek therapy or counseling to address underlying emotional triggers for self-indulgent behavior.",
-        "Focus on long-term goals and the rewards of moderation and self-control.",
-      ],
+        "Reacting strongly and emotionally to situations or stimuli, often without the ability to regulate these reactions effectively.",
     },
-    "Negative Consequences": {
+    PoorAngerManagement: {
       description:
-        "Impulsivity and self-indulgence often lead to negative consequences in various life domains, such as finances, health, and relationships.",
-      waysToRecognize: [
-        "Experiencing negative consequences, such as financial debt, health issues, or damaged relationships, due to impulsive behaviors",
-        "Repeated patterns of making choices that prioritize immediate gratification over long-term well-being",
-      ],
-      howToAddress: [
-        "Assess and evaluate the negative consequences of impulsive and self-indulgent behaviors.",
-        "Seek professional help to address the specific consequences and develop strategies for mitigating them.",
-        "Create a support network or accountability system to monitor and reduce impulsive actions.",
-        "Work on building self-esteem and self-worth to make healthier choices that prioritize well-being.",
-        "Develop a proactive approach to decision-making, considering long-term implications and goals.",
-      ],
+        "Having difficulty managing anger and frustration, leading to outbursts or inappropriate expressions of anger.",
     },
-    howToAddress: [
-      "Recognize and acknowledge the presence of the insufficient self-control trap schema in your life and its impact on your well-being and goals.",
-      "Seek professional help, such as therapy or counseling, to explore underlying emotional triggers and develop strategies for improved self-control.",
-      "Practice mindfulness, self-awareness, and self-discipline techniques to manage impulsivity and self-indulgence.",
-      "Set clear long-term goals and create action plans to achieve them, prioritizing the benefits of delayed gratification.",
-      "Build a support network or accountability system to reinforce self-control and make healthier choices.",
-    ],
+    LackOfImpulseControl: {
+      description:
+        "Experiencing a lack of impulse control, resulting in actions or decisions that are regretted later.",
+    },
+    DifficultyInDecisionMaking: {
+      description:
+        "Struggling to make thoughtful and rational decisions, often succumbing to impulsive choices.",
+    },
+    Overindulgence: {
+      description:
+        "Tendency to overindulge in pleasures, such as food, alcohol, or spending, without considering the consequences.",
+    },
+    Procrastination: {
+      description:
+        "Frequently procrastinating on important tasks or responsibilities, often due to a preference for immediate rewards.",
+    },
+    InabilityToCopeWithStress: {
+      description:
+        "Having difficulty coping with stress in healthy ways, often resorting to impulsive or unhealthy coping mechanisms.",
+    },
+    'Self-Sabotage': {
+      description:
+        "Engaging in self-sabotaging behaviors that undermine one's long-term goals or well-being.",
+    },
   },
+  characteristics: {
+    "Impulsivity and Lack of Control": {
+      description:
+        "Individuals with the Insufficient Self-Control Schema often display impulsivity and a perceived lack of control over their behaviors and emotions.",
+      waysToRecognize: [
+        "Frequent impulsive actions or decisions",
+        "Difficulty in managing emotional reactions or impulses",
+      ],
+      howToAddress: [
+        "Recognize and acknowledge the presence of the insufficient self-control schema in your life and its impact on your behavior and well-being.",
+        "Seek professional help, such as therapy or counseling, to explore the underlying causes of insufficient self-control and develop strategies for better impulse control and emotional regulation.",
+        "Practice mindfulness and self-awareness to become more attuned to your emotions and impulses.",
+        "Develop healthy coping mechanisms for managing stress and emotional reactions effectively.",
+        "Learn to differentiate between impulsive behavior and responsible decision-making through therapy or self-help resources.",
+      ],
+    },
+    "Difficulty in Delaying Gratification": {
+      description:
+        "Struggling to delay gratification and prioritize long-term goals over immediate rewards is a common feature of this schema.",
+      waysToRecognize: [
+        "Frequent preference for immediate rewards over long-term goals",
+        "Difficulty in staying committed to long-term projects or objectives",
+      ],
+      howToAddress: [
+        "Acknowledge the challenges in delaying gratification and their impact on your goals and well-being.",
+        "Seek therapy or counseling to explore the underlying causes of this difficulty and develop strategies for setting and achieving long-term objectives.",
+        "Work on building impulse control and discipline through gradual practice and reinforcement.",
+        "Develop a support system that encourages and reinforces your efforts to delay gratification.",
+        "Learn to differentiate between short-term pleasures and long-term fulfillment through therapy or self-help resources.",
+      ],
+    },
+    "Emotional Reactivity": {
+      description:
+        "Reacting strongly and emotionally to situations or stimuli, often without the ability to regulate these reactions effectively, is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Frequent emotional outbursts or intense reactions to triggers",
+        "Difficulty in calming down or managing strong emotions",
+      ],
+      howToAddress: [
+        "Acknowledge the emotional reactivity and its impact on your relationships and well-being.",
+        "Seek therapy or counseling to explore the underlying causes of emotional reactivity and develop emotional regulation skills.",
+        "Practice mindfulness and emotion regulation techniques to better manage emotional responses.",
+        "Learn to differentiate between healthy emotional expression and destructive emotional reactivity through therapy or self-help resources.",
+      ],
+    },
+    "Procrastination and Poor Decision-Making": {
+      description:
+        "Struggling with procrastination on important tasks and making poor decisions due to impulsivity is a common manifestation of this schema.",
+      waysToRecognize: [
+        "Frequent avoidance of tasks or responsibilities",
+        "Regrettable decisions made in the heat of the moment",
+      ],
+      howToAddress: [
+        "Acknowledge the presence of procrastination and poor decision-making patterns and their impact on your productivity and well-being.",
+        "Seek therapy or counseling to explore the underlying causes of these behaviors and develop time management and decision-making skills.",
+        "Work on building self-discipline and effective decision-making through gradual practice and positive reinforcement.",
+        "Develop strategies to overcome procrastination and prioritize tasks more effectively.",
+        "Learn to differentiate between productive task management and impulsive avoidance through therapy or self-help resources.",
+      ],
+    },
+  },
+  howToAddress: [
+    "Recognize and acknowledge the presence of the insufficient self-control schema in your life and its impact on your behavior and well-being.",
+    "Seek professional help, such as therapy or counseling, to explore the underlying causes of insufficient self-control and develop strategies for better impulse control and emotional regulation.",
+    "Practice mindfulness, self-awareness, and emotional regulation techniques to manage impulses and emotional reactions more effectively.",
+    "Develop healthy coping mechanisms for managing stress and emotional responses.",
+    "Learn to differentiate between impulsive behavior and responsible decision-making through therapy or self-help resources.",
+  ],
 };
+module.exports=InsufficientSelfControlSchema

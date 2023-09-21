@@ -1,82 +1,140 @@
-const FailureToAchieveTrap = {
-  description: "The failure to achieve trap involves a core belief of being incapable of accomplishing one's goals and aspirations. This belief can lead to feelings of inadequacy, frustration, and a fear of pursuing one's dreams.",
+const FailureToAchieveSchema = {
+  name: "Failure to Achieve",
+  description:
+    "The Failure to Achieve schema involves a core belief that one is incapable of achieving success or reaching personal goals, leading to self-sabotage and a sense of perpetual underachievement. This schema can result in feelings of frustration, low self-esteem, and a lack of motivation to pursue goals.",
+  emotionalImpact: {
+    frustration:
+      "Individuals with the Failure to Achieve schema often experience frustration and dissatisfaction due to their perceived inability to reach their goals.",
+    lowSelfEsteem:
+      "Low self-esteem and self-doubt are common emotional outcomes, as individuals may doubt their abilities and worthiness of success.",
+    'self-criticism':
+      "Chronic self-criticism and negative self-talk can emerge, reinforcing the belief of being a failure.",
+    lackOfMotivation:
+      "A lack of motivation and a sense of hopelessness about achieving goals can lead to inaction and procrastination.",
+    disappointment:
+      "Frequent disappointment and a sense of unfulfillment due to unmet personal aspirations and dreams.",
+    fearOfFailure:
+      "A fear of failure or making mistakes can paralyze individuals from taking risks or pursuing their ambitions.",
+    envy:
+      "Feelings of envy or resentment towards those who seem successful, as they highlight one's own perceived failures.",
+    'self-sabotage':
+      "Engaging in self-sabotaging behaviors, consciously or unconsciously, that hinder progress toward personal goals.",
+    avoidanceOfChallenges:
+      "Avoiding challenges or opportunities that may lead to success, as they evoke fear and self-doubt.",
+    emotionalExhaustion:
+      "Experiencing emotional exhaustion from the constant struggle to prove oneself and overcome the failure belief.",
+  },
+  schemaBehaviors: {
+    'self-sabotage': {
+      description:
+        "Engaging in self-sabotaging behaviors, consciously or unconsciously, that hinder progress toward personal goals.",
+    },
+    lackOfGoalSetting: {
+      description:
+        "Avoiding or not setting ambitious goals due to the belief that they cannot be achieved.",
+    },
+    procrastination: {
+      description:
+        "Procrastinating on tasks and responsibilities, often delaying or avoiding them due to fear of failure.",
+    },
+    avoidanceOfSuccess: {
+      description:
+        "Avoiding situations or opportunities that may lead to success, as they evoke fear and self-doubt.",
+    },
+    'negativeSelf-Talk': {
+      description:
+        "Engaging in negative self-talk and self-criticism that reinforces the belief of being a failure.",
+    },
+    fearOfFailure: {
+      description:
+        "Experiencing a fear of failure or making mistakes, which can paralyze individuals from taking risks or pursuing their ambitions.",
+    },
+    'self-Doubt': {
+      description:
+        "Frequently doubting one's own abilities and worthiness of success.",
+    },
+    envy: {
+      description:
+        "Feeling envy or resentment towards those who seem successful, as they highlight one's own perceived failures.",
+    },
+    emotionalExhaustion: {
+      description:
+        "Experiencing emotional exhaustion from the constant struggle to prove oneself and overcome the failure belief.",
+    },
+    avoidanceOfChallenges: {
+      description:
+        "Avoiding challenges or opportunities that may lead to success, as they evoke fear and self-doubt.",
+    },
+  },
   characteristics: {
-    "Fear of Failure": {
-      description: "Individuals with this schema often have an intense fear of failing in their endeavors, which can lead to avoidance of new challenges or opportunities.",
+    lowSelfEsteem: {
+      description:
+        "Low self-esteem and self-doubt are common characteristics of the Failure to Achieve schema.",
       waysToRecognize: [
-        "Constant worry or anxiety about failing in various life pursuits",
-        "Avoidance of new challenges or opportunities due to fear of failure",
+        "Persistent negative self-talk and self-criticism about one's capabilities",
+        "Feelings of inadequacy and worthlessness in the face of challenges",
       ],
       howToAddress: [
-        "Recognize and acknowledge the fear of failure and its impact on your life choices.",
-        "Seek therapy or counseling to explore the underlying causes of the fear of failure and develop strategies for managing it.",
-        "Practice setting realistic goals and expectations, allowing room for mistakes and setbacks.",
-        "Challenge and reframe negative beliefs related to failure, emphasizing the learning opportunities it provides.",
-        "Learn to differentiate between healthy risk-taking and paralyzing fear of failure through therapy or self-help resources.",
+        "Recognize and acknowledge the presence of the Failure to Achieve schema in your life and its impact on your self-esteem and motivation.",
+        "Seek professional help, such as therapy or counseling, to explore the underlying causes of this belief and develop self-confidence.",
+        "Set realistic and achievable goals, gradually building your confidence and motivation.",
+        "Practice self-compassion and positive self-talk to counteract negative self-perceptions.",
+        "Learn to differentiate between healthy self-reflection and damaging self-criticism through therapy or self-help resources.",
       ],
     },
-    "Procrastination": {
-      description: "The failure to achieve trap can lead to chronic procrastination, as individuals may delay taking action on their goals due to a belief that they will ultimately fail.",
+    procrastination: {
+      description:
+        "Procrastinating on tasks and responsibilities, often delaying or avoiding them due to fear of failure, is a common characteristic of this schema.",
       waysToRecognize: [
-        "Consistent procrastination in starting or completing tasks and projects",
-        "Feelings of guilt or self-criticism related to procrastination",
+        "Frequent postponement of tasks and responsibilities",
+        "Anxiety or avoidance when faced with challenging or important tasks",
       ],
       howToAddress: [
-        "Acknowledge the pattern of procrastination and its impact on your ability to achieve your goals.",
-        "Seek therapy or counseling to explore the underlying causes of procrastination and develop strategies for overcoming it.",
-        "Practice time management and task organization to break down goals into manageable steps.",
-        "Set specific deadlines and create accountability mechanisms to reduce procrastination tendencies.",
-        "Learn to differentiate between productive delays and procrastination through therapy or self-help resources.",
+        "Acknowledge the pattern of procrastination and its impact on your productivity and self-esteem.",
+        "Seek therapy or counseling to explore the underlying causes of procrastination and develop strategies for time management and motivation.",
+        "Break tasks into smaller, manageable steps to reduce the sense of overwhelm and fear of failure.",
+        "Practice goal-setting and reward yourself for accomplishing tasks to build motivation.",
+        "Learn to differentiate between healthy time management and self-sabotaging procrastination through therapy or self-help resources.",
       ],
     },
-    "Self-Doubt": {
-      description: "Individuals in the failure to achieve trap often experience self-doubt and a lack of confidence in their abilities, which can hinder progress toward their goals.",
+    avoidanceOfSuccess: {
+      description:
+        "Avoiding situations or opportunities that may lead to success, as they evoke fear and self-doubt, is a common characteristic of this schema.",
       waysToRecognize: [
-        "Frequent self-doubt and negative self-talk about one's capabilities",
-        "Difficulty in believing in one's potential for success",
+        "Avoidance of challenging opportunities or promotions at work",
+        "Declining opportunities for personal growth or achievement",
       ],
       howToAddress: [
-        "Acknowledge the presence of self-doubt and its impact on your self-esteem and goal pursuit.",
-        "Seek therapy or counseling to explore the underlying causes of self-doubt and develop self-confidence.",
-        "Engage in self-affirmation and positive self-talk to counteract self-doubt.",
-        "Surround yourself with supportive individuals who believe in your potential for success.",
-        "Learn to differentiate between healthy self-reflection and paralyzing self-doubt through therapy or self-help resources.",
+        "Acknowledge the pattern of avoiding success and its impact on your personal and professional growth.",
+        "Seek therapy or counseling to explore the underlying causes of this avoidance and develop strategies for embracing opportunities.",
+        "Set clear personal and professional goals and gradually work towards them to build confidence.",
+        "Challenge the belief that success is unattainable or undesirable through therapy or self-help resources.",
+        "Learn to differentiate between healthy risk-taking and self-sabotaging avoidance through therapy or self-help resources.",
       ],
     },
-    "Setting Unrealistic Goals": {
-      description: "In an attempt to avoid failure, individuals may set unrealistic and unattainable goals, setting themselves up for disappointment.",
+    fearOfFailure: {
+      description:
+        "Experiencing a fear of failure or making mistakes, which can paralyze individuals from taking risks or pursuing their ambitions, is a common characteristic of this schema.",
       waysToRecognize: [
-        "Consistently setting goals that are too ambitious or beyond one's current abilities",
-        "Feeling overwhelmed by the enormity of self-imposed expectations",
+        "Constant worry about failing or making mistakes",
+        "Avoidance of tasks or challenges due to fear of failure",
       ],
       howToAddress: [
-        "Recognize and acknowledge the pattern of setting unrealistic goals and its impact on your well-being.",
-        "Seek therapy or counseling to explore the underlying causes of setting unrealistic goals and develop goal-setting strategies.",
-        "Practice setting achievable and incremental goals that allow for gradual progress and success.",
-        "Seek guidance from mentors or professionals to help you set and pursue realistic goals.",
-        "Learn to differentiate between healthy ambition and setting oneself up for failure through therapy or self-help resources.",
-      ],
-    },
-    "Fear of Success": {
-      description: "The failure to achieve trap can also manifest as a fear of success, as individuals may fear the responsibilities and expectations that come with achieving their goals.",
-      waysToRecognize: [
-        "Avoidance of opportunities for success due to fear of increased pressure",
-        "Sabotaging one's own success to maintain a sense of comfort",
-      ],
-      howToAddress: [
-        "Acknowledge the presence of a fear of success and its impact on your life choices.",
-        "Seek therapy or counseling to explore the underlying causes of the fear of success and develop strategies for managing it.",
-        "Challenge and reframe negative beliefs related to success, emphasizing the positive aspects and opportunities it brings.",
-        "Gradually expose yourself to success and its associated responsibilities, allowing for adjustment and growth.",
-        "Learn to differentiate between fear of success and healthy achievement through therapy or self-help resources.",
+        "Acknowledge the fear of failure and its impact on your well-being and decision-making.",
+        "Seek therapy or counseling to explore the underlying causes of this fear and develop strategies for managing anxiety.",
+        "Practice risk-taking and stepping out of your comfort zone to confront the fear of failure gradually.",
+        "Cultivate self-compassion and a growth mindset to embrace failures as opportunities for learning and growth.",
+        "Learn to differentiate between healthy concern for outcomes and paralyzing fear of failure through therapy or self-help resources.",
       ],
     },
   },
   howToAddress: [
-    "Recognize and acknowledge the presence of the failure to achieve schema in your life and its impact on your well-being and goals.",
-    "Seek professional help, such as therapy or counseling, to explore the underlying causes of the failure to achieve trap and develop strategies for overcoming it.",
-    "Work on building self-confidence and self-belief in your capabilities to pursue your goals.",
-    "Practice setting realistic and attainable goals, allowing for mistakes and setbacks as part of the learning process.",
-    "Learn to differentiate between healthy goal-setting and the paralyzing fear of failure through therapy or self-help resources.",
+    "Recognize and acknowledge the presence of the Failure to Achieve schema in your life and its impact on your self-esteem and motivation.",
+    "Seek professional help, such as therapy or counseling, to explore the underlying causes of this belief and develop self-confidence.",
+    "Set realistic and achievable goals, gradually building your confidence and motivation.",
+    "Practice self-compassion and positive self-talk to counteract negative self-perceptions.",
+    "Learn to differentiate between healthy self-reflection and damaging self-criticism through therapy or self-help resources.",
   ],
 };
+
+module.exports=FailureToAchieveSchema

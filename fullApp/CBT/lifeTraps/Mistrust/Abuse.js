@@ -1,84 +1,138 @@
-const MistrustTrap = {
-  description: "The mistrust trap involves a pervasive belief that others are untrustworthy and potentially harmful, leading to behaviors and thought patterns that make it challenging to form and maintain healthy relationships. This schema often arises from experiences of betrayal or violation of trust.",
+const MistrustSchema = {
+  description:
+    "The mistrust schema involves a core belief that others are untrustworthy, unreliable, or likely to harm or betray you. This can lead to difficulty in forming close relationships, excessive skepticism, and a heightened sense of vulnerability.",
+  EmotionalImpact: {
+    fearAndAnxiety:
+      "Individuals with the Mistrust Schema often experience fear and anxiety in social interactions, as they are constantly on guard for signs of betrayal or harm.",
+    isolation:
+      "The belief that others are untrustworthy can result in social isolation and difficulty in forming close connections.",
+    hypervigilance:
+      "A heightened state of vigilance is common, with individuals constantly scanning for signs of potential harm or betrayal.",
+    angerAndResentment:
+      "Feelings of anger and resentment may arise from the perceived untrustworthiness of others or past experiences of betrayal.",
+    loneliness:
+      "A sense of loneliness and emotional distance from others can result from the inability to trust and form close relationships.",
+    difficultyInVulnerability:
+      "Mistrust can make it challenging to be emotionally vulnerable or open with others, as individuals fear being hurt or betrayed.",
+    "self-protectiveBehaviors":
+      "Engaging in self-protective behaviors, such as keeping emotional distance or withholding trust, can hinder the development of intimacy in relationships.",
+    constantDoubt:
+      "Persistent doubt and skepticism about others' motives and intentions can lead to chronic stress and emotional turmoil.",
+    insecurity:
+      "A deep sense of insecurity may result from the belief that one cannot rely on others for support or trustworthiness.",
+    difficultiesInForgiveness:
+      "Difficulty in forgiving others for perceived betrayals or harm can contribute to unresolved anger and resentment.",
+  },
+  SchemaBehaviors: {
+    AvoidanceOfIntimacy: {
+      description:
+        "Avoiding close emotional intimacy or keeping others at arm's length to protect oneself from potential betrayal or harm.",
+    },
+    Hypervigilance: {
+      description:
+        "Constantly being on high alert, scanning for signs of potential betrayal or harm in social interactions.",
+    },
+    EmotionalWithholding: {
+      description:
+        "Withholding trust, emotional openness, or vulnerability from others due to fear of being hurt or betrayed.",
+    },
+    TestingOthers: {
+      description:
+        "Testing others' trustworthiness or loyalty through various means, such as setting traps or seeking reassurance.",
+    },
+    ExcessiveSkepticism: {
+      description:
+        "Exhibiting excessive skepticism and doubt about others' motives, even in the absence of evidence of betrayal.",
+    },
+    KeepingDistance: {
+      description:
+        "Maintaining emotional distance or keeping others at arm's length to minimize the risk of harm or betrayal.",
+    },
+    DifficultyInForgiveness: {
+      description:
+        "Struggling to forgive others for perceived betrayals or harm, leading to unresolved anger and resentment.",
+    },
+    "Self-ProtectiveBehaviors": {
+      description:
+        "Engaging in self-protective behaviors, such as withholding trust or keeping emotional distance, to guard against potential harm or betrayal.",
+    },
+    Isolation: {
+      description:
+        "Isolating oneself from social interactions and forming close relationships due to a lack of trust in others.",
+    },
+    ProjectionOfMistrust: {
+      description:
+        "Projecting one's own mistrust onto others, assuming that they are untrustworthy or have harmful intentions.",
+    },
+  },
   characteristics: {
-    "Excessive Suspicion": {
-      description: "Individuals with this schema tend to be excessively suspicious of others' intentions and may question the motives behind every action, making it difficult to trust or rely on anyone.",
+    "Constant Doubt and Skepticism": {
+      description:
+        "Individuals with the Mistrust Schema often exhibit constant doubt and skepticism about others' motives and intentions.",
       waysToRecognize: [
-        "Constant suspicion of others' intentions, even without evidence of wrongdoing",
-        "Difficulty giving others the benefit of the doubt or trusting their words",
+        "Frequent suspicion of others' intentions, even in the absence of evidence",
+        "Difficulty in taking others at their word or trusting their actions",
       ],
       howToAddress: [
-        "Recognize when excessive suspicion is affecting your relationships and well-being.",
-        "Seek professional help, such as therapy or counseling, to explore the underlying causes of mistrust and develop strategies to manage it.",
-        "Practice mindfulness and self-reflection to become more aware of mistrustful thoughts as they arise.",
-        "Work on building trust gradually in safe and supportive relationships.",
-        "Learn to differentiate between healthy skepticism and destructive excessive suspicion through therapy or self-help resources.",
+        "Recognize and acknowledge the presence of the mistrust schema in your life and its impact on your relationships and well-being.",
+        "Seek professional help, such as therapy or counseling, to explore the underlying causes of mistrust and develop strategies for building trust and forming healthier relationships.",
+        "Practice mindfulness and self-awareness to become more attuned to your own mistrustful thoughts and reactions.",
+        "Challenge and reframe irrational mistrustful beliefs, aiming for a more balanced and open approach to relationships.",
+        "Learn to differentiate between healthy caution and destructive mistrust through therapy or self-help resources.",
       ],
     },
-    "Avoidance of Vulnerability": {
-      description: "Individuals in the mistrust trap often avoid vulnerability and emotional openness in relationships out of fear of being hurt or betrayed. This avoidance can hinder the development of deep connections.",
+    "Avoidance of Intimacy": {
+      description:
+        "Avoiding close emotional intimacy or keeping others at a distance is a common characteristic of this schema.",
       waysToRecognize: [
-        "Reluctance to share personal information or feelings with others",
-        "Avoidance of emotional intimacy and openness in relationships",
+        "Avoiding deep emotional connections or sharing personal feelings",
+        "Maintaining a sense of emotional distance in close relationships",
       ],
       howToAddress: [
-        "Recognize how avoidance of vulnerability impacts your ability to form meaningful connections.",
-        "Seek therapy or counseling to explore and address the fear of vulnerability and its origins.",
-        "Practice gradually opening up and being vulnerable in safe and trustworthy relationships.",
-        "Work on improving communication skills to express your concerns and needs in relationships.",
-        "Learn to differentiate between protective boundaries and avoidance of vulnerability through therapy or self-help resources.",
+        "Acknowledge the avoidance of intimacy and its impact on your relationships and emotional well-being.",
+        "Seek therapy or counseling to explore the underlying causes of this avoidance and develop strategies for building emotional intimacy and trust.",
+        "Practice vulnerability and opening up to others gradually, with the support of therapy or self-help resources.",
+        "Work on building a sense of emotional safety and security within your relationships.",
+        "Learn to differentiate between healthy caution and avoidance of intimacy through therapy or self-help resources.",
       ],
     },
-    "Hypervigilance": {
-      description: "Individuals in this trap may exhibit hypervigilance, constantly scanning for signs of potential betrayal or deception in others' behavior. This hyper-awareness can be exhausting and detrimental to relationships.",
+    "Testing Others' Trustworthiness": {
+      description:
+        "Testing others' trustworthiness or loyalty through various means, such as setting traps or seeking reassurance, is a common behavior associated with this schema.",
       waysToRecognize: [
-        "Frequent monitoring of others' behavior for signs of deceit or betrayal",
-        "A heightened state of alertness in social situations",
+        "Frequently testing others' loyalty or trustworthiness through actions or questions",
+        "Setting traps or scenarios to evaluate others' reactions",
       ],
       howToAddress: [
-        "Recognize the toll that hypervigilance takes on your mental and emotional well-being.",
-        "Seek professional help to address hypervigilance and develop strategies to reduce it.",
-        "Practice relaxation techniques and mindfulness to manage anxiety related to mistrust.",
-        "Work on building trust gradually in safe relationships while acknowledging that no one is perfect.",
-        "Learn to differentiate between healthy awareness and exhausting hypervigilance through therapy or self-help resources.",
+        "Acknowledge the testing behavior and its impact on your relationships and the trust of others.",
+        "Seek therapy or counseling to explore the underlying causes of this behavior and develop healthier ways to build trust.",
+        "Practice open communication and honest conversations in your relationships instead of resorting to testing.",
+        "Learn to differentiate between healthy trust-building and testing behavior through therapy or self-help resources.",
       ],
     },
-    "Testing Others": {
-      description: "Individuals may engage in behaviors aimed at testing the trustworthiness of others, such as creating situations to assess loyalty or setting traps for potential betrayal.",
+    "Isolation and Loneliness": {
+      description:
+        "Isolating oneself from social interactions and forming close relationships due to a lack of trust in others is a common characteristic of this schema.",
       waysToRecognize: [
-        "Frequent testing of others' loyalty or trustworthiness",
-        "Creating situations or traps to gauge others' reactions and intentions",
+        "Avoidance of social interactions or limiting close relationships",
+        "Feelings of loneliness and emotional distance from others",
       ],
       howToAddress: [
-        "Recognize the detrimental impact of testing behaviors on relationships and trust.",
-        "Communicate openly with your partner or loved ones about your fears and concerns instead of testing them.",
-        "Seek therapy or counseling to explore healthier ways of building trust and addressing trust-related issues.",
-        "Practice effective communication skills and assertiveness to express your needs and concerns directly.",
-        "Learn to differentiate between healthy trust-building and destructive testing behaviors through therapy or self-help resources.",
-      ],
-    },
-    "Overprotection of Self": {
-      description: "Individuals may become overprotective of themselves, often at the expense of forming meaningful connections. This self-protective stance can manifest as emotional detachment and isolation.",
-      waysToRecognize: [
-        "Tendency to keep emotional distance from others",
-        "Reluctance to rely on others or ask for help due to fear of betrayal",
-      ],
-      howToAddress: [
-        "Recognize when overprotection of self hinders your ability to connect with others.",
-        "Seek therapy or counseling to explore the fear-based behaviors that lead to overprotection.",
-        "Practice gradual emotional openness and connection in safe and supportive relationships.",
-        "Work on improving your self-esteem and self-worth to reduce the need for excessive self-protection.",
-        "Learn to differentiate between healthy self-protection and excessive overprotection through therapy or self-help resources.",
+        "Acknowledge the isolation and loneliness resulting from mistrust and its impact on your well-being.",
+        "Seek therapy or counseling to explore the underlying causes of social isolation and develop strategies for building trust and forming meaningful connections.",
+        "Practice gradual exposure to social interactions and building trust in supportive environments.",
+        "Work on building emotional resilience and a sense of emotional safety within your relationships.",
+        "Learn to differentiate between healthy caution and isolation through therapy or self-help resources.",
       ],
     },
   },
   howToAddress: [
-    "Recognize and acknowledge the impact of the mistrust trap on your relationships and well-being.",
-    "Seek professional help, such as therapy or counseling, to explore and address mistrust-related fears and behaviors.",
-    "Practice self-compassion and self-validation to reduce emotional distress related to mistrust.",
-    "Work on building healthy relationships based on trust, boundaries, and effective communication.",
-    "Challenge and reframe negative beliefs and thought patterns associated with mistrust through therapy or self-help resources.",
+    "Recognize and acknowledge the presence of the mistrust schema in your life and its impact on your relationships and well-being.",
+    "Seek professional help, such as therapy or counseling, to explore the underlying causes of mistrust and develop strategies for building trust and forming healthier relationships.",
+    "Practice mindfulness, self-awareness, and emotional regulation techniques to manage mistrustful thoughts and reactions more effectively.",
+    "Challenge and reframe irrational mistrustful beliefs, aiming for a more balanced and open approach to relationships.",
+    "Learn to differentiate between healthy caution and destructive mistrust through therapy or self-help resources.",
   ],
 };
 
-  
+module.exports=MistrustSchema

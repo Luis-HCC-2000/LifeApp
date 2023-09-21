@@ -1,9 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const home_controller= require('../controllers/homeController')
-
-router.get('/:schema', function(req,res,next){
-    res.send(req.params.schema)
-})
+const trapEvaluation_controller= require('../controllers/evaluationController')
+router.get('/:schema', trapEvaluation_controller.evaluation_get )
 
 module.exports = router

@@ -1,82 +1,135 @@
-const SubjugationTrap = {
-  description: "The subjugation trap involves a pattern of self-sacrifice and surrendering one's needs, desires, and values to avoid conflict or displeasing others. Individuals with this schema may struggle to assert themselves and often put the needs of others above their own.",
+const SubjugationSchema = {
+  description:
+    "The subjugation schema involves a core belief that one's own needs, desires, and rights should be sacrificed for the sake of others, often resulting in feelings of powerlessness and resentment. This can lead to difficulties in asserting oneself and maintaining healthy boundaries.",
+  EmotionalImpact: {
+    powerlessness:
+      "Individuals with the Subjugation Schema often feel a sense of powerlessness and helplessness, as they prioritize others' needs over their own.",
+    resentment:
+      "The constant sacrifice of one's own needs and desires can lead to feelings of resentment towards those for whom they are subjugating themselves.",
+    guiltAndShame:
+      "Subjugated individuals may experience intense guilt and shame when they attempt to assert their own needs or rights, as it contradicts their core belief.",
+    lowSelfEsteem:
+      "Sacrificing one's own needs and desires can erode self-esteem, leading to feelings of inadequacy and unworthiness.",
+    fearOfRejection:
+      "The fear of rejection or abandonment may drive subjugated individuals to continue sacrificing their own needs to maintain relationships.",
+    anxiety:
+      "The chronic anxiety related to subjugation can lead to constant stress and a sense of impending doom.",
+    difficultyInAssertiveness:
+      "Subjugation often results in difficulty in assertiveness and an inability to stand up for oneself or express one's own needs.",
+    suppressedAnger:
+      "Feelings of anger and frustration may be suppressed, as subjugated individuals avoid expressing their true feelings for fear of upsetting others.",
+    emotionalNumbness:
+      "Over time, the suppression of one's own needs and desires can lead to emotional numbness and a disconnection from one's own emotions.",
+    dependencyOnOthers:
+      "Subjugated individuals may become overly dependent on others to meet their own needs, further reinforcing their powerlessness.",
+  },
+  SchemaBehaviors: {
+    'Self-Sacrifice': {
+      description:
+        "Constantly sacrificing one's own needs, desires, and rights for the sake of others, often to the detriment of one's own well-being.",
+    },
+    DifficultyInAssertiveness: {
+      description:
+        "Struggling to assert oneself or express personal needs and desires, often avoiding conflict at all costs.",
+    },
+    FearOfRejection: {
+      description:
+        "Experiencing a fear of rejection or abandonment, which drives individuals to continue subjugating their own needs in relationships.",
+    },
+    Perfectionism: {
+      description:
+        "Setting impossibly high standards for oneself in an attempt to earn approval and avoid criticism.",
+    },
+    'People-Pleasing': {
+      description:
+        "Constantly seeking to please others and gain their approval, often at the expense of one's own well-being.",
+    },
+    SuppressingAnger: {
+      description:
+        "Avoiding the expression of anger or frustration, even when justified, to maintain harmony in relationships.",
+    },
+    EmotionalNumbness: {
+      description:
+        "Experiencing a sense of emotional numbness and disconnection from one's own emotions due to the suppression of one's needs.",
+    },
+    DependencyOnOthers: {
+      description:
+        "Becoming overly dependent on others to meet one's own needs, further reinforcing feelings of powerlessness.",
+    },
+    AvoidingConflict: {
+      description:
+        "Going to great lengths to avoid conflict and confrontation, often at the expense of personal needs and desires.",
+    },
+  },
   characteristics: {
-    "Excessive Self-Sacrifice": {
-      description: "People with this schema tend to excessively sacrifice their own needs, desires, and values to please or avoid conflict with others.",
+    "Self-Sacrifice": {
+      description:
+        "Individuals with the Subjugation Schema often engage in constant self-sacrifice, putting the needs of others above their own.",
       waysToRecognize: [
-        "Consistently prioritizing the needs and wants of others over your own",
-        "Feeling guilty or anxious when considering asserting your own needs or boundaries",
+        "Frequent self-sacrifice for the sake of others",
+        "Difficulty asserting personal needs or desires",
       ],
       howToAddress: [
-        "Acknowledge the pattern of excessive self-sacrifice and its impact on your own well-being.",
-        "Seek therapy or counseling to explore the underlying reasons for this behavior and develop self-assertion skills.",
-        "Practice setting clear boundaries and asserting your own needs in low-stakes situations.",
-        "Learn to differentiate between healthy compromise and self-sacrifice.",
-        "Work on building self-esteem and self-worth independent of others' approval.",
+        "Recognize and acknowledge the presence of the subjugation schema in your life and its impact on your sense of powerlessness and well-being.",
+        "Seek professional help, such as therapy or counseling, to explore the underlying causes of subjugation and develop strategies for asserting yourself and setting healthy boundaries.",
+        "Work on building self-esteem and self-worth, separate from the approval of others.",
+        "Practice asserting your needs and desires in a healthy way, gradually increasing your ability to prioritize your own well-being.",
+        "Learn to differentiate between healthy compromise and self-sacrifice through therapy or self-help resources.",
       ],
     },
-    "Difficulty in Saying 'No'": {
-      description: "Individuals in the subjugation trap often have difficulty saying 'no' to requests or demands from others, even when it goes against their own well-being.",
+    "Fear of Rejection": {
+      description:
+        "The subjugation schema can lead to a profound fear of rejection or abandonment, as individuals prioritize others' needs over their own to maintain relationships.",
       waysToRecognize: [
-        "Frequently agreeing to requests or favors out of obligation or fear of disappointing others",
-        "Feeling overwhelmed by commitments and obligations to others",
+        "Constantly subjugating personal needs to avoid rejection",
+        "Experiencing intense anxiety or distress at the thought of asserting oneself",
       ],
       howToAddress: [
-        "Acknowledge the difficulty in saying 'no' and the impact on your own time and energy.",
-        "Seek therapy or counseling to explore the underlying fears and anxieties related to asserting boundaries.",
-        "Practice assertiveness and boundary-setting techniques to comfortably say 'no' when necessary.",
-        "Learn to prioritize your own needs and well-being alongside helping others.",
-        "Recognize that setting boundaries is a healthy and necessary aspect of maintaining your own mental and emotional health.",
+        "Acknowledge the presence of the fear of rejection and its impact on your well-being.",
+        "Seek therapy or counseling to explore the underlying causes of this fear and develop strategies for building emotional resilience.",
+        "Work on building self-reliance and the ability to prioritize your own needs and rights without fear of rejection.",
+        "Engage in healthy self-soothing techniques to manage anxiety related to asserting yourself.",
+        "Learn to differentiate between healthy attachment and an unhealthy fear of rejection through therapy or self-help resources.",
       ],
     },
-    "Suppressing Personal Desires": {
-      description: "Individuals may suppress or deny their own desires, often feeling that their personal wants are less important than the desires of others.",
+    "Difficulty in Assertiveness": {
+      description:
+        "Subjugation often results in difficulty in assertiveness, making it challenging to express one's own needs and desires.",
       waysToRecognize: [
-        "Frequently ignoring or suppressing your own desires and goals",
-        "Feeling unfulfilled or disconnected from your own wants and aspirations",
+        "Avoiding conflict and confrontation at all costs",
+        "Struggling to assert personal needs or rights in various situations",
       ],
       howToAddress: [
-        "Acknowledge the pattern of suppressing personal desires and the impact on your own happiness and fulfillment.",
-        "Seek therapy or counseling to explore the underlying beliefs and fears related to personal desires.",
-        "Work on identifying and nurturing your own desires and goals.",
-        "Practice asserting and pursuing your personal desires in a healthy and balanced way.",
-        "Recognize that honoring your own desires is essential for personal growth and well-being.",
+        "Acknowledge the challenges in assertiveness and their impact on your well-being.",
+        "Seek therapy or counseling to explore the underlying causes of assertiveness difficulties and develop effective communication skills.",
+        "Practice assertiveness techniques to build confidence in asserting your needs.",
+        "Surround yourself with supportive individuals who respect your boundaries and encourage your personal growth.",
+        "Learn to differentiate between avoiding unnecessary conflict and suppressing your own needs through therapy or self-help resources.",
       ],
     },
-    "Fears of Confrontation": {
-      description: "Individuals in the subjugation trap may have a strong fear of confrontation or conflict, leading them to avoid asserting themselves or addressing issues.",
+    "Perfectionism": {
+      description:
+        "Some individuals with the subjugation schema may develop perfectionist tendencies, setting impossibly high standards for themselves in an attempt to earn approval and avoid criticism.",
       waysToRecognize: [
-        "Avoiding difficult conversations or conflicts, even when necessary",
-        "Feeling anxious or distressed at the prospect of disagreeing with others",
+        "Setting unrealistic and demanding standards for oneself",
+        "Constantly seeking approval through achievement and perfection",
       ],
       howToAddress: [
-        "Acknowledge the fear of confrontation and its impact on your ability to assert yourself.",
-        "Seek therapy or counseling to explore the underlying fears and anxieties related to conflict.",
-        "Practice assertive communication and conflict resolution skills in safe and supportive environments.",
-        "Learn to differentiate between healthy, respectful disagreement and harmful conflict.",
-        "Recognize that addressing issues and asserting yourself can lead to healthier relationships and personal growth.",
+        "Acknowledge the presence of perfectionism and its impact on your self-worth and well-being.",
+        "Seek therapy or counseling to explore the underlying causes of perfectionism and develop self-acceptance.",
+        "Practice self-compassion and self-acceptance, recognizing that you are valuable regardless of achievement.",
+        "Challenge perfectionist thoughts and behaviors with the support of therapy or self-help resources.",
+        "Learn to differentiate between healthy striving for excellence and destructive perfectionism through therapy or self-help resources.",
       ],
     },
-    "Reliance on Others' Approval": {
-      description: "Individuals with the subjugation schema may rely heavily on the approval and validation of others to feel secure and valued.",
-      waysToRecognize: [
-        "Constantly seeking approval and validation from others",
-        "Feeling anxious or distressed when making decisions without others' input",
-      ],
-      howToAddress: [
-        "Acknowledge the reliance on others' approval and its impact on your self-esteem and autonomy.",
-        "Seek therapy or counseling to explore the underlying need for approval and develop self-confidence.",
-        "Practice making decisions independently and gradually reduce reliance on others' input.",
-        "Develop self-approval and self-validation techniques to boost self-esteem.",
-        "Set clear boundaries with others regarding decision-making and personal autonomy.",
-      ],
-    },
+  },
   howToAddress: [
-    "Recognize and acknowledge the presence of the subjugation trap schema in your life and its impact on your autonomy and well-being.",
-    "Seek professional help, such as therapy or counseling, to explore the underlying causes of subjugation and develop strategies for self-assertion.",
-    "Engage in self-help resources and activities to strengthen your ability to assert your needs and boundaries.",
-    "Practice setting and maintaining healthy boundaries in your relationships.",
-    "Prioritize your own well-being and personal growth alongside your desire to help and please others.",
+    "Recognize and acknowledge the presence of the subjugation schema in your life and its impact on your sense of powerlessness and well-being.",
+    "Seek professional help, such as therapy or counseling, to explore the underlying causes of the subjugation schema and develop strategies for asserting yourself and setting healthy boundaries.",
+    "Work on building self-esteem and self-worth, separate from the approval of others, and prioritize your own needs and rights.",
+    "Practice asserting your needs and desires in a healthy way and gradually increase your ability to prioritize your well-being with the support of therapy or self-help resources.",
+    "Learn to differentiate between healthy compromise and self-sacrifice, seeking a balance that promotes your well-being and healthy relationships.",
   ],
-  }
-}
+};
+
+module.exports=SubjugationSchema

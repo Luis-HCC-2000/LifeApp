@@ -1,11 +1,11 @@
 const EnmeshmentSchema = {
   description:
-    "The enmeshment schema involves a core belief that one's identity is fused or intertwined with others, often leading to blurred boundaries and a lack of autonomy. This can result in difficulties in forming healthy relationships and maintaining a sense of self.",
+    "The enmeshment schema involves a core belief that one's own identity is excessively fused with others, leading to blurred boundaries and difficulties in establishing a separate sense of self. This can result in challenges in forming healthy relationships and maintaining individual autonomy.",
   EmotionalImpact: {
     lossOfIdentity:
-      "Individuals with the Enmeshment Schema may struggle to maintain a distinct sense of self, as their identity is often defined by their relationships with others.",
+      "Individuals with the Enmeshment Schema may struggle to maintain a distinct sense of self, as their identity becomes deeply entwined with their relationships.",
     fearOfAbandonment:
-      "Enmeshed individuals may have a deep-seated fear of abandonment, as they rely heavily on others for their sense of self-worth and emotional stability.",
+      "Enmeshed individuals often have a profound fear of abandonment, as they rely heavily on others for their emotional stability and self-worth.",
     anxietyAndGuilt:
       "The blurred boundaries and emotional dependence in enmeshment can lead to anxiety and guilt, especially when attempting to assert independence or make personal choices.",
     difficultyInIndividuality:
@@ -42,7 +42,7 @@ const EnmeshmentSchema = {
     },
     ApprovalSeeking: {
       description:
-        "Excessively seeking approval and validation from others, often at the expense of one's own needs and values.",
+        "Excessively seeking approval and validation from others, often at the expense of one's own well-being.",
     },
     EmotionalTurmoilInRelationships: {
       description:
@@ -68,7 +68,7 @@ const EnmeshmentSchema = {
   characteristics: {
     "Loss of Autonomy": {
       description:
-        "Individuals with this schema may experience a significant loss of autonomy, as they struggle to make decisions independently and assert their own desires.",
+        "Individuals with the Enmeshment Schema may experience a significant loss of autonomy, as they struggle to make decisions independently and assert their own desires.",
       waysToRecognize: [
         "Constantly deferring to the desires and decisions of others",
         "Anxiety or distress when faced with the prospect of making individual choices",
@@ -76,39 +76,39 @@ const EnmeshmentSchema = {
       howToAddress: [
         "Recognize and acknowledge the presence of the enmeshment schema in your life and its impact on your autonomy and self-identity.",
         "Seek professional help, such as therapy or counseling, to explore the underlying causes of enmeshment and develop strategies for building boundaries and independence.",
-        "Work on building self-confidence and a strong sense of self, separate from your relationships with others.",
+        "Work on building self-esteem and self-worth, separate from your relationships with others.",
         "Practice making independent decisions and gradually increasing your autonomy with the support of therapy or self-help resources.",
         "Learn to differentiate between healthy emotional connection and enmeshment, seeking a balance that promotes healthy relationships and personal autonomy.",
       ],
     },
     "Fear of Abandonment": {
       description:
-        "The enmeshment schema can lead to a profound fear of abandonment, as individuals rely heavily on others for their emotional stability and self-worth.",
+        "The enmeshment schema can lead to a profound fear of abandonment, as individuals prioritize others' needs over their own to maintain relationships.",
       waysToRecognize: [
         "Constantly seeking reassurance and affirmation from others",
         "Experiencing intense anxiety or distress when feeling emotionally distant from others",
       ],
       howToAddress: [
-        "Acknowledge the presence of the fear of abandonment and its impact on your emotional well-being.",
-        "Seek therapy or counseling to explore the underlying causes of this fear and develop strategies for building emotional stability and self-worth.",
+        "Acknowledge the presence of the fear of abandonment and its impact on your well-being.",
+        "Seek therapy or counseling to explore the underlying causes of this fear and develop strategies for building emotional resilience.",
         "Work on building self-reliance and emotional resilience to reduce dependence on external validation.",
         "Engage in healthy self-soothing techniques to manage anxiety related to emotional distance.",
         "Learn to differentiate between healthy attachment and an unhealthy fear of abandonment through therapy or self-help resources.",
       ],
     },
-    "Difficulty Setting Boundaries": {
+    "Difficulty in Assertiveness": {
       description:
-        "Enmeshment often leads to difficulties in setting and maintaining personal boundaries, resulting in problems asserting one's needs and desires.",
+        "Enmeshment often results in difficulty in assertiveness, making it challenging to express one's own needs and desires.",
       waysToRecognize: [
-        "Struggling to say 'no' or assert personal boundaries",
-        "Feeling overwhelmed by the demands and expectations of others",
+        "Avoiding conflict and confrontation at all costs",
+        "Struggling to assert personal needs or rights in various situations",
       ],
       howToAddress: [
-        "Acknowledge the challenges in setting and maintaining boundaries and their impact on your well-being.",
-        "Seek therapy or counseling to explore the underlying causes of boundary difficulties and develop strategies for establishing healthy boundaries.",
-        "Practice assertiveness and boundary-setting techniques to build confidence in asserting your needs.",
+        "Acknowledge the challenges in assertiveness and their impact on your well-being.",
+        "Seek therapy or counseling to explore the underlying causes of assertiveness difficulties and develop effective communication skills.",
+        "Practice assertiveness techniques to build confidence in asserting your needs.",
         "Surround yourself with supportive individuals who respect your boundaries and encourage your personal growth.",
-        "Learn to differentiate between healthy compromise and boundary violations through therapy or self-help resources.",
+        "Learn to differentiate between avoiding unnecessary conflict and suppressing your own needs through therapy or self-help resources.",
       ],
     },
     "Emotional Turbulence in Relationships": {
@@ -131,7 +131,9 @@ const EnmeshmentSchema = {
     "Recognize and acknowledge the presence of the enmeshment schema in your life and its impact on your relationships and sense of self.",
     "Seek professional help, such as therapy or counseling, to explore the underlying causes of the enmeshment schema and develop strategies for building healthy boundaries and autonomy.",
     "Work on building a strong sense of self, separate from your relationships with others, and develop emotional resilience.",
-    "Practice setting and maintaining healthy boundaries in your relationships and gradually increasing your autonomy with the support of therapy or self-help resources.",
+    "Practice setting and maintaining healthy boundaries in your relationships and gradually increase your ability to prioritize your well-being with the support of therapy or self-help resources.",
     "Learn to differentiate between healthy emotional connection and enmeshment, seeking a balance that promotes both healthy relationships and personal autonomy.",
   ],
 };
+
+module.exports=EnmeshmentSchema

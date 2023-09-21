@@ -1,94 +1,131 @@
-const EmotionalDeprivation = {
-    description: "Emotional deprivation involves the belief that one's emotional needs won't be met by others, leading to feelings of emptiness, loneliness, and a sense of emotional hunger.",
-    characteristics: {
-      "Emotional Hunger": {
-        description: "People with this schema often feel a constant emotional hunger, as if something essential is missing from their lives.",
-        waysToRecognize: [
-          "Persistent feelings of inner emptiness or emotional hunger",
-          "Frequent dissatisfaction with relationships, despite external success or fulfillment",
-        ],
-        howToAddress: [
-          "Acknowledge and validate your emotional needs. It's essential to recognize that it's normal to have emotional needs and that they deserve attention.",
-          "Seek professional help or therapy. A therapist can help you explore the underlying causes of your emotional deprivation and provide strategies for healing.",
-          "Practice self-compassion. Treat yourself with kindness and understanding, as you would a close friend.",
-          "Learn to communicate your emotional needs assertively. Practice expressing your feelings and needs in a clear and honest manner with trusted individuals.",
-        ],
-      },
-      "Difficulty Trusting Others": {
-        description: "They may find it challenging to trust others to meet their emotional needs, leading to problems in forming deep and satisfying relationships.",
-        waysToRecognize: [
-          "Difficulty in opening up to others emotionally",
-          "Fear of vulnerability and a tendency to keep emotions hidden",
-        ],
-        howToAddress: [
-          "Build trust gradually. Start with small steps and open up to people you feel safe with.",
-          "Work on self-esteem. Improving your self-esteem can make it easier to trust others and believe that you deserve emotional support.",
-          "Seek support from a therapist or counselor. Therapy can help you address trust issues and explore their origins.",
-          "Practice vulnerability. Sharing your thoughts and feelings with trusted individuals can lead to deeper connections and increased trust.",
-        ],
-      },
-      "Emotional Loneliness": {
-        description: "Individuals often experience a deep sense of emotional loneliness, even when surrounded by others.",
-        waysToRecognize: [
-          "Feeling emotionally disconnected in social situations",
-          "A sense of isolation despite being in the company of friends or loved ones",
-        ],
-        howToAddress: [
-          "Cultivate self-awareness. Reflect on your feelings of loneliness and try to identify triggers or patterns.",
-          "Strengthen social connections. Engage in activities and hobbies that genuinely interest you and allow for meaningful social interactions.",
-          "Practice mindfulness and presence. Being fully present in social situations can help you feel more connected to others.",
-          "Consider therapy or group therapy. These can provide a supportive environment for addressing loneliness and building social skills.",
-        ],
-      },
-      "Seeking External Validation": {
-        description: "People with this schema may seek external validation and reassurance to fill the emotional void they perceive.",
-        waysToRecognize: [
-          "Constantly seeking approval or affirmation from others",
-          "Difficulty in feeling secure or content without external validation",
-        ],
-        howToAddress: [
-          "Develop self-validation. Work on acknowledging and validating your feelings and achievements internally.",
-          "Challenge your need for external validation. Ask yourself why you seek it and whether it's essential for your well-being.",
-          "Practice self-compassion. Treat yourself with kindness and recognize your intrinsic worth.",
-          "Set realistic expectations. Understand that not everyone will provide constant external validation, and that's okay.",
-        ],
-      },
-      "Difficulty Expressing Needs": {
-        description: "Individuals with emotional deprivation schemas may struggle to express their emotional needs to others, fearing rejection or disappointment.",
-        waysToRecognize: [
-          "Avoidance of discussing emotional needs with friends or partners",
-          "Fear of burdening others with their emotions",
-        ],
-        howToAddress: [
-          "Start with trusted individuals. Begin by sharing your needs and feelings with people you trust and feel safe with.",
-          "Use assertive communication. Practice expressing your needs clearly and respectfully.",
-          "Seek therapy. Therapy can help you work through your fears of rejection and provide guidance on effective communication.",
-          "Remember that expressing needs is healthy. Understand that expressing your emotional needs is a sign of strength, not weakness.",
-        ],
-      },
-      "Overcompensation": {
-        description: "In some cases, individuals may overcompensate by becoming overly self-reliant and neglecting their emotional needs altogether.",
-        waysToRecognize: [
-          "Tendency to be extremely self-reliant and self-sufficient",
-          "Reluctance to ask for help or support from others, even when needed",
-        ],
-        howToAddress: [
-          "Recognize the impact of overcompensation. Understand how neglecting your emotional needs affects your well-being.",
-          "Practice self-care. Prioritize self-care activities that nourish your emotional well-being.",
-          "Allow vulnerability. It's okay to ask for help and support from others when necessary.",
-          "Seek therapy or counseling. A therapist can help you explore and address the root causes of overcompensation.",
-        ],
-      },
+const EmotionalDeprivationSchema = {
+  name: "Emotional Deprivation",
+  description:
+    "The Emotional Deprivation schema involves a core belief that one's emotional needs are not adequately met by others or that emotional support and connection are lacking in life. This can lead to feelings of loneliness, unfulfillment, and a constant search for emotional validation.",
+  emotionalImpact: {
+    loneliness:
+      "Individuals with the Emotional Deprivation schema often experience intense feelings of loneliness and a sense of emotional emptiness.",
+    sadness: "A persistent sense of sadness and unfulfillment in the absence of emotional connection and support.",
+    longingForConnection: "A strong desire for emotional connection and validation from others.",
+    frustration:
+      "Feelings of frustration and disappointment due to perceived emotional unavailability from significant others.",
+    fearOfAbandonment:
+      "A fear of abandonment or rejection, driven by the belief that emotional needs are not important or will not be met.",
+    difficultyInExpressingEmotions:
+      "Struggling to express emotions or needs openly, fearing they will be dismissed or unacknowledged.",
+    difficultyInBuildingRelationships:
+      "Difficulty in building and maintaining meaningful relationships due to an intense need for emotional validation.",
+    emotionalWithdrawal:
+      "Emotional withdrawal from others and a tendency to isolate to protect oneself from further emotional disappointment.",
+    "self-reliance":
+      "Overreliance on self and a reluctance to seek emotional support from others due to past experiences of deprivation.",
+    chronicDisappointment: "A chronic sense of disappointment and unfulfillment in personal relationships and life.",
+  },
+  schemaBehaviors: {
+    seekingEmotionalValidation: {
+      description: "Frequently seeking emotional validation and reassurance from others to fill the emotional void.",
     },
-    howToFix: [
-      "Recognize the schema. Awareness is the first step in addressing emotional deprivation.",
-      "Seek professional help. A therapist can provide guidance and support tailored to your specific emotional needs and challenges.",
-      "Practice self-compassion. Treat yourself with kindness and understanding.",
-      "Challenge negative beliefs. Work on changing beliefs that reinforce emotional deprivation.",
-      "Build and nurture meaningful relationships. Focus on forming connections that fulfill your emotional needs.",
-      "Develop self-validation. Learn to validate your feelings and achievements internally.",
-      "Practice assertive communication. Work on expressing your needs clearly and respectfully.",
-      "Embrace vulnerability. Understand that being vulnerable is a part of authentic and deep connections with others.",
-    ],
-  };
-  
+    difficultyInExpressingNeeds: {
+      description:
+        "Struggling to express emotional needs and desires openly, often expecting others to intuitively understand them.",
+    },
+    "self-Sufficiency": {
+      description:
+        "Overemphasizing self-sufficiency and a reluctance to rely on others for emotional support or connection.",
+    },
+    emotionalWithdrawal: {
+      description:
+        "Withdrawing emotionally from others and isolating to protect oneself from further emotional disappointment.",
+    },
+    constantSearchForConnection: {
+      description:
+        "Engaging in a constant search for emotional connection and validation, often moving from one relationship to another in pursuit of it.",
+    },
+    fearOfAbandonment: {
+      description:
+        "Experiencing a persistent fear of abandonment or rejection, driven by the belief that emotional needs will not be met.",
+    },
+    difficultyInTrust: {
+      description:
+        "Struggling to trust others with one's emotional needs and feelings due to past experiences of deprivation.",
+    },
+    "self-Reliance": {
+      description: "Overrelying on self and being hesitant to seek emotional support or validation from others.",
+    },
+    chronicDisappointment: {
+      description:
+        "Living with a chronic sense of disappointment and unfulfillment in personal relationships and life.",
+    },
+  },
+  characteristics: {
+    intenseLongingForConnection: {
+      description:
+        "Individuals with the Emotional Deprivation schema often experience an intense longing for emotional connection and validation from others.",
+      waysToRecognize: [
+        "Frequent desire for emotional closeness and validation",
+        "Feeling unfulfilled in the absence of emotional connection",
+      ],
+      howToAddress: [
+        "Recognize and acknowledge the presence of the Emotional Deprivation schema in your life and its impact on your well-being.",
+        "Seek professional help, such as therapy or counseling, to explore the underlying causes of emotional deprivation and develop strategies for building emotional connections.",
+        "Practice open and honest communication with trusted individuals to express your emotional needs and desires.",
+        "Work on building trust in relationships and allowing others to provide emotional support.",
+        "Learn to differentiate between healthy self-sufficiency and emotional deprivation through therapy or self-help resources.",
+      ],
+    },
+    constantSearchForConnection: {
+      description:
+        "Engaging in a constant search for emotional connection and validation, often moving from one relationship to another in pursuit of it, is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Frequent changes in relationships or seeking new connections",
+        "Belief that the next relationship will fulfill emotional needs",
+      ],
+      howToAddress: [
+        "Acknowledge the pattern of constantly seeking emotional connection and its impact on your well-being and relationships.",
+        "Seek therapy or counseling to explore the underlying causes of this behavior and develop strategies for building more stable and fulfilling connections.",
+        "Practice self-awareness and self-reflection to understand your emotional needs and desires more deeply.",
+        "Work on building patience and a sense of contentment in existing relationships, rather than constantly seeking external validation.",
+        "Learn to differentiate between healthy pursuit of connection and a chronic search for validation through therapy or self-help resources.",
+      ],
+    },
+    fearOfAbandonment: {
+      description:
+        "Experiencing a persistent fear of abandonment or rejection, driven by the belief that emotional needs will not be met, is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Chronic fear of being abandoned or rejected in relationships",
+        "Difficulty in trusting that others will meet your emotional needs",
+      ],
+      howToAddress: [
+        "Acknowledge the fear of abandonment and its impact on your relationships and emotional well-being.",
+        "Seek therapy or counseling to explore the underlying causes of this fear and develop strategies for building trust and security in relationships.",
+        "Practice self-compassion and self-esteem building to address feelings of unworthiness.",
+        "Work on building trust in yourself and others through open communication and vulnerability.",
+        "Learn to differentiate between healthy caution and paralyzing fear of abandonment through therapy or self-help resources.",
+      ],
+    },
+    chronicDisappointment: {
+      description:
+        "Living with a chronic sense of disappointment and unfulfillment in personal relationships and life is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Persistent feelings of disappointment and unfulfillment in relationships",
+        "Belief that emotional needs are rarely or never met by others",
+      ],
+      howToAddress: [
+        "Acknowledge the chronic disappointment and its impact on your well-being and relationships.",
+        "Seek therapy or counseling to explore the underlying causes of this chronic disappointment and develop strategies for finding fulfillment in relationships.",
+        "Practice self-reflection to understand your expectations and develop more realistic and satisfying relationship dynamics.",
+        "Work on building emotional self-sufficiency while still seeking healthy emotional connections.",
+        "Learn to differentiate between healthy personal growth and chronic disappointment through therapy or self-help resources.",
+      ],
+    },
+  },
+  howToAddress: [
+    "Recognize and acknowledge the presence of the Emotional Deprivation schema in your life and its impact on your well-being.",
+    "Seek professional help, such as therapy or counseling, to explore the underlying causes of emotional deprivation and develop strategies for building emotional connections.",
+    "Practice open and honest communication with trusted individuals to express your emotional needs and desires.",
+    "Work on building trust in relationships and allowing others to provide emotional support.",
+    "Learn to differentiate between healthy self-sufficiency and emotional deprivation through therapy or self-help resources.",
+  ],
+};
+
+module.exports=EmotionalDeprivationSchema

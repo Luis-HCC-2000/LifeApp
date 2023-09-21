@@ -1,73 +1,135 @@
-const EmotionalInhibitionTrap = {
+const EmotionalInhibitionSchema = {
+  name: "Emotional Inhibition",
   description:
-    "The emotional inhibition trap involves a pattern of suppressing or restricting one's emotions, often due to fear, shame, or discomfort. Individuals with this schema may struggle to express their feelings, leading to emotional constriction and difficulty in forming deep emotional connections.",
-  characteristics: {
-    "Difficulty Expressing Emotions": {
-      description:
-        "People with this schema often find it challenging to express their emotions openly and authentically, even when they feel strong emotions internally.",
-      waysToRecognize: [
-        "Tendency to withhold or hide emotions from others",
-        "Difficulty in articulating feelings or emotional experiences",
-      ],
-      howToAddress: [
-        "Recognize and acknowledge the difficulty in expressing emotions and its impact on your well-being and relationships.",
-        "Seek therapy or counseling to explore the underlying reasons for emotional inhibition.",
-        "Practice self-awareness and emotional mindfulness to identify and connect with your feelings.",
-        "Gradually work on expressing emotions in safe and supportive environments.",
-        "Consider journaling or creative outlets as a means of exploring and sharing emotions.",
-      ],
-    },
-    "Fear of Vulnerability": {
-      description:
-        "Individuals in the emotional inhibition trap may fear being vulnerable or exposed, leading to a reluctance to open up to others emotionally.",
-      waysToRecognize: [
-        "Avoidance of vulnerability in relationships and interactions",
-        "Reluctance to share personal or sensitive information with others",
-      ],
-      howToAddress: [
-        "Acknowledge the fear of vulnerability and its impact on forming deep connections.",
-        "Seek therapy or counseling to address the root causes of vulnerability fears.",
-        "Practice building trust in safe and supportive relationships.",
-        "Gradually challenge and expand your comfort zone in sharing emotions with trusted individuals.",
-        "Explore and address any past experiences or traumas contributing to vulnerability fears.",
-      ],
-    },
-    "Limited Emotional Range": {
-      description:
-        "Emotional inhibition can result in a limited emotional range, where individuals may struggle to experience and express a wide range of emotions.",
-      waysToRecognize: [
-        "Consistently experiencing a narrow range of emotions",
-        "Difficulty in connecting with and understanding complex emotions",
-      ],
-      howToAddress: [
-        "Recognize and accept the limitations in your emotional range.",
-        "Engage in activities or therapies that encourage emotional exploration and expression.",
-        "Practice mindfulness and emotional awareness to expand your emotional vocabulary.",
-        "Seek support from therapists or support groups focused on emotional development.",
-        "Explore creative and artistic outlets as a means of connecting with suppressed emotions.",
-      ],
-    },
-    "Impact on Relationships": {
-      description:
-        "Emotional inhibition can affect relationships, leading to difficulties in forming intimate and emotionally fulfilling connections with others.",
-      waysToRecognize: [
-        "Struggles in forming deep emotional bonds in relationships",
-        "Challenges in effectively communicating and connecting with others on an emotional level",
-      ],
-      howToAddress: [
-        "Acknowledge the impact of emotional inhibition on your relationships and your desire for deeper connections.",
-        "Seek therapy or counseling to address relationship challenges related to emotional inhibition.",
-        "Practice open and honest communication with trusted individuals about your emotional struggles.",
-        "Work on building emotional intimacy and trust in relationships at your own pace.",
-        "Consider couples therapy if emotional inhibition is affecting your romantic relationship.",
-      ],
-    },
-    howToAddress: [
-      "Recognize and acknowledge the presence of the emotional inhibition trap schema in your life and its impact on your emotional well-being and relationships.",
-      "Seek professional help, such as therapy or counseling, to explore the underlying causes of emotional inhibition and develop strategies for positive change.",
-      "Practice mindfulness and self-awareness to identify and connect with your emotions in a safe and non-judgmental way.",
-      "Gradually work on expressing and expanding your emotional range in supportive environments.",
-      "Consider creative outlets and activities that encourage emotional exploration and expression.",
-    ],
+    "The Emotional Inhibition schema involves a core belief that expressing one's emotions is undesirable or unsafe, leading to a habit of suppressing or avoiding emotions. This can result in emotional numbness, difficulty in forming close relationships, and challenges in understanding and managing one's own feelings.",
+  emotionalImpact: {
+    emotionalNumbness:
+      "Individuals with the Emotional Inhibition schema often experience emotional numbness or a sense of detachment from their own feelings.",
+    difficultyInRelationships:
+      "Difficulty in forming close and intimate relationships due to emotional distance and lack of emotional expression.",
+    internalConflict:
+      "Internal conflict between the desire to express emotions and the belief that it's undesirable or unsafe.",
+    frustration: "Feelings of frustration and confusion about one's own emotions and difficulty in managing them.",
+    loneliness:
+      "A sense of loneliness and isolation, as emotional inhibition can create emotional distance from others.",
+    "limitedSelf-awareness":
+      "Limited self-awareness of one's own emotions and difficulty in recognizing and understanding them.",
+    physicalSymptoms:
+      "Physical symptoms such as tension, headaches, or stomachaches due to the suppression of emotions.",
+    avoidanceOfConflict:
+      "A tendency to avoid conflict or confrontational situations to prevent the expression of emotions.",
+    difficultyInProblemSolving: "Challenges in problem-solving and decision-making due to the lack of emotional input.",
+    unresolvedIssues:
+      "Unresolved emotional issues that can accumulate over time, contributing to psychological distress.",
   },
+  schemaBehaviors: {
+    emotionalSuppression: {
+      description:
+        "Habitually suppressing or avoiding the expression of emotions due to the belief that it's undesirable or unsafe.",
+    },
+    difficultyInEmotionalExpression: {
+      description:
+        "Struggling to express emotions openly or effectively, leading to emotional distance in relationships.",
+    },
+    internalConflict: {
+      description:
+        "Experiencing internal conflict between the desire to express emotions and the belief that it's undesirable or unsafe.",
+    },
+    avoidanceOfEmotionallyChargedSituations: {
+      description: "Avoiding emotionally charged situations or conversations to prevent the expression of emotions.",
+    },
+    emotionalNumbness: {
+      description:
+        "Experiencing emotional numbness or detachment from one's own feelings due to chronic emotional inhibition.",
+    },
+    avoidanceOfConflict: {
+      description: "Tending to avoid conflict or confrontational situations to prevent the expression of emotions.",
+    },
+    "limitedSelf-awareness": {
+      description:
+        "Having limited self-awareness of one's own emotions and struggling to recognize and understand them.",
+    },
+    emotionalOutbursts: {
+      description:
+        "Occasionally experiencing emotional outbursts or extreme reactions when emotions are no longer controllable.",
+    },
+    chronicFrustration: {
+      description:
+        "Living with chronic frustration and confusion about one's own emotions and difficulty in managing them.",
+    },
+    avoidanceOfVulnerableSituations: {
+      description:
+        "Avoiding vulnerable or emotionally intimate situations to prevent the need for emotional expression.",
+    },
+  },
+  characteristics: {
+    emotionalSuppression: {
+      description:
+        "Habitually suppressing or avoiding the expression of emotions is a common characteristic of the Emotional Inhibition schema.",
+      waysToRecognize: [
+        "Frequent suppression of emotions in various situations",
+        "Difficulty in expressing feelings even in close relationships",
+      ],
+      howToAddress: [
+        "Recognize and acknowledge the presence of the Emotional Inhibition schema in your life and its impact on your emotional well-being and relationships.",
+        "Seek professional help, such as therapy or counseling, to explore the underlying causes of emotional inhibition and develop strategies for emotional expression.",
+        "Practice mindfulness and self-awareness techniques to become more attuned to your emotions.",
+        "Gradually challenge the belief that expressing emotions is undesirable or unsafe through therapy or self-help resources.",
+        "Learn to differentiate between healthy emotional regulation and destructive emotional inhibition through therapy or self-help resources.",
+      ],
+    },
+    difficultyInEmotionalExpression: {
+      description:
+        "Struggling to express emotions openly or effectively, leading to emotional distance in relationships, is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Avoidance of emotional conversations or vulnerability in relationships",
+        "Difficulty in communicating feelings to others",
+      ],
+      howToAddress: [
+        "Acknowledge the difficulty in emotional expression and its impact on your relationships and emotional well-being.",
+        "Seek therapy or counseling to explore the underlying causes of this difficulty and develop effective communication skills.",
+        "Practice open and honest communication in safe and supportive environments to build emotional expression skills.",
+        "Work on building emotional intimacy and vulnerability in relationships, gradually opening up to trusted individuals.",
+        "Learn to differentiate between healthy emotional boundaries and destructive emotional inhibition through therapy or self-help resources.",
+      ],
+    },
+    internalConflict: {
+      description:
+        "Experiencing internal conflict between the desire to express emotions and the belief that it's undesirable or unsafe is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Frequent inner struggles when emotions arise",
+        "Desire to express emotions but fear of doing so",
+      ],
+      howToAddress: [
+        "Acknowledge the internal conflict and its impact on your emotional well-being and relationships.",
+        "Seek therapy or counseling to explore the underlying causes of this conflict and develop strategies for resolving it.",
+        "Practice self-reflection and journaling to understand and process your emotions internally.",
+        "Work on building emotional self-acceptance and self-compassion to reduce inner conflict.",
+        "Learn to differentiate between healthy emotional expression and unhealthy emotional inhibition through therapy or self-help resources.",
+      ],
+    },
+    emotionalNumbness: {
+      description:
+        "Experiencing emotional numbness or detachment from one's own feelings due to chronic emotional inhibition is a common characteristic of this schema.",
+      waysToRecognize: [
+        "Feeling emotionally numb or detached in various life situations",
+        "Difficulty in connecting with one's own emotions",
+      ],
+      howToAddress: [
+        "Acknowledge the emotional numbness and its impact on your emotional well-being and relationships.",
+        "Seek therapy or counseling to explore the underlying causes of emotional numbness and develop strategies for reconnecting with your emotions.",
+        "Practice mindfulness and emotional awareness exercises to regain a connection with your feelings.",
+        "Gradually work on expressing emotions in safe and supportive environments to reawaken emotional responsiveness.",
+        "Learn to differentiate between healthy emotional detachment and unhealthy emotional inhibition through therapy or self-help resources.",
+      ],
+    },
+  },
+  howToAddress: [
+    "Recognize and acknowledge the presence of the Emotional Inhibition schema in your life and its impact on your emotional well-being.",
+    "Seek professional help, such as therapy or counseling, to explore the underlying causes of emotional inhibition and develop strategies for emotional expression.",
+    "Practice mindfulness and self-awareness techniques to become more attuned to your emotions.",
+    "Gradually challenge the belief that expressing emotions is undesirable or unsafe through therapy or self-help resources.",
+    "Learn to differentiate between healthy emotional regulation and destructive emotional inhibition through therapy or self-help resources.",
+  ],
 };
+module.exports=EmotionalInhibitionSchema

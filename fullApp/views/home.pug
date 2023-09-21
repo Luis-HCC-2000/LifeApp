@@ -7,6 +7,5 @@ head
 each schemas, category in sortedSchemas 
   h1=category + "\n"
     each schema in schemas 
-      //- a(href=schema["urlLink"])=schema["schema"] + ":" + schema["value"]
-      a=schema["schema"] + ":" + schema["value"]
+      a(href=schema["urlLink"])=schema["schema"] + ":" + schema["value"]
       br
