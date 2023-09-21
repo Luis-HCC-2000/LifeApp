@@ -1,4 +1,16 @@
 const EmotionalDeprivationSchema = {
+  questionnaire:[
+    "Do you often feel emotionally empty or numb, as if something is missing?",
+    "Is it challenging for you to express your emotions or connect with your own feelings?",
+    "Do you frequently struggle to identify and communicate your emotional needs to others?",
+    "Have you experienced a lack of emotional support or validation from significant people in your life?",
+    "Do you find it difficult to open up to others and share your innermost thoughts and feelings?",
+    "Have you felt unimportant or overlooked in your relationships or family?",
+    "Is it hard for you to accept emotional support or comfort from others when you need it?",
+    "Do you often put the needs and emotions of others ahead of your own?",
+    "Have you noticed a persistent sense of longing for emotional connection and fulfillment?",
+    "Do you feel that emotional deprivation has affected your overall sense of well-being or relationships?",
+  ],
   name: "Emotional Deprivation",
   description:
     "The Emotional Deprivation schema involves a core belief that one's emotional needs are not adequately met by others or that emotional support and connection are lacking in life. This can lead to feelings of loneliness, unfulfillment, and a constant search for emotional validation.",

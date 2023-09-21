@@ -1,4 +1,16 @@
 const DefectivenessTrap = {
+  questionnaire:[
+    "Do you often feel like you are fundamentally flawed or defective in some way?",
+    "Do you find it difficult to accept compliments or positive feedback from others?",
+    "Have you experienced a persistent sense of unworthiness or self-criticism?",
+    "Do you believe that you are not as good as others or that you don't measure up to certain standards?",
+    "Have you struggled with perfectionism, where you feel that you must be flawless in everything you do?",
+    "Do you often compare yourself negatively to others and feel inferior as a result?",
+    "Have you avoided opportunities or situations because you fear you will fail or be exposed as inadequate?",
+    "Do you have a tendency to overwork or overachieve in an attempt to compensate for feelings of defectiveness?",
+    "Have you experienced a history of self-blame and self-punishment?",
+    "Do you often seek reassurance from others to validate your self-worth?",
+  ],
   description:
     "The defectiveness trap involves a core belief of being fundamentally flawed or defective in some way. This belief can lead to feelings of shame, self-criticism, and a constant need to prove one's worthiness to others.",
   EmotionalImpact: {

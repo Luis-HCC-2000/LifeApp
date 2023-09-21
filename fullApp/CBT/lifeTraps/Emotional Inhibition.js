@@ -1,4 +1,16 @@
 const EmotionalInhibitionSchema = {
+  questionnaire: [
+    "Do you find it difficult to express your emotions openly and honestly with others?",
+    "Is it common for you to suppress or hide your feelings, even when you're upset or distressed?",
+    "Do you often put on a facade or wear a mask to hide your true emotions from others?",
+    "Is it challenging for you to ask for emotional support or comfort when you need it?",
+    "Do you frequently feel uncomfortable or anxious about showing vulnerability or emotional expression?",
+    "Have others commented on your tendency to keep your emotions bottled up or hidden?",
+    "Do you struggle to connect with your own emotions and may not even be sure how you're feeling?",
+    "Have you experienced difficulty in forming close and authentic emotional connections with others?",
+    "Is it hard for you to let go of emotional baggage or past hurts, even when it's affecting your well-being?",
+    "Do you believe that emotional inhibition has negatively impacted your relationships or overall sense of self?",
+  ],
   name: "Emotional Inhibition",
   description:
     "The Emotional Inhibition schema involves a core belief that expressing one's emotions is undesirable or unsafe, leading to a habit of suppressing or avoiding emotions. This can result in emotional numbness, difficulty in forming close relationships, and challenges in understanding and managing one's own feelings.",

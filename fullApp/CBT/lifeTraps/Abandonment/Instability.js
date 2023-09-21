@@ -1,4 +1,17 @@
 const AbandonmentTrap = {
+  questionnaire: [
+    "Do you often feel a deep fear of being abandoned or rejected by others?",
+    "Do you tend to cling to relationships, even if they are unhealthy or unsatisfying?",
+    "Have you experienced frequent changes in caregivers or family structures during your childhood?",
+    "Do you find it difficult to trust others and open up emotionally?",
+    "Are you excessively self-reliant and have trouble asking for help or support from others?",
+    "Do you often worry that people you care about will leave you or betray you?",
+    "Do you have a history of unstable or intense relationships?",
+    "Do you struggle with feelings of emptiness or loneliness, even when you are with others?",
+    "Have you experienced significant losses or abandonment in your past?",
+    "Do you engage in self-sabotaging behaviors, such as pushing people away when they get too close?",
+  ],
+  
   description: "The abandonment trap involves a pervasive fear of being abandoned or rejected by others, leading to behaviors and thought patterns that seek to prevent abandonment at all costs. This fear can be rooted in past experiences of abandonment or neglect.",
   EmotionalImpact: {
     fearAndAnxiety: "Intense fear and anxiety about being abandoned or rejected.",

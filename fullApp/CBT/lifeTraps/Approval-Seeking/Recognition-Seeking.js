@@ -1,4 +1,16 @@
 const ApprovalSeekingTrap = {
+  questionnaire:[
+    "Do you often seek external validation and approval from others to feel worthy or good about yourself?",
+    "Is it challenging for you to make decisions without first seeking input or reassurance from others?",
+    "Do you frequently worry about what others think of you or fear their judgment?",
+    "Have you sacrificed your own needs, desires, or values to gain approval or acceptance from others?",
+    "Do you find it difficult to say 'no' to others, even when it's not in your best interest?",
+    "Have you experienced a fear of rejection or abandonment if you don't meet others' expectations?",
+    "Do you often compare yourself to others and feel inadequate or inferior?",
+    "Have you neglected your own goals and aspirations in favor of what others expect of you?",
+    "Do you find it challenging to express your authentic self because you fear it won't be accepted?",
+    "Have you experienced anxiety or distress when you believe someone disapproves of you?",
+  ],
   description:
     "The approval-seeking trap involves a pervasive pattern of seeking validation and approval from others to feel worthy and acceptable. Individuals with this schema may have a deep fear of rejection and go to great lengths to gain the approval of others.",
   EmotionalImpact: {

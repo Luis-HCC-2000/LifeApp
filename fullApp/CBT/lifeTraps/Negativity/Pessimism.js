@@ -1,4 +1,16 @@
 const NegativitySchema = {
+  questionnaire:[
+    "Do you often find yourself focusing on the negative aspects of situations or events?",
+    "Is it common for you to dwell on past mistakes or failures, rather than focusing on accomplishments?",
+    "Do you frequently anticipate the worst possible outcomes in various situations?",
+    "Is it challenging for you to see the silver lining or positive side of things?",
+    "Do you often express pessimism or skepticism about future prospects?",
+    "Have others mentioned that you tend to be a negative thinker or have a negative attitude?",
+    "Do you engage in negative self-talk or self-criticism on a regular basis?",
+    "Is it difficult for you to let go of grudges or forgive others for their mistakes?",
+    "Do you often complain or express dissatisfaction with your life, even when things are going reasonably well?",
+    "Has negativity affected your relationships or overall sense of well-being?",
+  ],
   description:
     "The negativity schema involves a core belief that life is overwhelmingly negative, filled with disappointment, suffering, and constant adversity. This can lead to a pervasive negative outlook, difficulty in finding joy or positivity, and a tendency to focus on the worst-case scenarios.",
   EmotionalImpact: {

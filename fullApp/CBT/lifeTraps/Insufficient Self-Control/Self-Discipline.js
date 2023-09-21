@@ -1,4 +1,16 @@
 const InsufficientSelfControlSchema = {
+  questionnaire:[
+    "Do you find it easy to set and stick to goals and plans?",
+    "Are you able to resist temptations and distractions when working towards your objectives?",
+    "Do you have a structured daily routine that you consistently follow?",
+    "Can you delay gratification and work towards long-term goals without getting discouraged?",
+    "Are you good at managing your time and priorities effectively?",
+    "Do you consistently complete tasks and projects on schedule?",
+    "Are you able to maintain focus and concentration on tasks for extended periods?",
+    "Do you regularly engage in self-improvement activities and seek personal growth?",
+    "Can you control impulses and make decisions that align with your values and goals?",
+    "Do you handle setbacks and failures with resilience and continue to work towards your objectives?",
+  ],
   description:
     "The insufficient self-control schema involves a core belief that one cannot control their impulses, desires, or emotions effectively. This can lead to impulsive behavior, difficulty in delaying gratification, and struggles with managing emotional reactions.",
   EmotionalImpact: {

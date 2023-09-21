@@ -1,4 +1,16 @@
 const SocialIsolationSchema = {
+  questionnaire:[
+    "Do you often find yourself spending extended periods of time alone?",
+    "Have you withdrawn from social activities or hobbies that you once enjoyed?",
+    "Do you feel like you have few or no close friends or confidants?",
+    "Is it challenging for you to initiate or maintain social interactions with others?",
+    "Do you frequently decline invitations to social events or gatherings?",
+    "Have you experienced a lack of social support during difficult times in your life?",
+    "Do you often feel lonely or disconnected from others, even when you are in their company?",
+    "Is it difficult for you to share your thoughts and feelings with others, leading to a sense of isolation?",
+    "Have you noticed a decline in your overall mood or well-being due to social isolation?",
+    "Do you desire more social connections and feel that social isolation is negatively impacting your life?",
+  ],
   description:
     "The social isolation schema involves a core belief that one is fundamentally different from others and cannot connect or relate to them. This can lead to feelings of loneliness, a lack of social support, and avoidance of social interactions.",
   EmotionalImpact: {

@@ -1,4 +1,16 @@
 const UnrelentingStandardsSchema = {
+  questionnaire:[
+    "Do you often set extremely high and unrealistic standards for yourself in various areas of your life?",
+    "Is it difficult for you to accept anything less than perfection in your work or achievements?",
+    "Do you frequently criticize yourself for not meeting your own high expectations?",
+    "Is it challenging for you to delegate tasks to others because you believe they won't meet your standards?",
+    "Do you find it hard to relax or enjoy your accomplishments because you're always focused on what's next?",
+    "Have others commented on your perfectionist tendencies or excessive self-criticism?",
+    "Do you often experience stress or anxiety related to meeting your own standards?",
+    "Is it difficult for you to take breaks or give yourself credit for your efforts?",
+    "Have you noticed that your pursuit of unrelenting standards negatively impacts your well-being or relationships?",
+    "Do you have a history of overworking or burning out due to your high standards?",
+  ],
   description:
     "The unrelenting standards schema involves a core belief that one must meet excessively high standards and expectations in various areas of life, often leading to perfectionism, self-criticism, and a chronic sense of never being good enough.",
   EmotionalImpact: {

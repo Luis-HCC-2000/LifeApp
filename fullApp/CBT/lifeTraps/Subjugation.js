@@ -1,4 +1,16 @@
 const SubjugationSchema = {
+  questionnaire:[
+    "Do you often give in to the wishes and demands of others, even when it goes against your own preferences or needs?",
+    "Is it challenging for you to assert your own opinions and stand up for yourself in situations where you feel uncomfortable?",
+    "Do you frequently feel compelled to avoid conflict or disagreements by going along with what others want?",
+    "Have you experienced a history of allowing others to make important decisions for you?",
+    "Do you find it difficult to say 'no' or set boundaries with others, even when it's necessary for your well-being?",
+    "Have others commented on your tendency to subjugate your own desires and needs to those of others?",
+    "Is it hard for you to express your own desires or assert your independence in relationships?",
+    "Have you noticed that your subjugation tendencies have negatively impacted your own happiness or self-esteem?",
+    "Do you feel like you've lost your sense of self and autonomy due to constant subjugation?",
+    "Do you believe that the Subjugation Schema or Trap is affecting your overall quality of life?",
+  ],
   description:
     "The subjugation schema involves a core belief that one's own needs, desires, and rights should be sacrificed for the sake of others, often resulting in feelings of powerlessness and resentment. This can lead to difficulties in asserting oneself and maintaining healthy boundaries.",
   EmotionalImpact: {

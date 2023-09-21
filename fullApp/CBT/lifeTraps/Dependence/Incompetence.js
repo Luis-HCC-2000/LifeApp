@@ -1,4 +1,16 @@
 const DependenceTrap = {
+  questionnaire:[
+    "Do you often feel a strong need for others to take care of you or make decisions for you?",
+    "Is it difficult for you to express your own opinions and preferences, especially if they differ from others?",
+    "Do you frequently fear being alone or worry about not having someone to rely on?",
+    "Have you experienced difficulty in making everyday decisions without seeking input or reassurance from others?",
+    "Do you tend to stay in relationships, even if they are unhealthy or unsatisfying, because you fear being alone?",
+    "Have you given up your own goals and independence to please others or maintain a relationship?",
+    "Do you feel anxious or overwhelmed when you have to manage tasks or situations independently?",
+    "Do you have a history of relying on others for your emotional well-being or sense of identity?",
+    "Is it challenging for you to assert yourself or say 'no' to others when necessary?",
+    "Have you experienced feelings of powerlessness or helplessness in your life?",
+  ],
   description:
     "The dependence trap involves a core belief that one cannot function or make decisions independently, leading to excessive reliance on others for emotional and practical needs. This belief can result in difficulty in taking personal responsibility and low self-esteem.",
   EmotionalImpact: {

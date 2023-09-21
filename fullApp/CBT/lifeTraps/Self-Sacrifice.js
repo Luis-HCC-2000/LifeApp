@@ -1,4 +1,16 @@
 const SelfSacrificeSchema = {
+  questionnaire:[
+    "Do you often put the needs and wishes of others ahead of your own, even when it's detrimental to you?",
+    "Is it challenging for you to say 'no' or set boundaries with others, even when it's necessary for your well-being?",
+    "Do you frequently feel guilty or anxious when you take time for yourself or prioritize your own needs?",
+    "Have you given up your own goals or desires to meet the expectations and demands of others?",
+    "Do you have a history of neglecting self-care and personal well-being because you're focused on caring for others?",
+    "Have others commented on your tendency to self-sacrifice and put yourself last?",
+    "Is it hard for you to express your own needs or desires to others, even when it's important?",
+    "Have you noticed that your self-sacrificing tendencies have negatively impacted your own happiness or health?",
+    "Do you feel like you've lost your sense of self and identity due to constant self-sacrifice?",
+    "Do you believe that the Self-Sacrifice Schema or Trap is affecting your overall quality of life?",
+  ],
   name: "Self-Sacrifice",
   description:
     "The Self-Sacrifice schema involves a core belief that one's own needs and desires should be subordinated to the needs of others. Individuals with this schema often put others' well-being and happiness above their own, leading to neglect of their own needs and potential resentment. This can result in feelings of burnout, low self-worth, and difficulty in asserting boundaries.",

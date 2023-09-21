@@ -1,4 +1,16 @@
 const EnmeshmentSchema = {
+  questionnaire:[
+    "Do you often feel like you have blurred boundaries with significant people in your life?",
+    "Is it difficult for you to differentiate your own thoughts, feelings, and needs from those of others?",
+    "Have you experienced a lack of personal space or independence in your relationships?",
+    "Do you frequently prioritize the needs and desires of others over your own, even to your detriment?",
+    "Have you given up your own goals and identity to maintain close relationships with others?",
+    "Do you feel responsible for the emotional well-being of others, to the point of neglecting your own needs?",
+    "Is it challenging for you to say 'no' or establish boundaries with others?",
+    "Have you experienced anxiety or guilt when you try to assert your independence or pursue your own interests?",
+    "Do you often find yourself getting overly involved in the problems and conflicts of others?",
+    "Have you struggled to maintain a sense of self and identity separate from your close relationships?",
+  ],
   description:
     "The enmeshment schema involves a core belief that one's own identity is excessively fused with others, leading to blurred boundaries and difficulties in establishing a separate sense of self. This can result in challenges in forming healthy relationships and maintaining individual autonomy.",
   EmotionalImpact: {

@@ -1,4 +1,16 @@
 const GrandiositySchema = {
+  questionnaire:[
+    "Do you often feel that you deserve special treatment or privileges that others don't?",
+    "Is it difficult for you to accept responsibility for your mistakes or failures?",
+    "Do you frequently expect others to meet your needs and desires without considering their own?",
+    "Have you experienced a sense of entitlement to the time, attention, or resources of others?",
+    "Do you become angry or resentful when you don't receive the recognition or rewards you believe you deserve?",
+    "Have you engaged in manipulative behaviors to get what you want, even if it harms others?",
+    "Is it challenging for you to compromise or collaborate with others, as you believe your way is the right way?",
+    "Do you often believe that the rules and expectations that apply to others don't apply to you?",
+    "Have you experienced difficulty in maintaining healthy relationships due to your sense of entitlement?",
+    "Do you struggle with empathy or consideration for the feelings and needs of others?",
+  ],
   description:
     "The grandiosity schema involves a core belief in one's exceptional importance, uniqueness, or superiority over others. This can manifest as an exaggerated sense of self-importance and entitlement, often leading to difficulties in relationships and unrealistic expectations of special treatment.",
   EmotionalImpact: {

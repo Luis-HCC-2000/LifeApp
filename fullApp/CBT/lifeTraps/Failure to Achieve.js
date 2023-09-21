@@ -1,4 +1,16 @@
 const FailureToAchieveSchema = {
+  questionnaire:[
+    "Do you often feel like you're not achieving as much as you should in life?",
+    "Is it challenging for you to set and pursue goals due to a fear of failure or not meeting your own standards?",
+    "Do you frequently experience self-criticism and feelings of inadequacy, regardless of your accomplishments?",
+    "Is it difficult for you to acknowledge your successes and give yourself credit for your achievements?",
+    "Do you compare yourself to others and feel like you're falling short or not measuring up?",
+    "Have you set extremely high standards for yourself that are nearly impossible to meet?",
+    "Do you avoid trying new things or taking risks because you're afraid of failing?",
+    "Have you noticed that your fear of failure or the feeling of not achieving enough is negatively impacting your self-esteem?",
+    "Is it hard for you to handle setbacks or disappointments, leading to excessive self-criticism?",
+    "Do you believe that the Failure to Achieve Schema or Trap is affecting your overall quality of life?",
+  ],  
   name: "Failure to Achieve",
   description:
     "The Failure to Achieve schema involves a core belief that one is incapable of achieving success or reaching personal goals, leading to self-sabotage and a sense of perpetual underachievement. This schema can result in feelings of frustration, low self-esteem, and a lack of motivation to pursue goals.",

@@ -1,4 +1,16 @@
 const MistrustSchema = {
+  questionnaire:[
+    "Do you often find it hard to trust people, even when there's no specific reason not to trust them?",
+    "Have you been betrayed or let down by someone in the past, leading to a general lack of trust in others?",
+    "Do you frequently question people's motives or suspect hidden agendas, even when they seem sincere?",
+    "Is it difficult for you to confide in others and share your thoughts and feelings openly?",
+    "Do you find it challenging to delegate tasks or responsibilities to others because you fear they won't do it right?",
+    "Have you experienced difficulty in forming close relationships due to your mistrust of others?",
+    "Do you often feel guarded or defensive in social interactions, even with people you've known for a long time?",
+    "Have you been overly cautious or protective of your personal information, even when it's not necessary?",
+    "Do you have trouble giving people the benefit of the doubt, assuming the worst about their intentions?",
+    "Has mistrust caused problems in your relationships or personal life?",
+  ],
   description:
     "The mistrust schema involves a core belief that others are untrustworthy, unreliable, or likely to harm or betray you. This can lead to difficulty in forming close relationships, excessive skepticism, and a heightened sense of vulnerability.",
   EmotionalImpact: {
