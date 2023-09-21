@@ -1,0 +1,16 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/stylesheets/register/signup.css')
+  title Document
+  form(action="/trapAssessment" method="post")
+    each category in questions
+        fieldset  
+            legend= category["title"]
+            br
+            each question, number in category['questionnaire']  
+                label(for=category["title"] + number )=question
+                input(type="number" name=category['title'] + number id=category['title']+ number min="1" max="6" required value='1') 
+                br
+    input(type='submit' value='Submit')

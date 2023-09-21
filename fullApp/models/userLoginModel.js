@@ -3,10 +3,9 @@ const userTextSchema = require("./userTextSchema")
 const trapSchema= require('./userTraps/trapSchema')
 const mongoose = require("mongoose");
 
-// Define a schema
+
 const Schema = mongoose.Schema;
 
-// Define the User schema
 const userSchema = new Schema({
     birthDate: {
       type: Date,
@@ -33,11 +32,30 @@ const userSchema = new Schema({
     lifeTrapsAssessments:[lifeTrapsAssessmentSchema],
     userTexts:[userTextSchema],
     trapSchemas:[trapSchema]
-  });
+  },{
+    toJSON:{virtuals:true},
+    virtuals:{
+    getMissingFields:{
+      get(){
+        let missingFields=[]
+        if (this.lifeTrapsAssessments){
+          missingFields.push('lifeTrapsAssessments')
+        }
+        if (this.userTexts){
+          missingFields.push('userTexts')
+        }
+        if (this.trapSchemas){
+          missingFields.push('trapSchemas')
+        }
+      }
+    },
+    getLastFirstAssessment:{
+      get(){
+        return this.lifeTrapsAssessments[this.lifeTrapsAssessments.length-1]
+      }
+    }
+  }});
 
-
-
-  // Create and export the User model
   const User = mongoose.model('BetterLifeUser', userSchema);
   
   module.exports = User;

@@ -1,7 +1,7 @@
-const Abandonment= require('./Abandonment')
-const ApprovalSeeking = require('./ApprovalSeeking')
-const Defectiveness= require('./Defectiveness')
-const Dependence = require('./Dependence')
+const Abandonment= require('./Abandonment/Instability')
+const ApprovalSeeking = require('./Approval-Seeking/Recognition-Seeking')
+const Defectiveness= require('./Defectiveness/Shame')
+const Dependence = require('./Dependence/Incompetence')
 
 
 const allTraps={

@@ -7,6 +7,9 @@ const sessions=require('express-session')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const homeRouter= require('./routes/homeRouter')
+const trapAssessmentRouter= require('./routes/trapAssessmentRouter')
+const trapEvaluationRouter= require('./routes/trapEvaluationRouter')
 
 var app = express();
 
@@ -34,11 +37,15 @@ app.use(sessions({
   secret:"thisismysecrctekeyfhrgfgrfrty84fwir767",
   saveUninitialized: true,
   cookie:{maxAge: 1000*60*60*24},
-  resave:false
+  resave:false,
+  isInDevelopment:true
 }))
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/home', homeRouter)
+app.use('/trapAssessment', trapAssessmentRouter)
+app.use('/trapEvaluation', trapEvaluationRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -187,23 +187,25 @@ let asessment={
 // Creemos que solo asi vas a trabajar y a hacer lo que tu consideres necesario para sentirte mejor
 
 // Identify Thought Patterns, 
-//  Get Each characteristic, 
+//  Solve first assessment
+//  Show our initial conclusion on things that are probably affecting the user 
 //  Show the description of each characteristic,
-//  Grade each characteristic with the option of grading the ways to recognize and tick it if you think you would like to change it
-// Then Emotional Impact
-//  Show each possible emotion
-//  Grade each emotion
-//  Tick the emotions that you think you would like to change or the most important for you to change
-// then behavioral patterns (specific behaviors and coping mechanisms), 
-//  Grade each behaviour
-//  Tick the behaviours that you think you would like to change or the most important for you to change
-// how much does it affect in interpersonal relationships, 
-//  Write how does it affects you with
-//   Love Relationship
-//   Friend relationships
-//   family relationships
-//   Professional relationships
-//  If the user doesnt feel like that trap affects him on certain type of relationship then he can untick it
+//  User decides which characteristics would they want to investigate further (we also show the ones we think would be better to work on)
+//   Work on each characteristic,  
+//   Grade each characteristic with the option of grading the ways to recognize and tick it if you think you would like to change it
+//   Show each possible emotion that schema brings
+//    Grade each emotion
+//    Tick the emotions that you think you would like to change or the most important for you to change
+//   then behavioral patterns (specific behaviors and coping mechanisms), 
+//    Grade each behaviour
+//    Tick the behaviours that you think you would like to change or the most important for you to change
+//   how much does it affect in interpersonal relationships, 
+//    Write how does it affects you with
+//     Love Relationship
+//     Friend relationships
+//     family relationships
+//     Professional relationships
+//    If the user doesnt feel like that trap affects him on certain type of relationship then he can untick it
 // User text 
 //  Show all the info
 //  user writes a summary on what he thinks about their thinking patterns
@@ -213,3 +215,5 @@ let asessment={
 // asess the severity and duration, 
 // feedback from the individual
 // professional assessment
+
+module.exports= lifeTraps

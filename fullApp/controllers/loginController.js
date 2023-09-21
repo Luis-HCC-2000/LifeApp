@@ -42,7 +42,7 @@ exports.signup_post = [
       });
       await newUser.save();
       let session = req.session;
-      session.userid = req.body.email;
+      session.email = req.body.email;
       res.redirect('/home')
     } else {
       let errorMessage = "";

@@ -1,35 +1,34 @@
 const mongoose= require('mongoose')
 const Schema = mongoose.Schema
 
-const pattern= new mongoose.Mongoose.Schema({
+const pattern= new Schema({
     title: String,
     description:String,
     isImportant:Boolean,
     rating:{type: Number, min:0, max:10}
 })
 
-const emotion= new mongoose.Schema({
+const emotion= new Schema({
     title: String,
     description:String,
     isImportant:Boolean,
     rating:{type: Number, min:0, max:10}
 })
 
-const behavior= new mongoose.Schema({
+const behavior= new Schema({
     title:String,
     description:String,
     isImportant:Boolean,
     rating:{type: Number, min:0, max:10}
 })
 
-const relationshipProblem= new mongoose.Schema({
+const relationshipProblem= new Schema({
     title:String,
     text:String,
     rating:{type:Number, min:0, max:10},
     isImportant:Boolean
 })
 const trapSchema= new Schema({
-    // Find a way to make it match a certain user
     title: String,
     Patterns:[pattern],
     EmotionalImpact:[emotion],
@@ -39,7 +38,7 @@ const trapSchema= new Schema({
     emotionsText:String,
     BehaviorsText:String,
     affectsInLife:String,
-    Severity: {Type: Number, min:0, max:10}
+    Severity: {type: Number, min:0, max:10}
 })
 
-module.exports= abandonmentSchema
+module.exports= trapSchema
