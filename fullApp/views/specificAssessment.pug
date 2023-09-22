@@ -1,0 +1,14 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/stylesheets/register/signup.css')
+  title Document
+h2 questionnaire  
+form(action="/trapEvaluation" method="post")
+    each question, index in info['questionnaire']     
+        label(for=index)=question
+        input(type="number" name=index id=index min="1" max="6" required value='1') 
+        br
+    input(readonly value=title name="schema" index='schema')
+    input(type='submit' value='Submit')

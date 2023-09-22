@@ -11,14 +11,14 @@ exports.evaluation_get = async (req,res,next)=>{
         if (user.lifeTrapsAssessments && user.lifeTrapsAssessments.length> 0){
             console.log(user.lifeTrapsAssessments)
             let lifeTrapsAssesment= user.getLastFirstAssessment
-            if (user.userTexts && user.userTexts >0){
-                if (user.trapSchemas && user.trapSchemas > 0){
-
+            let specificAsessments= user.getSpecificLastAssessments
+            if (specificAsessments.length>0){
+                let sortedSchemas={
+                    
                 }
             }else{
                 let answer=lifeTrapsAssesment.getSumOfAllSchemas
                 let sortedSchemas=lifeTrapsAssesment.sortedSchemasWithUrl
-                console.log(answer)
                 // res.render('home', {lifeTrapsAssesment: lifeTrapsAssesment})
                 res.render('home', {sortedSchemas:sortedSchemas})
             }
