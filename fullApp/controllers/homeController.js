@@ -9,21 +9,11 @@ exports.evaluation_get = async (req,res,next)=>{
     if (client){
         let user = await userModel.findOne({email:client})
         if (user.lifeTrapsAssessments && user.lifeTrapsAssessments.length> 0){
-            console.log(user.lifeTrapsAssessments)
-            let lifeTrapsAssesment= user.getLastFirstAssessment
-            let specificAsessments= user.getSpecificLastAssessments
-            if (specificAsessments.length>0){
-                let sortedSchemas={
-                    
-                }
-            }else{
-                let answer=lifeTrapsAssesment.getSumOfAllSchemas
-                let sortedSchemas=lifeTrapsAssesment.sortedSchemasWithUrl
+            let sortedSchemas= user.getspecificAndNotSpecificAssessmentsWithUrl 
                 // res.render('home', {lifeTrapsAssesment: lifeTrapsAssesment})
                 res.render('home', {sortedSchemas:sortedSchemas})
             }
-            
-        }else{
+            else{
             // should do this 
             // res.send('user hasnt completed their trapAssessments')
             res.redirect("/trapAssessment")

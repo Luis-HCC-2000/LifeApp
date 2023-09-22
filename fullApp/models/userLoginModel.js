@@ -1,8 +1,9 @@
 const lifeTrapsAssessmentSchema= require('./lifeTrapsAssessmentSchema');
-const specificAssessmentSchema = require('./specificAssesmentSchema');
 const userTextSchema = require("./userTextSchema")
+const specificAssessments= require('./specificAssessmentsSchema')
 const trapSchema= require('./userTraps/trapSchema')
 const mongoose = require("mongoose");
+const { urlencoded } = require('express');
 
 
 const Schema = mongoose.Schema;
@@ -33,27 +34,9 @@ const userSchema = new Schema({
     lifeTrapsAssessments:[lifeTrapsAssessmentSchema],
     userTexts:[userTextSchema],
     trapSchemas:[trapSchema],
-    specificAssessments:{
-    "Emotional Deprivation": [specificAssessmentSchema],
-    "Abandonment/Instability": [specificAssessmentSchema],
-    "Mistrust/Abuse": [specificAssessmentSchema],
-    "Social Isolation/Alienation": [specificAssessmentSchema],
-    "Defectiveness/Shame": [specificAssessmentSchema],
-    "Failure to Achieve": [specificAssessmentSchema],
-    "Dependence/Incompetence": [specificAssessmentSchema],
-    "Vulnerability to Harm or Illness": [specificAssessmentSchema],
-    "Enmeshment/Undeveloped Self": [specificAssessmentSchema],
-    Subjugation: [specificAssessmentSchema],
-    "Self-Sacrifice": [specificAssessmentSchema],
-    "Approval-Seeking/Recognition-Seeking": [specificAssessmentSchema],
-    "Negativity/Pessimism": [specificAssessmentSchema],
-    "Emotional Inhibition": [specificAssessmentSchema],
-    "Unrelenting Standards/Hypercriticalness": [specificAssessmentSchema],
-    "Entitlement/Grandiosity": [specificAssessmentSchema],
-    "Insufficient Self-Control/Self-Discipline": [specificAssessmentSchema],
-    "Other-Directedness": [specificAssessmentSchema],
-    },
-  },{
+    specificAssessments:specificAssessments,
+  },
+    {
     toJSON:{virtuals:true},
     virtuals:{
     getMissingFields:{
@@ -70,44 +53,49 @@ const userSchema = new Schema({
         }
       }
     },
-    getLastFirstAssessment:{
+    getspecificAndNotSpecificAssessmentsWithUrl:{
       get(){
-        return this.lifeTrapsAssessments[this.lifeTrapsAssessments.length-1]
-      }
-    },
-    getSpecificLastAssessments:{
-      get(){
-        let answers=[]
-        for (const key in this.specificAssessments) {
-          if (this.specificAssessments[key].length > 0) {
-            let obj={}
-            obj[key]=this.specificAssessments[key][this.specificAssessments[key].length -1]
-            answers.push(obj);
-          }
-        }
-        return answers;
-      }
-    },
-    getspecificAndNotSpecificAssessments:{
-      get(){
-        let specificAsessments=this.getSpecificLastAssessments
-        let notSpecificAssessments= this.getLastFirstAssessment
-        let answer={}
-        for (let key in specificAsessments){
-          answer[key]=specificAsessments[key]
-        }
+        if (this.lifeTrapsAssessments.length==0){
+          return {}
+        }else{
+          let notSpecificAssessments= this.lifeTrapsAssessments[this.lifeTrapsAssessments.length-1].getSumOfAllSchemas
+          // let specificAssessments=this.specificAssessments.getSumOfAnsweredSchemas
+          let ans={}
+        // for (let key in specificAssessments){
+        //   ans[key]= specificAssessments[key]
+        // }
         for (let key in notSpecificAssessments){
-          if (answer[key]){
+          if (ans[key]){
             continue
           }else{
-            answer[key]=notSpecificAssessments[key]
+            let link=
+            ans[key]={urlLink:"/trapEvaluation/" +(encodeURIComponent(key)), schema:key, value:notSpecificAssessments[key]}
           }
         }
-        return answer
+        return ans
+        }
       }
-    }
+      
+    },
+    // getsortedSchemas:{
+    //   get(){
+    //     let categorizedResult={low:[], medium:[], high:[]}
+    //     let schemasSum=this.getSumOfAllSchemas
+    //     for (const key in schemasSum) {
+    //       const value = schemasSum[key];
+    //       if (value < 7) {
+    //         categorizedResult["low"].push({schema:key, value:value})
+    //       } else if (value < 14) {
+    //         categorizedResult["medium"].push({schema:key, value:value})
+    //       } else {
+    //         categorizedResult["high"].push({schema:key, value:value})
+    //       }
+    //     }
+    //     return categorizedResult;
+    //   }
+    // }
   }});
 
-  const User = mongoose.model('BetterLifeUser', userSchema);
+  const User = mongoose.model('UsersInfo', userSchema);
   
   module.exports = User;

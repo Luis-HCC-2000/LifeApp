@@ -50,40 +50,6 @@ const lifeTrapsAssessmentSchema = new Schema(
           "Other-Directedness":this["Other-Directedness"].reduce((accumulator, currentValue)=>{return accumulator + currentValue},0),
         }}
     },
-    sortedSchemas:{
-      get(){
-        let categorizedResult={low:[], medium:[], high:[]}
-        let schemasSum=this.getSumOfAllSchemas
-        for (const key in schemasSum) {
-          const value = schemasSum[key];
-          if (value < 7) {
-            categorizedResult["low"].push({schema:key, value:value})
-          } else if (value < 14) {
-            categorizedResult["medium"].push({schema:key, value:value})
-          } else {
-            categorizedResult["high"].push({schema:key, value:value})
-          }
-        }
-        return categorizedResult;
-      }
-    },
-    sortedSchemasWithUrl:{
-      get(){
-            let categorizedResult={low:[], medium:[], high:[]}
-            let schemasSum=this.getSumOfAllSchemas
-            for (const key in schemasSum) {
-              const value = schemasSum[key];
-              if (value < 7) {
-                categorizedResult["low"].push({schema:key, value:value, urlLink:"trapEvaluation/"+(encodeURIComponent(key))})
-              } else if (value < 14) {
-                categorizedResult["medium"].push({schema:key, value:value, urlLink:"trapEvaluation/"+(encodeURIComponent(key))})
-              } else {
-                categorizedResult["high"].push({schema:key, value:value ,urlLink: "trapEvaluation/"+ (encodeURIComponent(key))})
-              }
-            }
-            return categorizedResult;
-          }
-        },
     }
   }
 );
