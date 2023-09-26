@@ -1,0 +1,853 @@
+{
+  "_id": {
+    "$oid": "6502a386718cb7bd65ea9134"
+  },
+  "birthDate": {
+    "$date": {
+      "$numberLong": "955152000000"
+    }
+  },
+  "firstName": "LUIS HUMBERTO",
+  "lastName": "CARAVEO CABRERA",
+  "email": "luishcaraveo@gmail.com",
+  "password": "Password",
+  "lifeTrapsAssessments": [
+    {
+      "Emotional Deprivation": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Abandonment/Instability": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Mistrust/Abuse": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Social Isolation/Alienation": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Defectiveness/Shame": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Failure to Achieve": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Dependence/Incompetence": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Vulnerability to Harm or Illness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Enmeshment/Undeveloped Self": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Subjugation": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Self-Sacrifice": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Approval-Seeking/Recognition-Seeking": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Negativity/Pessimism": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Emotional Inhibition": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Unrelenting Standards/Hypercriticalness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Entitlement/Grandiosity": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Insufficient Self-Control/Self-Discipline": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Other-Directedness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "_id": {
+        "$oid": "650a7689bbf4adcc21ca9214"
+      },
+      "date": {
+        "$date": {
+          "$numberLong": "1695184521804"
+        }
+      }
+    },
+    {
+      "Emotional Deprivation": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Abandonment/Instability": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Mistrust/Abuse": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Social Isolation/Alienation": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Defectiveness/Shame": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Failure to Achieve": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Dependence/Incompetence": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Vulnerability to Harm or Illness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Enmeshment/Undeveloped Self": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Subjugation": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Self-Sacrifice": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Approval-Seeking/Recognition-Seeking": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Negativity/Pessimism": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Emotional Inhibition": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Unrelenting Standards/Hypercriticalness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Entitlement/Grandiosity": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Insufficient Self-Control/Self-Discipline": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Other-Directedness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "_id": {
+        "$oid": "650a7adf49495cc99ecbb59b"
+      },
+      "date": {
+        "$date": {
+          "$numberLong": "1695185631841"
+        }
+      }
+    },
+    {
+      "Emotional Deprivation": [
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "4"
+        }
+      ],
+      "Abandonment/Instability": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "2"
+        }
+      ],
+      "Mistrust/Abuse": [
+        {
+          "$numberInt": "3"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Social Isolation/Alienation": [
+        {
+          "$numberInt": "5"
+        },
+        {
+          "$numberInt": "5"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Defectiveness/Shame": [
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Failure to Achieve": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "5"
+        },
+        {
+          "$numberInt": "2"
+        }
+      ],
+      "Dependence/Incompetence": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Vulnerability to Harm or Illness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Enmeshment/Undeveloped Self": [
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "3"
+        },
+        {
+          "$numberInt": "6"
+        }
+      ],
+      "Subjugation": [
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Self-Sacrifice": [
+        {
+          "$numberInt": "3"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Approval-Seeking/Recognition-Seeking": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Negativity/Pessimism": [
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "6"
+        }
+      ],
+      "Emotional Inhibition": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Unrelenting Standards/Hypercriticalness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Entitlement/Grandiosity": [
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Insufficient Self-Control/Self-Discipline": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Other-Directedness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "_id": {
+        "$oid": "650b877e54c6e791e1414f1f"
+      },
+      "date": {
+        "$date": {
+          "$numberLong": "1695254398279"
+        }
+      }
+    },
+    {
+      "Emotional Deprivation": [
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "4"
+        }
+      ],
+      "Abandonment/Instability": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "2"
+        }
+      ],
+      "Mistrust/Abuse": [
+        {
+          "$numberInt": "3"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Social Isolation/Alienation": [
+        {
+          "$numberInt": "5"
+        },
+        {
+          "$numberInt": "5"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Defectiveness/Shame": [
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Failure to Achieve": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "5"
+        },
+        {
+          "$numberInt": "2"
+        }
+      ],
+      "Dependence/Incompetence": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Vulnerability to Harm or Illness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Enmeshment/Undeveloped Self": [
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "3"
+        },
+        {
+          "$numberInt": "6"
+        }
+      ],
+      "Subjugation": [
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Self-Sacrifice": [
+        {
+          "$numberInt": "3"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Approval-Seeking/Recognition-Seeking": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "5"
+        }
+      ],
+      "Negativity/Pessimism": [
+        {
+          "$numberInt": "4"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "6"
+        }
+      ],
+      "Emotional Inhibition": [
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "6"
+        },
+        {
+          "$numberInt": "3"
+        }
+      ],
+      "Unrelenting Standards/Hypercriticalness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Entitlement/Grandiosity": [
+        {
+          "$numberInt": "2"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Insufficient Self-Control/Self-Discipline": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "Other-Directedness": [
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        },
+        {
+          "$numberInt": "1"
+        }
+      ],
+      "_id": {
+        "$oid": "650b87c630667e2b91313464"
+      },
+      "date": {
+        "$date": {
+          "$numberLong": "1695254470278"
+        }
+      }
+    }
+  ],
+  "userTexts": [],
+  "__v": {
+    "$numberInt": "10"
+  },
+  "trapSchemas": []
+}

@@ -2,6 +2,7 @@ const lifeTrapsAssessmentSchema= require('./lifeTrapsAssessmentSchema');
 const userTextSchema = require("./userTextSchema")
 const specificAssessments= require('./specificAssessmentsSchema')
 const trapSchema= require('./userTraps/trapSchema')
+const schemasToWorkOn= require('./schemasToWorkOn')
 const mongoose = require("mongoose");
 const { urlencoded } = require('express');
 
@@ -31,10 +32,12 @@ const userSchema = new Schema({
       type: String,
       required: true
     },
+    specificAssessments:specificAssessments,
     lifeTrapsAssessments:[lifeTrapsAssessmentSchema],
     userTexts:[userTextSchema],
     trapSchemas:[trapSchema],
-    specificAssessments:specificAssessments,
+    schemasToWorkOn:[schemasToWorkOn],
+    
   },
     {
     toJSON:{virtuals:true},
@@ -59,17 +62,16 @@ const userSchema = new Schema({
           return {}
         }else{
           let notSpecificAssessments= this.lifeTrapsAssessments[this.lifeTrapsAssessments.length-1].getSumOfAllSchemas
-          // let specificAssessments=this.specificAssessments.getSumOfAnsweredSchemas
+          let specificAssessments=this.specificAssessments.getSumOfAnsweredSchemas
           let ans={}
-        // for (let key in specificAssessments){
-        //   ans[key]= specificAssessments[key]
-        // }
+        for (let key in specificAssessments){
+          ans[key]= {urlLink:"/trapEvaluation/" +(encodeURIComponent(key)), schema:key, value:specificAssessments[key], isSpecific:true}
+        }
         for (let key in notSpecificAssessments){
           if (ans[key]){
             continue
           }else{
-            let link=
-            ans[key]={urlLink:"/trapEvaluation/" +(encodeURIComponent(key)), schema:key, value:notSpecificAssessments[key]}
+            ans[key]={urlLink:"/trapEvaluation/" +(encodeURIComponent(key)), schema:key, value:notSpecificAssessments[key], isSpecific:false}
           }
         }
         return ans
@@ -77,23 +79,30 @@ const userSchema = new Schema({
       }
       
     },
-    // getsortedSchemas:{
-    //   get(){
-    //     let categorizedResult={low:[], medium:[], high:[]}
-    //     let schemasSum=this.getSumOfAllSchemas
-    //     for (const key in schemasSum) {
-    //       const value = schemasSum[key];
-    //       if (value < 7) {
-    //         categorizedResult["low"].push({schema:key, value:value})
-    //       } else if (value < 14) {
-    //         categorizedResult["medium"].push({schema:key, value:value})
-    //       } else {
-    //         categorizedResult["high"].push({schema:key, value:value})
-    //       }
-    //     }
-    //     return categorizedResult;
-    //   }
-    // }
+    getsortedSchemas:{
+      get(){
+        let categorizedResult={low:[], medium:[], high:[]}
+        let schemasSum=this.getspecificAndNotSpecificAssessmentsWithUrl
+        for (const key in schemasSum) {
+          const value = schemasSum[key];
+          if (value < 7) {
+            categorizedResult["low"].push({schema:key, value:value})
+          } else if (value < 14) {
+            categorizedResult["medium"].push({schema:key, value:value})
+          } else {
+            categorizedResult["high"].push({schema:key, value:value})
+          }
+        }
+        return categorizedResult;
+      }
+    },
+    finishedSpecificEvaluations:{
+      get(){
+        let notSpecificAssessments= this.lifeTrapsAssessments[this.lifeTrapsAssessments.length-1].getSumOfAllSchemas
+          let specificAssessments=this.specificAssessments.getSumOfAnsweredSchemas
+        
+      }
+    }
   }});
 
   const User = mongoose.model('UsersInfo', userSchema);
