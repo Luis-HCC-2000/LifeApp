@@ -14,26 +14,16 @@ const GrandiositySchema = {
   description:
     "The grandiosity schema involves a core belief in one's exceptional importance, uniqueness, or superiority over others. This can manifest as an exaggerated sense of self-importance and entitlement, often leading to difficulties in relationships and unrealistic expectations of special treatment.",
   EmotionalImpact: {
-    entitlement:
-      "Individuals with the Grandiosity Schema often feel entitled to special treatment, believing they deserve privileges that others do not.",
-    arrogance:
-      "A sense of arrogance and superiority may be present, leading to condescending attitudes and a lack of empathy for others.",
-    angerAndFrustration:
-      "When others fail to meet their unrealistic expectations, individuals with this schema may experience anger, frustration, or resentment.",
-    'fragileSelf-esteem':
-      "Paradoxically, under the veneer of grandiosity, there may be fragile self-esteem that is easily bruised by criticism or perceived slights.",
-    difficultyInEmpathy:
-      "A lack of empathy for others can result from an excessive focus on one's own perceived importance.",
-    manipulation:
-      "Grandiose individuals may engage in manipulation or exploitation to achieve their goals or maintain their inflated self-image.",
-    unrealisticExpectations:
-      "Setting unrealistic expectations for themselves and others can lead to chronic disappointment and dissatisfaction.",
-    superficiality:
-      "A focus on external appearances and material success may lead to a lack of depth in personal relationships.",
-    feelingsOfOmnipotence:
-      "Some individuals may experience feelings of omnipotence or invincibility, believing they are above the rules or laws that govern others.",
-    sensitivityToCriticism:
-      "Criticism or feedback can be particularly challenging for grandiose individuals, as it threatens their self-image of superiority.",
+    "Sense of Entitlement": "Feeling entitled to special treatment, believing one deserves privileges that others do not.",
+    "Arrogance": "A sense of arrogance and superiority, leading to condescending attitudes and a lack of empathy for others.",
+    "Anger and Frustration": "Experiencing anger, frustration, or resentment when others fail to meet unrealistic expectations.",
+    "Fragile Self-Esteem": "Paradoxically, beneath the veneer of grandiosity, there may be fragile self-esteem easily bruised by criticism or perceived slights.",
+    "Difficulty in Empathy": "Lack of empathy for others due to excessive focus on one's own perceived importance.",
+    "Manipulation": "Engaging in manipulation or exploitation to achieve goals or maintain an inflated self-image.",
+    "Unrealistic Expectations": "Setting unrealistic expectations for oneself and others, leading to chronic disappointment and dissatisfaction.",
+    "Superficiality": "Focusing on external appearances and material success, potentially resulting in a lack of depth in personal relationships.",
+    "Feelings of Omnipotence": "Experiencing feelings of omnipotence or invincibility, believing one is above the rules or laws that govern others.",
+    "Sensitivity to Criticism": "Finding criticism or feedback particularly challenging, as it threatens the self-image of superiority."
   },
   SchemaBehaviors: {
     Entitlement: {

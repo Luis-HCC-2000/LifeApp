@@ -14,26 +14,16 @@ const MistrustSchema = {
   description:
     "The mistrust schema involves a core belief that others are untrustworthy, unreliable, or likely to harm or betray you. This can lead to difficulty in forming close relationships, excessive skepticism, and a heightened sense of vulnerability.",
   EmotionalImpact: {
-    fearAndAnxiety:
-      "Individuals with the Mistrust Schema often experience fear and anxiety in social interactions, as they are constantly on guard for signs of betrayal or harm.",
-    isolation:
-      "The belief that others are untrustworthy can result in social isolation and difficulty in forming close connections.",
-    hypervigilance:
-      "A heightened state of vigilance is common, with individuals constantly scanning for signs of potential harm or betrayal.",
-    angerAndResentment:
-      "Feelings of anger and resentment may arise from the perceived untrustworthiness of others or past experiences of betrayal.",
-    loneliness:
-      "A sense of loneliness and emotional distance from others can result from the inability to trust and form close relationships.",
-    difficultyInVulnerability:
-      "Mistrust can make it challenging to be emotionally vulnerable or open with others, as individuals fear being hurt or betrayed.",
-    "self-protectiveBehaviors":
-      "Engaging in self-protective behaviors, such as keeping emotional distance or withholding trust, can hinder the development of intimacy in relationships.",
-    constantDoubt:
-      "Persistent doubt and skepticism about others' motives and intentions can lead to chronic stress and emotional turmoil.",
-    insecurity:
-      "A deep sense of insecurity may result from the belief that one cannot rely on others for support or trustworthiness.",
-    difficultiesInForgiveness:
-      "Difficulty in forgiving others for perceived betrayals or harm can contribute to unresolved anger and resentment.",
+    "Fear and Anxiety in Social Interactions": "Experiencing fear and anxiety in social interactions, as individuals are constantly on guard for signs of betrayal or harm.",
+    "Social Isolation": "Belief in the untrustworthiness of others leading to social isolation and difficulty in forming close connections.",
+    "Heightened Vigilance": "Commonly being in a heightened state of vigilance, constantly scanning for signs of potential harm or betrayal.",
+    "Anger and Resentment": "Feelings of anger and resentment arising from the perceived untrustworthiness of others or past experiences of betrayal.",
+    "Loneliness": "Feeling a sense of loneliness and emotional distance from others due to the inability to trust and form close relationships.",
+    "Difficulty in Emotional Vulnerability": "Challenges in being emotionally vulnerable or open with others, as individuals fear being hurt or betrayed.",
+    "Self-Protective Behaviors": "Engaging in self-protective behaviors, such as keeping emotional distance or withholding trust, hindering the development of intimacy in relationships.",
+    "Persistent Doubt": "Experiencing persistent doubt and skepticism about others' motives and intentions, leading to chronic stress and emotional turmoil.",
+    "Deep Insecurity": "Developing a deep sense of insecurity due to the belief that one cannot rely on others for support or trustworthiness.",
+    "Difficulty in Forgiveness": "Finding it difficult to forgive others for perceived betrayals or harm, contributing to unresolved anger and resentment."
   },
   SchemaBehaviors: {
     AvoidanceOfIntimacy: {

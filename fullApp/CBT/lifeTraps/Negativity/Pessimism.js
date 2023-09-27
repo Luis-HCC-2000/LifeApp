@@ -14,26 +14,17 @@ const NegativitySchema = {
   description:
     "The negativity schema involves a core belief that life is overwhelmingly negative, filled with disappointment, suffering, and constant adversity. This can lead to a pervasive negative outlook, difficulty in finding joy or positivity, and a tendency to focus on the worst-case scenarios.",
   EmotionalImpact: {
-    persistentSadness:
-      "Individuals with the Negativity Schema often experience persistent sadness and hopelessness, as they perceive life as consistently negative.",
-    anxietyAndWorry:
-      "Anxiety and worry are common, driven by the expectation of negative outcomes and a focus on potential problems.",
-    pessimism:
-      "A pervasive pessimism colors one's perspective, making it challenging to see the potential for positive outcomes.",
-    difficultyInExperiencingJoy:
-      "Difficulty in experiencing joy or pleasure, as the belief in constant negativity overshadows positive moments.",
-    lowEnergyAndMotivation:
-      "A sense of low energy and motivation can result from the emotional burden of constant negativity.",
-    avoidanceOfRisk:
-      "A tendency to avoid taking risks or trying new things due to the expectation of negative outcomes.",
-    difficultyInMaintainingRelationships:
-      "Negativity can strain personal relationships, as the focus on negative aspects can overshadow positive aspects of the relationship.",
-    feelingsOfHelplessness:
-      "Feelings of helplessness may arise from the belief that negative events are beyond one's control.",
-    'self-fulfillingProphecy':
-      "The negativity schema can become a self-fulfilling prophecy, as one's negative expectations may influence behavior and outcomes.",
-    resistanceToChange:
-      "Resistance to change and fear of the unknown can result from a preference for the familiar, even if it is negative.",
+    "Persistent Sadness and Hopelessness": "Experiencing persistent sadness and hopelessness, perceiving life as consistently negative.",
+    "Anxiety and Worry": "Commonly experiencing anxiety and worry, driven by the expectation of negative outcomes and a focus on potential problems.",
+    "Pervasive Pessimism": "Having a pervasive pessimism that colors one's perspective, making it challenging to see the potential for positive outcomes.",
+    "Difficulty in Experiencing Joy": "Finding it difficult to experience joy or pleasure because the belief in constant negativity overshadows positive moments.",
+    "Low Energy and Motivation": "Experiencing a sense of low energy and motivation due to the emotional burden of constant negativity.",
+    "Avoidance of Risk": "Having a tendency to avoid taking risks or trying new things due to the expectation of negative outcomes.",
+    "Difficulty in Maintaining Relationships": "Experiencing strain in personal relationships because the focus on negative aspects can overshadow positive aspects of the relationship.",
+    "Feelings of Helplessness": "Feeling helpless as a result of the belief that negative events are beyond one's control.",
+    "Self-Fulfilling Prophecy": "The negativity schema becoming a self-fulfilling prophecy, as negative expectations may influence behavior and outcomes.",
+    "Resistance to Change": "Resisting change and fearing the unknown due to a preference for the familiar, even if it is negative."
+
   },
   SchemaBehaviors: {
     ConstantNegativeThinking: {

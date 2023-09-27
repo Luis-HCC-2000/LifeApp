@@ -14,23 +14,16 @@ const UnrelentingStandardsSchema = {
   description:
     "The unrelenting standards schema involves a core belief that one must meet excessively high standards and expectations in various areas of life, often leading to perfectionism, self-criticism, and a chronic sense of never being good enough.",
   EmotionalImpact: {
-    perfectionism:
-      "Individuals with the Unrelenting Standards Schema often experience perfectionism, setting unrealistically high standards for themselves.",
-    "chronic self-criticism":
-      "Chronic self-criticism and a focus on perceived flaws or imperfections are common emotional outcomes.",
-    fearOfFailure: "A pervasive fear of failure or falling short of standards can lead to anxiety and stress.",
-    "low self-esteem":
-      "Low self-esteem may develop, as individuals may constantly perceive themselves as not measuring up.",
-    frustration:
-      "Feelings of frustration and disappointment in oneself for not meeting self-imposed standards are frequent.",
-    "rigidself-discipline":
-      "A rigid and demanding self-discipline can emerge, as individuals strive to meet unrelenting standards.",
-    difficultyInRelaxing:
-      "Difficulty in relaxing or taking breaks, as individuals feel compelled to constantly work toward their high standards.",
-    impatience: "Impatience and a lack of tolerance for mistakes, both in oneself and others, can result.",
-    "self-worth tied to achievements": "Self-worth may become closely tied to achievements and external validation.",
-    resentment:
-      "Resentment may arise toward others who don't meet the same high standards or toward oneself for perceived failures.",
+    "Perfectionism": "Experiencing perfectionism, setting unrealistically high standards for oneself.",
+    "Chronic Self-Criticism": "Engaging in chronic self-criticism and focusing on perceived flaws or imperfections as common emotional outcomes.",
+    "Fear of Failure": "Having a pervasive fear of failure or falling short of standards, which can lead to anxiety and stress.",
+    "Low Self-Esteem": "Developing low self-esteem as individuals constantly perceive themselves as not measuring up.",
+    "Frustration": "Feeling frustration and disappointment in oneself for not meeting self-imposed standards as a frequent emotional response.",
+    "Rigid Self-Discipline": "Adopting a rigid and demanding self-discipline as individuals strive to meet unrelenting standards.",
+    "Difficulty in Relaxing": "Experiencing difficulty in relaxing or taking breaks, as individuals feel compelled to constantly work toward their high standards.",
+    "Impatience": "Feeling impatience and having a lack of tolerance for mistakes, both in oneself and others.",
+    "Self-Worth Tied to Achievements": "Developing self-worth that is closely tied to achievements and external validation.",
+    "Resentment": "Experiencing resentment toward others who don't meet the same high standards or toward oneself for perceived failures."
   },
   SchemaBehaviors: {
     Perfectionism: {

@@ -15,26 +15,16 @@ const FailureToAchieveSchema = {
   description:
     "The Failure to Achieve schema involves a core belief that one is incapable of achieving success or reaching personal goals, leading to self-sabotage and a sense of perpetual underachievement. This schema can result in feelings of frustration, low self-esteem, and a lack of motivation to pursue goals.",
   emotionalImpact: {
-    frustration:
-      "Individuals with the Failure to Achieve schema often experience frustration and dissatisfaction due to their perceived inability to reach their goals.",
-    lowSelfEsteem:
-      "Low self-esteem and self-doubt are common emotional outcomes, as individuals may doubt their abilities and worthiness of success.",
-    'self-criticism':
-      "Chronic self-criticism and negative self-talk can emerge, reinforcing the belief of being a failure.",
-    lackOfMotivation:
-      "A lack of motivation and a sense of hopelessness about achieving goals can lead to inaction and procrastination.",
-    disappointment:
-      "Frequent disappointment and a sense of unfulfillment due to unmet personal aspirations and dreams.",
-    fearOfFailure:
-      "A fear of failure or making mistakes can paralyze individuals from taking risks or pursuing their ambitions.",
-    envy:
-      "Feelings of envy or resentment towards those who seem successful, as they highlight one's own perceived failures.",
-    'self-sabotage':
-      "Engaging in self-sabotaging behaviors, consciously or unconsciously, that hinder progress toward personal goals.",
-    avoidanceOfChallenges:
-      "Avoiding challenges or opportunities that may lead to success, as they evoke fear and self-doubt.",
-    emotionalExhaustion:
-      "Experiencing emotional exhaustion from the constant struggle to prove oneself and overcome the failure belief.",
+    "Frustration and Dissatisfaction": "Experiencing frustration and dissatisfaction due to the perceived inability to reach personal goals for individuals with the Failure to Achieve Schema.",
+    "Low Self-Esteem": "Developing low self-esteem and self-doubt as common emotional outcomes, with individuals doubting their abilities and worthiness of success.",
+    "Chronic Self-Criticism": "Engaging in chronic self-criticism and negative self-talk that reinforces the belief of being a failure.",
+    "Lack of Motivation": "Experiencing a lack of motivation and a sense of hopelessness about achieving goals, which can lead to inaction and procrastination.",
+    "Frequent Disappointment": "Frequently feeling disappointment and a sense of unfulfillment due to unmet personal aspirations and dreams.",
+    "Fear of Failure": "Having a fear of failure or making mistakes that can paralyze individuals from taking risks or pursuing their ambitions.",
+    "Envy": "Experiencing feelings of envy or resentment towards those who seem successful, as they highlight one's own perceived failures.",
+    "Self-Sabotage": "Engaging in self-sabotaging behaviors, consciously or unconsciously, that hinder progress toward personal goals.",
+    "Avoidance of Challenges": "Avoiding challenges or opportunities that may lead to success, as they evoke fear and self-doubt.",
+    "Emotional Exhaustion": "Experiencing emotional exhaustion from the constant struggle to prove oneself and overcome the belief of failure."
   },
   schemaBehaviors: {
     'self-sabotage': {

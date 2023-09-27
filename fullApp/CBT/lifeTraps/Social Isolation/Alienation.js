@@ -14,24 +14,16 @@ const SocialIsolationSchema = {
   description:
     "The social isolation schema involves a core belief that one is fundamentally different from others and cannot connect or relate to them. This can lead to feelings of loneliness, a lack of social support, and avoidance of social interactions.",
   EmotionalImpact: {
-    loneliness:
-      "Individuals with the Social Isolation Schema often experience intense feelings of loneliness and disconnection from others.",
-    sadness: "A persistent sense of sadness and longing for meaningful social connections is common.",
-    anxietyInSocialSettings:
-      "Anxiety and discomfort in social settings can result from the belief that one cannot relate to or connect with others.",
-    "lowSelf-Esteem":
-      "A sense of low self-esteem may develop, as individuals may perceive themselves as socially inadequate or unlikable.",
-    difficultyInBuildingRelationships:
-      "Difficulty in building and maintaining relationships can contribute to frustration and a sense of isolation.",
-    emotionalWithdrawal:
-      "Emotional withdrawal from social interactions and a preference for solitude can result from the belief that connecting with others is impossible.",
-    "self-fulfillingProphecy":
-      "The social isolation schema can become a self-fulfilling prophecy, as avoidance of social interactions may lead to further social disconnection.",
-    depression:
-      "Feelings of sadness and hopelessness associated with social isolation can contribute to clinical depression.",
-    fearOfRejection: "A pervasive fear of rejection or social judgment can hinder efforts to engage with others.",
-    beliefInBeingDifferent:
-      "A strong belief in being fundamentally different from others can lead to a sense of alienation.",
+    "Intense Loneliness": "Experiencing intense feelings of loneliness and disconnection from others for individuals with the Social Isolation Schema.",
+    "Persistent Sadness": "Having a persistent sense of sadness and longing for meaningful social connections as a common experience.",
+    "Anxiety in Social Settings": "Experiencing anxiety and discomfort in social settings due to the belief that one cannot relate to or connect with others.",
+    "Low Self-Esteem": "Developing a sense of low self-esteem as individuals may perceive themselves as socially inadequate or unlikable.",
+    "Difficulty in Building Relationships": "Experiencing difficulty in building and maintaining relationships, which can contribute to frustration and a sense of isolation.",
+    "Emotional Withdrawal": "Engaging in emotional withdrawal from social interactions and having a preference for solitude due to the belief that connecting with others is impossible.",
+    "Self-Fulfilling Prophecy": "The social isolation schema becoming a self-fulfilling prophecy, as avoidance of social interactions may lead to further social disconnection.",
+    "Depression": "Experiencing feelings of sadness and hopelessness associated with social isolation, which can contribute to clinical depression.",
+    "Fear of Rejection": "Having a pervasive fear of rejection or social judgment, which can hinder efforts to engage with others.",
+    "Belief in Being Different": "Holding a strong belief in being fundamentally different from others, leading to a sense of alienation."
   },
   SchemaBehaviors: {
     AvoidanceOfSocialInteractions: {

@@ -14,26 +14,16 @@ const SubjugationSchema = {
   description:
     "The subjugation schema involves a core belief that one's own needs, desires, and rights should be sacrificed for the sake of others, often resulting in feelings of powerlessness and resentment. This can lead to difficulties in asserting oneself and maintaining healthy boundaries.",
   EmotionalImpact: {
-    powerlessness:
-      "Individuals with the Subjugation Schema often feel a sense of powerlessness and helplessness, as they prioritize others' needs over their own.",
-    resentment:
-      "The constant sacrifice of one's own needs and desires can lead to feelings of resentment towards those for whom they are subjugating themselves.",
-    guiltAndShame:
-      "Subjugated individuals may experience intense guilt and shame when they attempt to assert their own needs or rights, as it contradicts their core belief.",
-    lowSelfEsteem:
-      "Sacrificing one's own needs and desires can erode self-esteem, leading to feelings of inadequacy and unworthiness.",
-    fearOfRejection:
-      "The fear of rejection or abandonment may drive subjugated individuals to continue sacrificing their own needs to maintain relationships.",
-    anxiety:
-      "The chronic anxiety related to subjugation can lead to constant stress and a sense of impending doom.",
-    difficultyInAssertiveness:
-      "Subjugation often results in difficulty in assertiveness and an inability to stand up for oneself or express one's own needs.",
-    suppressedAnger:
-      "Feelings of anger and frustration may be suppressed, as subjugated individuals avoid expressing their true feelings for fear of upsetting others.",
-    emotionalNumbness:
-      "Over time, the suppression of one's own needs and desires can lead to emotional numbness and a disconnection from one's own emotions.",
-    dependencyOnOthers:
-      "Subjugated individuals may become overly dependent on others to meet their own needs, further reinforcing their powerlessness.",
+    "Powerlessness": "Experiencing a sense of powerlessness and helplessness for individuals with the Subjugation Schema as they prioritize others' needs over their own.",
+    "Resentment": "Feeling resentment due to the constant sacrifice of one's own needs and desires in favor of others, leading to feelings of resentment towards those for whom they are subjugating themselves.",
+    "Guilt and Shame": "Experiencing intense guilt and shame when attempting to assert one's own needs or rights, as it contradicts their core belief of subjugation.",
+    "Low Self-Esteem": "Sacrificing one's own needs and desires can erode self-esteem, leading to feelings of inadequacy and unworthiness.",
+    "Fear of Rejection": "Having a fear of rejection or abandonment that drives subjugated individuals to continue sacrificing their own needs to maintain relationships.",
+    "Anxiety": "Experiencing chronic anxiety related to subjugation, leading to constant stress and a sense of impending doom.",
+    "Difficulty in Assertiveness": "Experiencing difficulty in assertiveness and an inability to stand up for oneself or express one's own needs as a result of subjugation.",
+    "Suppressed Anger": "Suppression of feelings of anger and frustration, as subjugated individuals avoid expressing their true feelings for fear of upsetting others.",
+    "Emotional Numbness": "Over time, the suppression of one's own needs and desires can lead to emotional numbness and a disconnection from one's own emotions.",
+    "Dependency on Others": "Becoming overly dependent on others to meet their own needs, further reinforcing the feeling of powerlessness."
   },
   SchemaBehaviors: {
     'Self-Sacrifice': {

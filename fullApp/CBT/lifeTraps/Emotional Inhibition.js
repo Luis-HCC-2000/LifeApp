@@ -15,24 +15,16 @@ const EmotionalInhibitionSchema = {
   description:
     "The Emotional Inhibition schema involves a core belief that expressing one's emotions is undesirable or unsafe, leading to a habit of suppressing or avoiding emotions. This can result in emotional numbness, difficulty in forming close relationships, and challenges in understanding and managing one's own feelings.",
   emotionalImpact: {
-    emotionalNumbness:
-      "Individuals with the Emotional Inhibition schema often experience emotional numbness or a sense of detachment from their own feelings.",
-    difficultyInRelationships:
-      "Difficulty in forming close and intimate relationships due to emotional distance and lack of emotional expression.",
-    internalConflict:
-      "Internal conflict between the desire to express emotions and the belief that it's undesirable or unsafe.",
-    frustration: "Feelings of frustration and confusion about one's own emotions and difficulty in managing them.",
-    loneliness:
-      "A sense of loneliness and isolation, as emotional inhibition can create emotional distance from others.",
-    "limitedSelf-awareness":
-      "Limited self-awareness of one's own emotions and difficulty in recognizing and understanding them.",
-    physicalSymptoms:
-      "Physical symptoms such as tension, headaches, or stomachaches due to the suppression of emotions.",
-    avoidanceOfConflict:
-      "A tendency to avoid conflict or confrontational situations to prevent the expression of emotions.",
-    difficultyInProblemSolving: "Challenges in problem-solving and decision-making due to the lack of emotional input.",
-    unresolvedIssues:
-      "Unresolved emotional issues that can accumulate over time, contributing to psychological distress.",
+    "Emotional Numbness": "Experiencing emotional numbness or a sense of detachment from one's own feelings for individuals with the Emotional Inhibition Schema.",
+    "Difficulty in Forming Relationships": "Experiencing difficulty in forming close and intimate relationships due to emotional distance and lack of emotional expression.",
+    "Internal Conflict": "Experiencing internal conflict between the desire to express emotions and the belief that it's undesirable or unsafe.",
+    "Frustration": "Feeling frustration and confusion about one's own emotions and experiencing difficulty in managing them.",
+    "Loneliness": "Feeling a sense of loneliness and isolation, as emotional inhibition can create emotional distance from others.",
+    "Limited Self-Awareness": "Having limited self-awareness of one's own emotions and experiencing difficulty in recognizing and understanding them.",
+    "Physical Symptoms": "Experiencing physical symptoms such as tension, headaches, or stomachaches due to the suppression of emotions.",
+    "Avoidance of Conflict": "Having a tendency to avoid conflict or confrontational situations to prevent the expression of emotions.",
+    "Difficulty in Problem-Solving": "Encountering challenges in problem-solving and decision-making due to the lack of emotional input.",
+    "Unresolved Emotional Issues": "Having unresolved emotional issues that can accumulate over time, contributing to psychological distress."
   },
   schemaBehaviors: {
     emotionalSuppression: {

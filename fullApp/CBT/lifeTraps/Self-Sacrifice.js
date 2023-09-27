@@ -15,24 +15,15 @@ const SelfSacrificeSchema = {
   description:
     "The Self-Sacrifice schema involves a core belief that one's own needs and desires should be subordinated to the needs of others. Individuals with this schema often put others' well-being and happiness above their own, leading to neglect of their own needs and potential resentment. This can result in feelings of burnout, low self-worth, and difficulty in asserting boundaries.",
   emotionalImpact: {
-    burnout:
-      "Individuals with the Self-Sacrifice schema often experience burnout from constantly prioritizing others' needs over their own.",
-    lowSelfWorth:
-      "Low self-worth and a sense of unimportance can develop due to neglecting one's own needs and desires.",
-    resentment:
-      "Resentment towards others may emerge as a result of feeling unappreciated or taken for granted.",
-    guilt:
-      "Feelings of guilt may arise when attempting to prioritize one's own needs, as it conflicts with the belief in self-sacrifice.",
-    exhaustion:
-      "Physical and emotional exhaustion can occur from overextending oneself for the sake of others.",
-    difficultyInAssertingBoundaries:
-      "Struggling to assert boundaries and advocate for one's own needs and desires in relationships.",
-    'lackOfSelf-Care':
-      "Neglecting self-care and personal well-being in favor of tending to others.",
-    frustration:
-      "Frustration with the imbalance in giving and receiving in relationships and life.",
-    fearOfRejection:
-      "A fear of rejection or abandonment if one were to prioritize their own needs or assert boundaries.",
+    "Burnout": "Experiencing burnout from constantly prioritizing others' needs over one's own for individuals with the Self-Sacrifice Schema.",
+    "Low Self-Worth": "Developing low self-worth and a sense of unimportance due to neglecting one's own needs and desires.",
+    "Resentment": "Feeling resentment towards others that may emerge as a result of feeling unappreciated or taken for granted.",
+    "Guilt": "Experiencing feelings of guilt when attempting to prioritize one's own needs, as it conflicts with the belief in self-sacrifice.",
+    "Exhaustion": "Experiencing physical and emotional exhaustion from overextending oneself for the sake of others.",
+    "Difficulty in Asserting Boundaries": "Struggling to assert boundaries and advocate for one's own needs and desires in relationships.",
+    "Lack of Self-Care": "Neglecting self-care and personal well-being in favor of tending to others.",
+    "Frustration": "Feeling frustration with the imbalance in giving and receiving in relationships and life.",
+    "Fear of Rejection": "Having a fear of rejection or abandonment if one were to prioritize their own needs or assert boundaries."
   },
   schemaBehaviors: {
     neglectingSelf: {

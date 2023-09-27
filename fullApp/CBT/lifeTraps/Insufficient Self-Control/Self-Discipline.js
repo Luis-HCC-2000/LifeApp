@@ -14,26 +14,16 @@ const InsufficientSelfControlSchema = {
   description:
     "The insufficient self-control schema involves a core belief that one cannot control their impulses, desires, or emotions effectively. This can lead to impulsive behavior, difficulty in delaying gratification, and struggles with managing emotional reactions.",
   EmotionalImpact: {
-    frustration:
-      "Individuals with the Insufficient Self-Control Schema often experience frustration and disappointment with themselves for their perceived lack of control.",
-    guiltAndShame:
-      "Impulsive actions and poor self-control can lead to feelings of guilt and shame, especially when one's actions have negative consequences.",
-    anxiety:
-      "Anxiety may arise from the fear of making impulsive decisions or the anticipation of losing control over one's emotions.",
-    regret:
-      "Regret is common when individuals with this schema reflect on impulsive decisions that have led to negative outcomes.",
-    'self-criticism':
-      "Persistent self-criticism and negative self-talk may result from perceived failures in self-control.",
-    insecurity:
-      "Feelings of insecurity may stem from the belief that one cannot trust oneself to make responsible choices.",
-    emotionalTurbulence:
-      "The lack of self-control can lead to emotional turbulence, including mood swings and heightened emotional reactions.",
-    difficultiesInSettingGoals:
-      "Setting and achieving long-term goals can be challenging due to the tendency to prioritize short-term gratification.",
-    stress:
-      "Chronic stress may result from the struggles associated with insufficient self-control.",
-    fearOfLossOfControl:
-      "A pervasive fear of losing control over one's impulses or emotions can contribute to anxiety and self-doubt.",
+    "Frustration": "Experiencing frustration and disappointment with oneself for the perceived lack of control.",
+    "Guilt and Shame": "Feeling guilt and shame due to impulsive actions and poor self-control, especially when actions lead to negative consequences.",
+    "Anxiety": "Experiencing anxiety related to the fear of making impulsive decisions or the anticipation of losing control over one's emotions.",
+    "Regret": "Feeling regret when reflecting on impulsive decisions that have resulted in negative outcomes.",
+    "Self-Criticism": "Engaging in persistent self-criticism and negative self-talk as a result of perceived failures in self-control.",
+    "Insecurity": "Experiencing feelings of insecurity stemming from the belief that one cannot trust oneself to make responsible choices.",
+    "Emotional Turbulence": "Experiencing emotional turbulence, including mood swings and heightened emotional reactions, due to the lack of self-control.",
+    "Difficulties in Goal Setting": "Facing challenges in setting and achieving long-term goals because of a tendency to prioritize short-term gratification.",
+    "Stress": "Experiencing chronic stress resulting from the struggles associated with insufficient self-control.",
+    "Fear of Loss of Control": "Having a pervasive fear of losing control over one's impulses or emotions, contributing to anxiety and self-doubt."
   },
   SchemaBehaviors: {
     Impulsivity: {

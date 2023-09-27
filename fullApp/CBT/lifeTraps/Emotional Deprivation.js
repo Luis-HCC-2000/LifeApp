@@ -15,23 +15,16 @@ const EmotionalDeprivationSchema = {
   description:
     "The Emotional Deprivation schema involves a core belief that one's emotional needs are not adequately met by others or that emotional support and connection are lacking in life. This can lead to feelings of loneliness, unfulfillment, and a constant search for emotional validation.",
   emotionalImpact: {
-    loneliness:
-      "Individuals with the Emotional Deprivation schema often experience intense feelings of loneliness and a sense of emotional emptiness.",
-    sadness: "A persistent sense of sadness and unfulfillment in the absence of emotional connection and support.",
-    longingForConnection: "A strong desire for emotional connection and validation from others.",
-    frustration:
-      "Feelings of frustration and disappointment due to perceived emotional unavailability from significant others.",
-    fearOfAbandonment:
-      "A fear of abandonment or rejection, driven by the belief that emotional needs are not important or will not be met.",
-    difficultyInExpressingEmotions:
-      "Struggling to express emotions or needs openly, fearing they will be dismissed or unacknowledged.",
-    difficultyInBuildingRelationships:
-      "Difficulty in building and maintaining meaningful relationships due to an intense need for emotional validation.",
-    emotionalWithdrawal:
-      "Emotional withdrawal from others and a tendency to isolate to protect oneself from further emotional disappointment.",
-    "self-reliance":
-      "Overreliance on self and a reluctance to seek emotional support from others due to past experiences of deprivation.",
-    chronicDisappointment: "A chronic sense of disappointment and unfulfillment in personal relationships and life.",
+    "Intense Loneliness": "Experiencing intense feelings of loneliness and a sense of emotional emptiness for individuals with the Emotional Deprivation Schema.",
+    "Persistent Sadness": "Having a persistent sense of sadness and unfulfillment in the absence of emotional connection and support.",
+    "Longing for Emotional Connection": "Feeling a strong desire for emotional connection and validation from others.",
+    "Frustration": "Experiencing feelings of frustration and disappointment due to perceived emotional unavailability from significant others.",
+    "Fear of Abandonment": "Having a fear of abandonment or rejection, driven by the belief that emotional needs are not important or will not be met.",
+    "Difficulty in Expressing Emotions": "Struggling to express emotions or needs openly, fearing they will be dismissed or unacknowledged.",
+    "Difficulty in Building Relationships": "Experiencing difficulty in building and maintaining meaningful relationships due to an intense need for emotional validation.",
+    "Emotional Withdrawal": "Engaging in emotional withdrawal from others and a tendency to isolate to protect oneself from further emotional disappointment.",
+    "Reluctance to Seek Support": "Overreliance on self and a reluctance to seek emotional support from others due to past experiences of deprivation.",
+    "Chronic Disappointment": "Experiencing a chronic sense of disappointment and unfulfillment in personal relationships and life."
   },
   schemaBehaviors: {
     seekingEmotionalValidation: {
