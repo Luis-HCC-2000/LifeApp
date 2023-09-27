@@ -13,7 +13,7 @@ const InsufficientSelfControlSchema = {
   ],
   description:
     "The insufficient self-control schema involves a core belief that one cannot control their impulses, desires, or emotions effectively. This can lead to impulsive behavior, difficulty in delaying gratification, and struggles with managing emotional reactions.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Frustration": "Experiencing frustration and disappointment with oneself for the perceived lack of control.",
     "Guilt and Shame": "Feeling guilt and shame due to impulsive actions and poor self-control, especially when actions lead to negative consequences.",
     "Anxiety": "Experiencing anxiety related to the fear of making impulsive decisions or the anticipation of losing control over one's emotions.",

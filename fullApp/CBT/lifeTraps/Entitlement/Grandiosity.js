@@ -13,7 +13,7 @@ const GrandiositySchema = {
   ],
   description:
     "The grandiosity schema involves a core belief in one's exceptional importance, uniqueness, or superiority over others. This can manifest as an exaggerated sense of self-importance and entitlement, often leading to difficulties in relationships and unrealistic expectations of special treatment.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Sense of Entitlement": "Feeling entitled to special treatment, believing one deserves privileges that others do not.",
     "Arrogance": "A sense of arrogance and superiority, leading to condescending attitudes and a lack of empathy for others.",
     "Anger and Frustration": "Experiencing anger, frustration, or resentment when others fail to meet unrealistic expectations.",

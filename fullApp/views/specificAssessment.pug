@@ -7,12 +7,15 @@ head
   title Document
 h2 questionnaire  
 form(action="/trapEvaluation" method="post")
+  input(readonly value=title name="schema" index='schema')
   h3 Questionnarie about situations
   each question, index in info['questionnaire']     
       label(for=index)=question
       input(type="number" name=index id=index min="1" max="6" required value='1') 
       br
   h3 Questionnarie about feelings 
-  each description, feeling in info["EmotionalImpact"] 
-  input(readonly value=title name="schema" index='schema')
+  each description, feeling in info["emotionalImpact"] 
+    label(for=feeling)=feeling +": " + description 
+    input(type="number", name=feeling id=feeling min="1" max='6' required value="1") 
+  br
   input(type='submit' value='Submit')

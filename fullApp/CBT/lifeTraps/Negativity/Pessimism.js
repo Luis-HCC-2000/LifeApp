@@ -13,7 +13,7 @@ const NegativitySchema = {
   ],
   description:
     "The negativity schema involves a core belief that life is overwhelmingly negative, filled with disappointment, suffering, and constant adversity. This can lead to a pervasive negative outlook, difficulty in finding joy or positivity, and a tendency to focus on the worst-case scenarios.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Persistent Sadness and Hopelessness": "Experiencing persistent sadness and hopelessness, perceiving life as consistently negative.",
     "Anxiety and Worry": "Commonly experiencing anxiety and worry, driven by the expectation of negative outcomes and a focus on potential problems.",
     "Pervasive Pessimism": "Having a pervasive pessimism that colors one's perspective, making it challenging to see the potential for positive outcomes.",

@@ -13,7 +13,7 @@ const DefectivenessTrap = {
   ],
   description:
     "The defectiveness trap involves a core belief of being fundamentally flawed or defective in some way. This belief can lead to feelings of shame, self-criticism, and a constant need to prove one's worthiness to others.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Persistent Shame": "Persistent feelings of shame and self-disgust related to perceived flaws and defects.",
     "Constant Self-Criticism": "Constant self-criticism and negative self-talk, even for minor mistakes.",
     "Deep Insecurity": "Deep feelings of insecurity and inadequacy in various aspects of life.",

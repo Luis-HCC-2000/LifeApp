@@ -13,7 +13,7 @@ const SubjugationSchema = {
   ],
   description:
     "The subjugation schema involves a core belief that one's own needs, desires, and rights should be sacrificed for the sake of others, often resulting in feelings of powerlessness and resentment. This can lead to difficulties in asserting oneself and maintaining healthy boundaries.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Powerlessness": "Experiencing a sense of powerlessness and helplessness for individuals with the Subjugation Schema as they prioritize others' needs over their own.",
     "Resentment": "Feeling resentment due to the constant sacrifice of one's own needs and desires in favor of others, leading to feelings of resentment towards those for whom they are subjugating themselves.",
     "Guilt and Shame": "Experiencing intense guilt and shame when attempting to assert one's own needs or rights, as it contradicts their core belief of subjugation.",

@@ -13,7 +13,7 @@ const SocialIsolationSchema = {
   ],
   description:
     "The social isolation schema involves a core belief that one is fundamentally different from others and cannot connect or relate to them. This can lead to feelings of loneliness, a lack of social support, and avoidance of social interactions.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Intense Loneliness": "Experiencing intense feelings of loneliness and disconnection from others for individuals with the Social Isolation Schema.",
     "Persistent Sadness": "Having a persistent sense of sadness and longing for meaningful social connections as a common experience.",
     "Anxiety in Social Settings": "Experiencing anxiety and discomfort in social settings due to the belief that one cannot relate to or connect with others.",

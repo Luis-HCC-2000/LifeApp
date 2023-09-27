@@ -13,7 +13,7 @@ const DependenceTrap = {
   ],
   description:
     "The dependence trap involves a core belief that one cannot function or make decisions independently, leading to excessive reliance on others for emotional and practical needs. This belief can result in difficulty in taking personal responsibility and low self-esteem.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Anxiety and Insecurity": "High levels of anxiety and insecurity when facing situations that demand independence or decision-making. Fear of being alone or having to rely on oneself can trigger anxiety.",
     "Low Self-Esteem": "Eroded self-esteem due to excessive dependence on others. Doubts about one's abilities and feelings of inadequacy, believing independence is impossible.",
     "Fear of Rejection": "Dependency often arises from a fear of rejection or abandonment. Worry that asserting independence will lead to others withdrawing their support or affection.",

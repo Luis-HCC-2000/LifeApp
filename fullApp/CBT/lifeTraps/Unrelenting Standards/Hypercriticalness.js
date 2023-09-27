@@ -13,7 +13,7 @@ const UnrelentingStandardsSchema = {
   ],
   description:
     "The unrelenting standards schema involves a core belief that one must meet excessively high standards and expectations in various areas of life, often leading to perfectionism, self-criticism, and a chronic sense of never being good enough.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Perfectionism": "Experiencing perfectionism, setting unrealistically high standards for oneself.",
     "Chronic Self-Criticism": "Engaging in chronic self-criticism and focusing on perceived flaws or imperfections as common emotional outcomes.",
     "Fear of Failure": "Having a pervasive fear of failure or falling short of standards, which can lead to anxiety and stress.",

@@ -13,7 +13,7 @@ const MistrustSchema = {
   ],
   description:
     "The mistrust schema involves a core belief that others are untrustworthy, unreliable, or likely to harm or betray you. This can lead to difficulty in forming close relationships, excessive skepticism, and a heightened sense of vulnerability.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Fear and Anxiety in Social Interactions": "Experiencing fear and anxiety in social interactions, as individuals are constantly on guard for signs of betrayal or harm.",
     "Social Isolation": "Belief in the untrustworthiness of others leading to social isolation and difficulty in forming close connections.",
     "Heightened Vigilance": "Commonly being in a heightened state of vigilance, constantly scanning for signs of potential harm or betrayal.",

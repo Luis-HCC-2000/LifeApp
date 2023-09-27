@@ -13,7 +13,7 @@ const EnmeshmentSchema = {
   ],
   description:
     "The enmeshment schema involves a core belief that one's own identity is excessively fused with others, leading to blurred boundaries and difficulties in establishing a separate sense of self. This can result in challenges in forming healthy relationships and maintaining individual autonomy.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Anxiety and Insecurity": "High levels of anxiety and insecurity when facing situations that demand independence or decision-making. Fear of being alone or having to rely on oneself can trigger anxiety.",
     "Low Self-Esteem": "Eroded self-esteem due to excessive dependence on others. Doubts about one's abilities and feelings of inadequacy, believing independence is impossible.",
     "Fear of Rejection": "Dependency often arises from a fear of rejection or abandonment. Worry that asserting independence will lead to others withdrawing their support or affection.",
