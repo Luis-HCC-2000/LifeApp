@@ -14,26 +14,16 @@ const EnmeshmentSchema = {
   description:
     "The enmeshment schema involves a core belief that one's own identity is excessively fused with others, leading to blurred boundaries and difficulties in establishing a separate sense of self. This can result in challenges in forming healthy relationships and maintaining individual autonomy.",
   EmotionalImpact: {
-    lossOfIdentity:
-      "Individuals with the Enmeshment Schema may struggle to maintain a distinct sense of self, as their identity becomes deeply entwined with their relationships.",
-    fearOfAbandonment:
-      "Enmeshed individuals often have a profound fear of abandonment, as they rely heavily on others for their emotional stability and self-worth.",
-    anxietyAndGuilt:
-      "The blurred boundaries and emotional dependence in enmeshment can lead to anxiety and guilt, especially when attempting to assert independence or make personal choices.",
-    difficultyInIndividuality:
-      "Those with this schema may find it challenging to express their own desires, opinions, or interests, often prioritizing the desires of others.",
-    dependencyOnApproval:
-      "Enmeshed individuals may excessively seek approval and validation from others, tying their self-worth to external affirmation.",
-    emotionalTurbulence:
-      "The lack of clear boundaries can result in emotional turbulence within relationships, including high levels of conflict and emotional volatility.",
-    identityCrisis:
-      "Over time, enmeshment can lead to an identity crisis, as individuals struggle to define themselves apart from their relationships.",
-    difficultiesInSettingBoundaries:
-      "Establishing personal boundaries can be a significant challenge for those with the Enmeshment Schema, leading to problems in asserting their needs or desires.",
-    fearOfAutonomy:
-      "Experiencing a fear of autonomy and independence, which may evoke anxiety or feelings of inadequacy when faced with making individual decisions.",
-    emotionalManipulation:
-      "Enmeshment can give rise to emotional manipulation within relationships, as individuals may use emotional dependence as a means of control.",
+    "Anxiety and Insecurity": "High levels of anxiety and insecurity when facing situations that demand independence or decision-making. Fear of being alone or having to rely on oneself can trigger anxiety.",
+    "Low Self-Esteem": "Eroded self-esteem due to excessive dependence on others. Doubts about one's abilities and feelings of inadequacy, believing independence is impossible.",
+    "Fear of Rejection": "Dependency often arises from a fear of rejection or abandonment. Worry that asserting independence will lead to others withdrawing their support or affection.",
+    "Lack of Confidence": "Lack of self-confidence in decision-making abilities for those in the Dependence Trap. Constantly seeking validation from others, doubting choices and judgments.",
+    "Avoidance of Responsibility": "Avoiding responsibility for one's actions or life circumstances can result in feelings of guilt and helplessness. External factors or others may be blamed for problems.",
+    "Depression": "Chronic fear and anxiety associated with the Dependence Trap can contribute to feelings of sadness and hopelessness, potentially developing into clinical depression.",
+    "Difficulty in Relationships": "Dependence on others for emotional support and decision-making can strain personal relationships. Partners and loved ones may become frustrated or overwhelmed by the constant need for reassurance.",
+    "Insecurity About Self-Worth": "Excessive reliance on external validation can lead to a shaky sense of self-worth. Questioning one's value if not constantly affirmed by others.",
+    "Emotional Instability": "Anxiety and fear related to the Dependence Trap can result in emotional instability. Mood swings, shifting between anxiety, insecurity, and even anger may occur.",
+    "Avoidance of Independence": "Active avoidance of situations requiring independence can further reinforce dependence on others for those in this trap."
   },
   SchemaBehaviors: {
     EmotionalFusion: {

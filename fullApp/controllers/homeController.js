@@ -9,7 +9,7 @@ exports.evaluation_get = async (req,res,next)=>{
     if (client){
         let user = await userModel.findOne({email:client})
         if (user.lifeTrapsAssessments && user.lifeTrapsAssessments.length> 0){
-            let sortedSchemas= user.getspecificAndNotSpecificAssessmentsWithUrl 
+            let sortedSchemas= user.getSortedSchemas 
             //need to add a way to visualize if the assessment was answered specific or not
                 res.render('home', {sortedSchemas:sortedSchemas})
             }

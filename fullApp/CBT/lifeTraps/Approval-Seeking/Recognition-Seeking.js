@@ -14,11 +14,11 @@ const ApprovalSeekingTrap = {
   description:
     "The approval-seeking trap involves a pervasive pattern of seeking validation and approval from others to feel worthy and acceptable. Individuals with this schema may have a deep fear of rejection and go to great lengths to gain the approval of others.",
   EmotionalImpact: {
-    fearAndAnxiety: "Intense fear and anxiety about being rejected or disliked by others.",
-    lowSelfEsteem: "Low self-esteem, as self-worth is tied to external validation and approval.",
-    constantStress: "Constant stress and anxiety due to worries about others' judgments and opinions.",
-    innerConflict: "Inner conflict when personal values and beliefs are compromised for approval.",
-    emotionalExhaustion: "Emotional exhaustion from excessive people-pleasing and self-neglect.",
+    "Intense Fear and Anxiety": "Intense fear and anxiety about being rejected or disliked by others.",
+    "Low Self-Esteem": "Low self-esteem, as self-worth is tied to external validation and approval.",
+    "Constant Stress and Anxiety": "Constant stress and anxiety due to worries about others' judgments and opinions.",
+    "Inner Conflict": "Inner conflict when personal values and beliefs are compromised for approval.",
+    "Emotional Exhaustion": "Emotional exhaustion from excessive people-pleasing and self-neglect."
   },
 
   SchemaBehaviors: {

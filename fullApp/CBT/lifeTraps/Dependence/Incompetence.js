@@ -14,26 +14,16 @@ const DependenceTrap = {
   description:
     "The dependence trap involves a core belief that one cannot function or make decisions independently, leading to excessive reliance on others for emotional and practical needs. This belief can result in difficulty in taking personal responsibility and low self-esteem.",
   EmotionalImpact: {
-    anxietyAndInsecurity:
-      "Individuals in the Dependence Trap often experience high levels of anxiety and insecurity, particularly when faced with situations that require independence or decision-making. The fear of being alone or having to rely on themselves can trigger anxiety.",
-    lowSelfEsteem:
-      "Excessive dependence on others can erode an individual's self-esteem. They may doubt their abilities and feel inadequate, believing they cannot function independently.",
-    fearOfRejection:
-      "Dependency often stems from a fear of rejection or abandonment. Individuals may worry that if they assert their independence, others will withdraw their support or affection.",
-    lackOfConfidence:
-      "Those in the Dependence Trap may lack self-confidence in their decision-making abilities. They may constantly seek validation from others, doubting their choices and judgments.",
-    avoidanceOfResponsibility:
-      "Avoiding responsibility for one's actions or life circumstances can lead to feelings of guilt and helplessness. Individuals may blame external factors or others for their problems.",
-    depression:
-      "The chronic fear and anxiety associated with the Dependence Trap can contribute to feelings of sadness and hopelessness, which can develop into clinical depression over time.",
-    difficultyInRelationships:
-      "The dependence on others for emotional support and decision-making can strain personal relationships. Partners and loved ones may become frustrated or overwhelmed by the constant need for reassurance.",
-    insecurityAboutSelfWorth:
-      "Excessive reliance on external sources for validation can lead to a shaky sense of self-worth. Individuals may question their value if others are not constantly affirming it.",
-    emotionalInstability:
-      "The anxiety and fear related to the Dependence Trap can result in emotional instability. Individuals may experience mood swings, shifting between anxiety, insecurity, and even anger.",
-    avoidanceOfIndependence:
-      "People in this trap may actively avoid situations that require them to be independent, further reinforcing their dependence on others.",
+    "Anxiety and Insecurity": "High levels of anxiety and insecurity when facing situations that demand independence or decision-making. Fear of being alone or having to rely on oneself can trigger anxiety.",
+    "Low Self-Esteem": "Eroded self-esteem due to excessive dependence on others. Doubts about one's abilities and feelings of inadequacy, believing independence is impossible.",
+    "Fear of Rejection": "Dependency often arises from a fear of rejection or abandonment. Worry that asserting independence will lead to others withdrawing their support or affection.",
+    "Lack of Confidence": "Lack of self-confidence in decision-making abilities for those in the Dependence Trap. Constantly seeking validation from others, doubting choices and judgments.",
+    "Avoidance of Responsibility": "Avoiding responsibility for one's actions or life circumstances can result in feelings of guilt and helplessness. External factors or others may be blamed for problems.",
+    "Depression": "Chronic fear and anxiety associated with the Dependence Trap can contribute to feelings of sadness and hopelessness, potentially developing into clinical depression.",
+    "Difficulty in Relationships": "Dependence on others for emotional support and decision-making can strain personal relationships. Partners and loved ones may become frustrated or overwhelmed by the constant need for reassurance.",
+    "Insecurity About Self-Worth": "Excessive reliance on external validation can lead to a shaky sense of self-worth. Questioning one's value if not constantly affirmed by others.",
+    "Emotional Instability": "Anxiety and fear related to the Dependence Trap can result in emotional instability. Mood swings, shifting between anxiety, insecurity, and even anger may occur.",
+    "Avoidance of Independence": "Active avoidance of situations requiring independence can further reinforce dependence on others for those in this trap."
   },
   SchemaBehaviors: {
     SeekingReassurance: {

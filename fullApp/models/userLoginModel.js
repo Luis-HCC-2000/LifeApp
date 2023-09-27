@@ -79,24 +79,24 @@ const userSchema = new Schema({
       }
       
     },
-    getsortedSchemas:{
+    getSortedSchemas:{
       get(){
-        let categorizedResult={low:[], medium:[], high:[]}
+        let categorizedResult={low:{}, medium:{}, high:{}}
         let schemasSum=this.getspecificAndNotSpecificAssessmentsWithUrl
         for (const key in schemasSum) {
-          const value = schemasSum[key];
+          const value = schemasSum[key]["value"];
           if (value < 7) {
-            categorizedResult["low"].push({schema:key, value:value})
+            categorizedResult["low"][key]=schemasSum[key]
           } else if (value < 14) {
-            categorizedResult["medium"].push({schema:key, value:value})
+            categorizedResult["medium"][key]=schemasSum[key]
           } else {
-            categorizedResult["high"].push({schema:key, value:value})
+            categorizedResult["high"][key]=schemasSum[key]
           }
         }
         return categorizedResult;
       }
     },
-    finishedSpecificEvaluations:{
+    hasFinishedSpecificEvaluations:{
       get(){
         let notSpecificAssessments= this.lifeTrapsAssessments[this.lifeTrapsAssessments.length-1].getSumOfAllSchemas
           let specificAssessments=this.specificAssessments.getSumOfAnsweredSchemas

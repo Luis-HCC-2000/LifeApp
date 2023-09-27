@@ -14,18 +14,18 @@ const AbandonmentTrap = {
   
   description: "The abandonment trap involves a pervasive fear of being abandoned or rejected by others, leading to behaviors and thought patterns that seek to prevent abandonment at all costs. This fear can be rooted in past experiences of abandonment or neglect.",
   EmotionalImpact: {
-    fearAndAnxiety: "Intense fear and anxiety about being abandoned or rejected.",
-    insecurity: "Deep feelings of insecurity about self-worth and the stability of relationships.",
-    lowSelfEsteem: "Low self-esteem and negative self-image, often feeling unlovable or flawed.",
-    depression: "Feelings of sadness and hopelessness, sometimes leading to clinical depression.",
-    angerAndJealousy: "Intense anger and jealousy in response to perceived abandonment threats.",
-    loneliness: "Persistent feelings of loneliness, even when surrounded by others.",
-    emotionalReactivity: "Heightened emotional reactivity, with strong responses to relationship setbacks.",
-    avoidance: "Tendency to avoid close relationships or emotional intimacy as a protective measure.",
-    selfBlame: "Self-blame and belief that they are at fault for past abandonment or rejection.",
-    desperation: "Desperation to prevent abandonment, resulting in clingy or demanding behavior.",
-    moodSwings: "Fluctuating moods, including rapid shifts between happiness, anger, sadness, and anxiety.",
-    shame: "Feelings of shame related to perceived unlovability or unworthiness of affection."
+    "Intense Fear and Anxiety": "Intense fear and anxiety about being abandoned or rejected.",
+    "Deep Insecurity": "Deep feelings of insecurity about self-worth and the stability of relationships.",
+    "Low Self-Esteem": "Low self-esteem and negative self-image, often feeling unlovable or flawed.",
+    "Depression": "Feelings of sadness and hopelessness, sometimes leading to clinical depression.",
+    "Intense Anger and Jealousy": "Intense anger and jealousy in response to perceived abandonment threats.",
+    "Persistent Loneliness": "Persistent feelings of loneliness, even when surrounded by others.",
+    "Heightened Emotional Reactivity": "Heightened emotional reactivity, with strong responses to relationship setbacks.",
+    "Relationship Avoidance": "Tendency to avoid close relationships or emotional intimacy as a protective measure.",
+    "Self-Blame": "Self-blame and belief that they are at fault for past abandonment or rejection.",
+    "Desperation": "Desperation to prevent abandonment, resulting in clingy or demanding behavior.",
+    "Mood Swings": "Fluctuating moods, including rapid shifts between happiness, anger, sadness, and anxiety.",
+    "Feelings of Shame": "Feelings of shame related to perceived unlovability or unworthiness of affection."
   },
   SchemaBehaviors: {
     ClingingBehavior: {

@@ -4,7 +4,11 @@ head
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   link(rel='stylesheet' href='/stylesheets/register/signup.css')
   link(rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css")
-  title Document
-each schema, name in sortedSchemas 
-  a(href=schema["urlLink"])=schema["schema"] + ":" + schema["value"]
-  br
+  title Home
+if sortedSchemas
+  each schemas, ranking in sortedSchemas 
+    unless ranking=="low"
+      h2= ranking
+      each schema, name in schemas
+        a(href=schema["urlLink"])=schema["schema"] + ":" + schema["value"]
+        br

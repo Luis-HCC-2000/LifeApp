@@ -5,7 +5,7 @@ const feeling = require('./feelingSchema')
 const schemasToWorkOn = new Schema(
   {
     title:String,
-    priority:{type: Number, min:1, max:10},
+    intensity:{type: Number, min:1, max:10},
     feelings:[feeling],
     summary:String
   },
