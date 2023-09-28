@@ -6,9 +6,13 @@ head
   link(rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css")
   title Home
 if sortedSchemas
-  each schemas, ranking in sortedSchemas 
-    unless ranking=="low"
-      h2= ranking
-      each schema, name in schemas
-        a(href=schema["urlLink"])=schema["schema"] + ":" + schema["value"]
+  .schemas
+    each schemas, ranking in sortedSchemas 
+      //- unless ranking=="low"
+      div(class="ranking" id=ranking)
+        h2= ranking
+        each schema, name in schemas
+          .schema
+            a(href=schema["urlLink"])=schema["schema"] + ":" + schema["value"]
+            p(class='description')=descriptions[name]
         br

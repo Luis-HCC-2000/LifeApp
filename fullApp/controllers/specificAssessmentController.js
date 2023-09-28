@@ -1,6 +1,6 @@
 const userModel = require("../models/userLoginModel");
 const { body, validationResult } = require("express-validator");
-const allTraps = require("../CBT/lifeTraps/allTraps");
+const allTraps = require("../CBT/allTraps");
 const isAuthenticated = require("./authController");
 
 exports.evaluation_get = async (req, res, next) => {
@@ -24,11 +24,16 @@ exports.evaluation_post = async (req, res, next) => {
     let user = await userModel.findOne({ email: client });
     if (user) {
       let answers = [];
+      let feelings=[]
       for (const key in req.body) {
         if (key=="schema"){continue}
-        answers.push(req.body[key])
+        if (isNaN(key)){
+          feelings.push({title:key, intensity:req.body[key]})
+        }else{
+          answers.push(req.body[key])
+        }
       }
-      user.specificAssessments[req.body['schema']].push({answers:answers})
+      user.specificAssessments[req.body['schema']].push({answers:answers, feelings:feelings})
       await user.save();
       res.redirect('/home');
     }

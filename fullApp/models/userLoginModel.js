@@ -102,6 +102,12 @@ const userSchema = new Schema({
           let specificAssessments=this.specificAssessments.getSumOfAnsweredSchemas
         
       }
+    },
+    getListOfFeelings:{
+      get(){
+        let feelingsBySchema=this.specificAssessments.getListOfFeelings
+        return feelingsBySchema
+      }
     }
   }});
 

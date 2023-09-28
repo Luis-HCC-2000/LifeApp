@@ -68,6 +68,16 @@ const specificAssessmentsSchema = new Schema(
           return answer;
         },
       },
+      getFeelingsOfAnsweredSchemas:{
+        get(){
+          let answer={}
+          let answeredSchemas= this.getAnsweredSchemas
+          for (let key in answeredSchemas ){
+            answer[key]=answeredSchemas[key]['feelings']
+          }
+          return answer
+        }
+      }
     },
   }
 );
