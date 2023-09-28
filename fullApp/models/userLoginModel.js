@@ -105,7 +105,7 @@ const userSchema = new Schema({
     },
     getListOfFeelings:{
       get(){
-        let feelingsBySchema=this.specificAssessments.getListOfFeelings
+        let feelingsBySchema=this.specificAssessments.getFeelingsOfAnsweredSchemas
         return feelingsBySchema
       }
     }

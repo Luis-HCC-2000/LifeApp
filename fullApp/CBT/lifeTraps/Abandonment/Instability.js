@@ -13,7 +13,7 @@ const AbandonmentTrap = {
   ],
   
   description: "The abandonment trap involves a pervasive fear of being abandoned or rejected by others, leading to behaviors and thought patterns that seek to prevent abandonment at all costs. This fear can be rooted in past experiences of abandonment or neglect.",
-  EmotionalImpact: {
+  emotionalImpact: {
     "Intense Fear and Anxiety": "Intense fear and anxiety about being abandoned or rejected.",
     "Deep Insecurity": "Deep feelings of insecurity about self-worth and the stability of relationships.",
     "Low Self-Esteem": "Low self-esteem and negative self-image, often feeling unlovable or flawed.",
