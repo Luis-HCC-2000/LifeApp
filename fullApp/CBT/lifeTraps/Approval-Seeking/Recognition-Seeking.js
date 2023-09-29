@@ -154,6 +154,7 @@ const ApprovalSeekingTrap = {
         "Recognize that true self-acceptance reduces the impact of external judgments.",
       ],
     },
+  },
     howToAddress: [
       "Recognize and acknowledge the presence of the approval-seeking trap schema in your life and its impact on your self-worth and authenticity.",
       "Seek professional help, such as therapy or counseling, to explore the underlying causes of approval-seeking and develop strategies for self-validation and self-worth.",
@@ -161,7 +162,17 @@ const ApprovalSeekingTrap = {
       "Learn to prioritize self-acceptance and self-validation over seeking constant approval from others.",
       "Recognize that genuine connections and self-worth are built on authenticity, not on gaining approval from others.",
     ],
-  },
+    originsQuestions:[
+      'Can you recall specific instances from your childhood when you sought approval or validation from your parents, caregivers, or other significant people in your life? Describe these experiences in detail.',
+      'How did your parents or caregivers respond to your attempts to seek approval or validation? Were they consistently affirming, critical, or unpredictable in their reactions?',
+      'Were there any specific messages or expectations communicated to you in your family about the importance of pleasing others or meeting their expectations?',
+      'Did you ever feel like you had to conform to certain standards or behaviors to gain approval or avoid disapproval from authority figures, such as parents or teachers?',
+      'Can you recall any phrases or statements from your childhood that emphasized the importance of being liked, accepted, or praised by others?',
+      'Have you ever experienced rejection or criticism in your formative years, and how did these experiences impact your need for approval and validation?',
+      'How did your early friendships and peer relationships influence your belief in the need for approval from others?',
+      'Have you ever experienced anxiety or fear of disapproval when expressing your own opinions, desires, or needs? When and why did this start?',
+      'Are there any memories of times when you felt confident and self-assured without needing external validation? How did those experiences influence your beliefs about approval-seeking?',
+    ]
 };
 
 module.exports = ApprovalSeekingTrap

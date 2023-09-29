@@ -136,6 +136,18 @@ const GrandiositySchema = {
     "Challenge and reframe unrealistic expectations, aiming for more balanced and realistic views of oneself and others.",
     "Learn to differentiate between healthy self-confidence and destructive grandiosity through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances from your childhood when you felt that you should receive special treatment or that you deserved more than others? Describe these experiences in detail.',
+    'How were you treated by your parents or caregivers when you were growing up? Were there any instances of them giving you preferential treatment or reinforcing a sense of entitlement?',
+    'Did your family have any specific rules or expectations around entitlement, such as always putting your needs first or never being told "no"?',
+    'Were there any messages or attitudes within your family or culture that emphasized entitlement or superiority over others?',
+    'Can you recall any phrases or statements from your childhood that reinforced the belief that you should receive special treatment or that you were more deserving than others?',
+    'How did your early friendships and peer relationships influence your sense of entitlement or the expectation that you should be treated differently?',
+    'Have you ever experienced situations where you felt entitled to certain privileges or benefits, even if it meant disregarding the needs or feelings of others? How did this affect your relationships?',
+    'Have you ever faced consequences or conflicts as a result of your sense of entitlement? How did you respond, and what were the outcomes?',
+    'Are there any memories of times when you practiced humility or considered the needs and feelings of others without expecting special treatment? How did those experiences influence your beliefs about entitlement?',
+    
+  ]
 };
 
 module.exports=GrandiositySchema

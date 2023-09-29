@@ -136,6 +136,17 @@ const EnmeshmentSchema = {
     "Practice setting and maintaining healthy boundaries in your relationships and gradually increase your ability to prioritize your well-being with the support of therapy or self-help resources.",
     "Learn to differentiate between healthy emotional connection and enmeshment, seeking a balance that promotes both healthy relationships and personal autonomy.",
   ],
+  originsQuestions:[
+    'Can you think of specific instances or situations in your childhood when you felt that your boundaries were not respected or that you were overly enmeshed with a parent, caregiver, or sibling? Describe these experiences in detail.',
+    'What were the boundaries like in your family when you were growing up? Were they clear and well-defined, or were they blurred and flexible? How did this affect your sense of individuality?',
+    'Did you have a parent or caregiver who was overly controlling, intrusive, or dependent on you for emotional support? How did this impact your ability to establish your own identity?',
+    'Were there any traumatic or significant events in your childhood that involved boundary violations or enmeshment with others? How did these experiences shape your beliefs about boundaries and relationships?',
+    'Can you recall any specific phrases or statements from your childhood that reinforced the idea that you should prioritize the needs and emotions of others over your own?',
+    'Have you ever felt like you had to suppress your own needs, desires, or emotions to maintain harmony in your family or relationships? When and why did this begin?',
+    'How do you perceive your current relationships in terms of boundaries? Do you often feel that you are too entangled with others, or that you struggle to assert your own needs and boundaries?',
+    'Have you ever experienced difficulty in distinguishing your own thoughts, feelings, and desires from those of others? How does this affect your sense of self?',
+    'Do you have any patterns in your relationships where you tend to attract or become involved with individuals who exhibit controlling or enmeshing behaviors?',
+  ]
 };
 
 module.exports=EnmeshmentSchema

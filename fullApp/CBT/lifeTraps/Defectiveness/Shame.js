@@ -160,6 +160,18 @@ const DefectivenessTrap = {
     "Challenge and reframe negative beliefs and thought patterns related to being fundamentally flawed or inadequate.",
     "Learn to differentiate between healthy self-improvement and the constant need to prove worthiness through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you think of a specific time or situation when you felt profoundly unworthy or defective? Describe that experience in detail.',
+    'What messages did you receive about your worthiness and value as a child from your parents or caregivers?',
+    'Did your parents or caregivers have high expectations of you, and did you feel pressure to meet these expectations? How did this make you feel about yourself?',
+    'Were there any significant events or traumas in your childhood that made you question your worthiness or value as a person?',
+    'Did you receive criticism or rejection from important people in your life during your formative years? How did this impact your self-esteem?',
+    'What kind of role models did you have when it came to self-worth and self-acceptance?',
+    'Have you ever compared yourself to others and felt inadequate or less than? When and why did you start doing this?',
+    'Did you have any experiences of being excluded or bullied in school or social settings? How did these experiences affect your self-image?',
+    'Can you recall any specific phrases or statements that stick out from your childhood, which contributed to your feelings of defectiveness or unworthiness?',
+    'Do you have any memories of times when you felt accepted, loved, or valued by others? How did those experiences impact your sense of self-worth?',
+  ]
 };
 
 module.exports = DefectivenessTrap

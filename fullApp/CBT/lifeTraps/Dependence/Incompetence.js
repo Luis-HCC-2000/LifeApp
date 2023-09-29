@@ -150,6 +150,18 @@ const DependenceTrap = {
     "Practice making independent decisions and gradually increasing your self-reliance with the support of therapy or self-help resources.",
     "Learn to differentiate between healthy reliance on others and unhealthy dependence, seeking a balance that promotes independence and self-sufficiency.",
   ],
+  originsQuestions:[
+    'Can you think of a specific time or situation when you felt extremely reliant on someone else for your well-being or happiness? Describe that experience in detail.',
+    'How were dependency and self-sufficiency perceived in your family when you were growing up? Were you encouraged to be independent, or was there an expectation that you should rely on others?',
+    'Did you have a parent or caregiver who was overprotective or excessively controlling when it came to meeting your needs or making decisions for you? How did this impact your sense of autonomy?',
+    'Were there any traumatic or significant life events during your childhood that made you feel helpless or powerless? How did these experiences affect your belief in your ability to take care of yourself?',
+    'Did you receive mixed messages about being strong and independent versus needing support and help from others? How did these conflicting messages shape your beliefs about dependence?',
+    'Can you recall any specific phrases or statements from your childhood that reinforced your belief in your dependence on others?',
+    'Have you ever felt anxious or distressed when faced with making decisions or taking on responsibilities independently? When and why did these feelings start?',
+    'What role did relationships play in your early life, and how did they influence your sense of self and dependence? Were there any patterns of dependence or enabling behavior in your family?',
+    'Have you ever experienced situations where you felt abandoned or left to fend for yourself? How did these experiences impact your sense of trust and reliance on others?',
+    'Are there any memories of times when you felt capable, self-sufficient, or in control of your life? How did those experiences influence your belief in your ability to be independent?',
+  ]
 };
 
 module.exports = DependenceTrap

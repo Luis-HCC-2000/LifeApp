@@ -150,7 +150,15 @@ const AbandonmentTrap = {
     "Work on building healthy relationships based on trust, boundaries, and effective communication.",
     "Challenge and reframe negative beliefs and thought patterns associated with the fear of abandonment through therapy or self-help resources.",
   ],
-
-  
+  originsQuestions:[
+    'Tell me about your early childhood memories. What was it like growing up in your family?',
+    'Can you recall any specific incidents or events from your childhood where you felt abandoned or neglected in some way?',
+    'Were there any major life changes, such as separations, losses, or relocations, during your childhood that had a significant impact on you?',
+    'How did your parents or caregivers respond to your emotional needs and expressions as a child?',
+    'Did you have any role models or significant people in your life who influenced your beliefs about trust, abandonment, or rejection?',
+    'When you think about being abandoned or rejected, what emotions and thoughts come up for you?',
+    'Have there been any recent situations or events that triggered strong feelings of abandonment or fear of rejection?',
+    'Are there any messages or beliefs from your childhood that you still carry with you today, especially those related to abandonment or trust?',
+  ]  
 };
 module.exports = AbandonmentTrap

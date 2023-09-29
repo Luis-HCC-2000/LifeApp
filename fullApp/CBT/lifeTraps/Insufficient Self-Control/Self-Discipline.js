@@ -135,5 +135,14 @@ const InsufficientSelfControlSchema = {
     "Develop healthy coping mechanisms for managing stress and emotional responses.",
     "Learn to differentiate between impulsive behavior and responsible decision-making through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances from your childhood or adolescence when you struggled to control your impulses or desires? Describe these experiences in detail.',
+    'How were you taught or influenced by your parents or caregivers when it came to self-control and managing cravings or impulses?',
+    'Did your family have any specific rules or expectations regarding self-control and discipline, and how were they enforced or communicated?',
+    'Were there any messages or attitudes within your family or culture that either promoted or hindered the development of self-control?',
+    'Can you recall any phrases or statements from your childhood that reinforced the belief that you lack self-control or willpower?',
+    'How did your early friendships and peer relationships influence your tendency to give in to impulses or desires without considering the consequences?',
+
+  ]
 };
 module.exports=InsufficientSelfControlSchema

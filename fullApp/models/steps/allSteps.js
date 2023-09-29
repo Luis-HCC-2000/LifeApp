@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+const specificAssessmentSchema= require('../specificAssessmentsSchema')
 
 const allSteps = new Schema(
   {
-    'Assessment':[],
+    'Assessment':[specificAssessmentSchema],
     'Schema Education':[],
     'Identification of Triggering Events':[],
     'Emotional Awareness':[],
@@ -23,4 +24,4 @@ const allSteps = new Schema(
   }
 );
 
-module.exports = feeling;
+module.exports = allSteps;
