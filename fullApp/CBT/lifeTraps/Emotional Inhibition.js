@@ -135,5 +135,14 @@ const EmotionalInhibitionSchema = {
     "Gradually challenge the belief that expressing emotions is undesirable or unsafe through therapy or self-help resources.",
     "Learn to differentiate between healthy emotional regulation and destructive emotional inhibition through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or periods in your life when you began to inhibit or suppress your emotions? Describe these experiences in detail',
+    'How were emotions and emotional expression handled or discussed in your family when you were growing up? Were you encouraged to express your feelings, or were they discouraged or dismissed?',
+    'Did you have caregivers or family members who exhibited emotional inhibition or encouraged emotional restraint? How did this impact your own beliefs about emotional expression?',
+    'Were there any significant life events or experiences, such as trauma, bullying, or rejection, that contributed to your tendency to inhibit your emotions?',
+    'Can you recall any specific phrases or statements from your past that reinforced the belief that emotions should be suppressed or hidden?',
+    'How did your early friendships and peer relationships influence your attitude toward emotional expression and inhibition? Were you able to form emotionally open and supportive relationships, or did you learn to hide your feelings?',
+    
+  ]
 };
 module.exports=EmotionalInhibitionSchema

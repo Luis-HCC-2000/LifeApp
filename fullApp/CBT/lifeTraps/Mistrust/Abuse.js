@@ -135,6 +135,15 @@ const MistrustSchema = {
     "Challenge and reframe irrational mistrustful beliefs, aiming for a more balanced and open approach to relationships.",
     "Learn to differentiate between healthy caution and destructive mistrust through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or situations in your life when you first began to develop a sense of mistrust toward others? Describe these experiences in detail.',
+    'Were there any significant early relationships, such as with parents, caregivers, or close friends, that contributed to your feelings of mistrust? How did these relationships shape your perceptions of trust and distrust?',
+    'Did you have caregivers or role models who exhibited mistrustful behaviors or attitudes? How did this influence your own beliefs about trust?',
+    'Were there any traumatic or painful experiences in your past, such as betrayal or deceit, that significantly impacted your ability to trust others?',
+    'Can you recall any specific phrases or statements from your past that reinforced a sense of caution or skepticism about others intentions?',
+    'How did your early friendships and peer relationships affect your attitude toward trust and mistrust? Were you surrounded by trustworthy or untrustworthy individuals?',
+    
+  ]
 };
 
 module.exports=MistrustSchema

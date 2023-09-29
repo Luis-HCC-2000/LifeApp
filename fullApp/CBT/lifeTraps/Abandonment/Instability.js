@@ -159,6 +159,8 @@ const AbandonmentTrap = {
     'When you think about being abandoned or rejected, what emotions and thoughts come up for you?',
     'Have there been any recent situations or events that triggered strong feelings of abandonment or fear of rejection?',
     'Are there any messages or beliefs from your childhood that you still carry with you today, especially those related to abandonment or trust?',
+    'Have you ever experienced situations where your social isolation led to difficulties in forming or maintaining relationships, academic or career challenges, or emotional distress? Can you provide examples?',
+    
   ]  
 };
 module.exports = AbandonmentTrap

@@ -132,6 +132,15 @@ const SubjugationSchema = {
     "Practice asserting your needs and desires in a healthy way and gradually increase your ability to prioritize your well-being with the support of therapy or self-help resources.",
     "Learn to differentiate between healthy compromise and self-sacrifice, seeking a balance that promotes your well-being and healthy relationships.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or periods in your life when you first began to develop a sense of subjugation or the belief that you should submit to the control or demands of others? Describe these experiences in detail.',
+    'How were the concepts of autonomy and subjugation addressed or valued in your family when you were growing up? Were you encouraged to assert your own needs and boundaries, or were there expectations or pressures to comply with others?',
+    'Did you have caregivers or family members who exhibited controlling or dominant behaviors, or who had rigid expectations for your behavior and choices? How did this impact your beliefs about autonomy and submission?',
+    'Were there any significant life events or experiences, such as a controlling relationship, that contributed to your pattern of subjugation?',
+    'Can you recall any specific phrases or statements from your past that reinforced the belief that you should submit to others or that your own needs and desires were less important?',
+    'How did your early friendships and peer relationships influence your attitude toward autonomy and subjugation? Were you able to assert your own needs and boundaries, or did you often find yourself complying with others wishes?',
+    
+  ]
 };
 
 module.exports=SubjugationSchema

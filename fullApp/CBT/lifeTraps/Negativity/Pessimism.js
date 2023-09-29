@@ -136,6 +136,14 @@ const NegativitySchema = {
     "Cultivate gratitude and optimism to counteract negativity and focus on positive aspects of life.",
     "Learn to differentiate between healthy caution and destructive negativity through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or situations in your life when you began to notice a pattern of negative thinking or pessimism? Describe these experiences in detail.',
+    'How were negative emotions and thoughts handled or discussed in your family when you were growing up? Were they acknowledged and addressed, or were they ignored or dismissed?',
+    'Did you have role models in your family or environment who exhibited negative thinking patterns or pessimism? How did this influence your own mindset?',
+    'Were there any traumatic or significant life events in your childhood or adolescence that may have contributed to your tendency toward negativity or self-criticism?',
+    'Can you recall any specific phrases or statements from your past that reinforced a negative mindset or self-criticism?',
+    'How did your early friendships and peer relationships impact your attitude toward negativity? Were you surrounded by individuals who tended to be optimistic or pessimistic?',
+  ]
 };
 
 module.exports=NegativitySchema

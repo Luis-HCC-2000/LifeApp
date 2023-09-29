@@ -132,6 +132,15 @@ const SelfSacrificeSchema = {
     "Learn to differentiate between healthy caregiving and self-sacrifice through therapy or self-help resources.",
     "Work on building assertiveness skills to advocate for your own needs and establish healthy boundaries in relationships.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or periods in your life when you first began to develop a sense of self-sacrifice or a strong belief that you should prioritize the needs of others over your own? Describe these experiences in detail',
+    'How were the concepts of self-care and self-sacrifice addressed or valued in your family when you were growing up? Were you encouraged to take care of your own needs, or were there expectations or pressures to put others first?',
+    'Did you have caregivers or family members who modeled self-sacrifice or exhibited behaviors of constantly putting others needs before their own? How did this impact your beliefs about boundaries and self-care?',
+    'Were there any significant life events or experiences, such as caregiving responsibilities, that contributed to your pattern of self-sacrifice?',
+    'Can you recall any specific phrases or statements from your past that reinforced the belief that your own needs and desires should be subordinated to those of others?',
+    'How did your early friendships and peer relationships influence your attitude toward self-sacrifice and setting boundaries? Were you able to assert your own needs, or did you often find yourself prioritizing others?',
+    
+  ]
 };
 
 module.exports=SelfSacrificeSchema

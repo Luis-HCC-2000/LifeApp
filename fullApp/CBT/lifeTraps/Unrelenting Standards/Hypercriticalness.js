@@ -133,6 +133,16 @@ const UnrelentingStandardsSchema = {
     "Set realistic goals and standards, learning to embrace imperfections and failures as part of personal growth.",
     "Learn to differentiate between healthy striving for excellence and destructive perfectionism through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or situations in your life when you first began to exhibit hypercritical tendencies, either toward yourself or others? Describe these experiences in detail.',
+    'Were there any significant early relationships, such as with parents, caregivers, or teachers, that contributed to your hypercritical attitudes? How were criticism and judgment handled in your family or upbringing?',
+    'Did you have role models or authority figures in your life who were overly critical, perfectionistic, or demanding of you or others? How did this influence your own tendencies?',
+    'Were there any specific messages or beliefs about criticism, perfectionism, or self-worth that were emphasized in your family or culture?',
+    'Can you recall any phrases or statements from your past that reinforced the idea that criticism is a necessary or expected behavior?',
+    'How did your early friendships and peer relationships impact your attitude toward criticism and hypercriticalness? Were you surrounded by individuals who were similarly critical or judgmental?',
+    
+
+  ]
 };
 
 module.exports=UnrelentingStandardsSchema

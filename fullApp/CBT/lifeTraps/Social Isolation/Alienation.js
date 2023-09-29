@@ -131,6 +131,16 @@ const SocialIsolationSchema = {
     "Cultivate self-compassion, self-acceptance, and social skills to ease discomfort in social settings and improve your ability to connect with others.",
     "Learn to differentiate between healthy solitude and self-imposed social isolation through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or periods in your life when you began to experience social isolation or feelings of loneliness? Describe these experiences in detail.',
+    'Were there any significant life events or changes, such as moving to a new place, the loss of a loved one, or a change in family dynamics, that contributed to your sense of social isolation?',
+    'Did you have any early experiences in your family or upbringing that influenced your attitudes toward social interaction and relationships?',
+    'Were there any specific messages or beliefs about socializing and connecting with others that were passed down in your family or culture?',
+    'Can you recall any phrases or statements from your past that reinforced the idea that you should be alone or isolated from others?',
+    'How did your early friendships and peer relationships impact your attitude toward socialization and isolation? Were you surrounded by supportive or isolating individuals?',
+    'Have you ever experienced situations where your social isolation led to difficulties in forming or maintaining relationships, academic or career challenges, or emotional distress? Can you provide examples?'
+
+  ]
 };
 
 module.exports=SocialIsolationSchema

@@ -131,6 +131,14 @@ const EmotionalDeprivationSchema = {
     "Work on building trust in relationships and allowing others to provide emotional support.",
     "Learn to differentiate between healthy self-sufficiency and emotional deprivation through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or periods in your life when you first began to experience a sense of emotional deprivation or the belief that your emotional needs would not be met? Describe these experiences in detail.',
+    'How were emotional needs and expressions of affection handled or discussed in your family when you were growing up? Were you encouraged to express your emotions, or were they ignored or discouraged?',
+    'Did you have caregivers or family members who were emotionally distant, unavailable, or inconsistent in providing emotional support? How did this impact your sense of emotional security?',
+    'Were there any significant life events or transitions, such as parental divorce, relocation, or the loss of a loved one, that contributed to your feelings of emotional deprivation?',
+    'Can you recall any specific phrases or statements from your past that reinforced the belief that your emotional needs would not be met, or that expressing emotions was discouraged?',
+    'How did your early friendships and peer relationships impact your attitude toward emotional connection and deprivation? Were you able to form emotionally supportive relationships, or did you experience difficulty in this regard?',
+  ]
 };
 
 module.exports=EmotionalDeprivationSchema

@@ -137,6 +137,16 @@ const FailureToAchieveSchema = {
     "Practice self-compassion and positive self-talk to counteract negative self-perceptions.",
     "Learn to differentiate between healthy self-reflection and damaging self-criticism through therapy or self-help resources.",
   ],
+  originsQuestions:[
+    'Can you recall specific instances or periods in your life when you first began to develop a sense of failure to achieve or doubts about your capabilities? Describe these experiences in detail.',
+    'How were achievements and personal goals discussed or valued in your family when you were growing up? Were you encouraged to pursue your aspirations, or were there expectations or pressures that contributed to your feelings of inadequacy?',
+    'Did you have caregivers, family members, or authority figures who exhibited a pattern of criticism or unrealistic expectations regarding your achievements? How did this impact your self-esteem and belief in your abilities?',
+    'Were there any significant life events or experiences, such as academic or career setbacks, that contributed to your sense of failure to achieve?',
+    'Can you recall any specific phrases or statements from your past that reinforced the belief that you were incapable of accomplishing your goals or that failure was inevitable?',
+    'How did your early friendships and peer relationships influence your self-concept and belief in your ability to achieve success?',
+    'Have you ever experienced situations where your failure to achieve schema led to self-sabotage, procrastination, or avoidance of pursuing your goals? Can you provide examples?',
+    
+  ]
 };
 
 module.exports=FailureToAchieveSchema
