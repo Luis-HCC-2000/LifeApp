@@ -1,7 +1,7 @@
 const lifeTrapsAssessmentSchema= require('./lifeTrapsAssessmentSchema');
 const userTextSchema = require("./userTextSchema")
 const specificAssessments= require('./specificAssessmentsSchema')
-const trapSchema= require('./userTraps/trapSchema')
+const trapSchema= require('./trapSchema')
 const schemasToWorkOn= require('./schemasToWorkOn')
 const mongoose = require("mongoose");
 const { urlencoded } = require('express');
@@ -35,7 +35,7 @@ const userSchema = new Schema({
     specificAssessments:specificAssessments,
     lifeTrapsAssessments:[lifeTrapsAssessmentSchema],
     userTexts:[userTextSchema],
-    trapSchemas:[trapSchema],
+    allSchemas:[trapSchema],
     schemasToWorkOn:[schemasToWorkOn],
     
   },

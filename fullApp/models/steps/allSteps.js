@@ -1,12 +1,12 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const specificAssessmentSchema= require('../specificAssessmentsSchema')
+const specificAssessmentSchema= require('../specificAssessmentsSchema');
+const schemaEducation = require("./Schema Education");
 
 const allSteps = new Schema(
   {
     'Assessment':[specificAssessmentSchema],
-    'Schema Education':[],
-    'Identification of Triggering Events':[],
+    'Schema Education':[schemaEducation],
     'Emotional Awareness':[],
     'Cognitive Restructuring':[],
     'Behavioral Experiments':[],
